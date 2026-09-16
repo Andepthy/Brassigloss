@@ -16,7 +16,7 @@
     <div class="app-utilities">
       <a
         class="icon-button"
-        href="https://github.com/SkyEye-FAST/verdigloss"
+        href="https://github.com/Andepthy/GlossAtlas"
         target="_blank"
         rel="noopener noreferrer"
         :aria-label="'GitHub'"

@@ -10,7 +10,6 @@
     <header class="table-header">
       <div class="table-header__title">
         <h1>翻译对照</h1>
-        <p>多项目 · 多语言 · 翻译浏览</p>
       </div>
       <div class="table-toolbar" aria-label="筛选工具">
         <label class="search-field">
