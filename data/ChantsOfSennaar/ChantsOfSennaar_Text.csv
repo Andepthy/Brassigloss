@@ -1,0 +1,1284 @@
+﻿key,English,French,SimplifiedChinese,TraditionalChinese
+tuto.annotation.souris.1,"When you think you have guessed the meaning of a glyph, you can click on it to note your hypothesis.","Quand vous pensez avoir deviné le sens d'un glyphe, cliquez dessus pour consigner votre hypothèse.",如果觉得自己猜到了某个字符的意思，可以点击字符，然后记下自己的猜测。,當你覺得已猜出某一字符的含義時，點按該字符即可記錄下你的猜測。
+tuto.annotation.souris.2,"To exit the Journal, click on the Close button.","Pour quitter le Journal, cliquez sur le bouton de fermeture.",点击关闭按钮可以合上笔记本。,要退出日誌，請點按「關閉」按鈕。
+tuto.annotation.pad.1.xbox,"When you think you have guessed the meaning of a glyph, select it and use the Annotation button to note your hypothesis.","Quand vous pensez avoir deviné le sens d'un glyphe, sélectionnez-le puis utilisez la touche d’Annotation pour consigner votre hypothèse.",如果觉得自己猜到了某个字符的意思，可以选中字符，然后按备注按钮记下自己的猜测。,當你覺得已猜出某一字符的含義時，選擇該字符並使用「註解」按鍵，即可記錄下你的猜測。
+,"When you think you have guessed the meaning of a glyph, select it and use the Annotation Button to note your hypothesis.","Quand vous pensez avoir deviné le sens d'un glyphe, sélectionnez-le puis utilisez le bouton d’Annotation pour consigner votre hypothèse.",如果觉得自己猜到了某个字符的意思，可以选中字符，然后按备注键记下自己的猜测。,當你覺得已猜出某一字符的含義時，選擇該字符並使用「註解」鍵，即可記錄下你的猜測。
+,"When you think you have guessed the meaning of a glyph, select it and use the Annotation button to note your hypothesis.","Quand vous pensez avoir deviné le sens d'un glyphe, sélectionnez-le puis utilisez la touche d’Annotation pour consigner votre hypothèse.",如果觉得自己猜到了某个字符的意思，可以选中字符，然后按备注按键记下自己的猜测。,當你覺得已猜出某一字符的含義時，選擇該字符並使用「註解」按鈕，即可記錄下你的猜測。
+tuto.annotation.pad.2.xbox,"To exit the Journal, press the Cancel button.","Pour quitter le Journal, utilisez la touche Annuler.",按取消按钮可以合上笔记本。,要退出日誌，請按下「取消」按鍵。
+,"To exit the Journal, press the Cancel Button.","Pour quitter le Journal, utilisez le bouton Annuler.",按取消键可以合上笔记本。,要退出日誌，請按下「取消」鍵。
+,"To exit the Journal, press the Cancel button.","Pour quitter le Journal, utilisez la touche Annuler.",按取消按键可以合上笔记本。,要退出日誌，請按下「取消」按鈕。
+tuto.validation.souris.1,Drag each glyph into the slot that you think matches it.,Glissez chaque glyphe dans l'emplacement qui semble lui correspondre.,觉得哪个字符意义合适，就把它拖进相应的圆圈。,拖動各個字符到你認為相符的欄位。
+tuto.validation.pad.1.xbox,Use the Action button to move each glyph into the slot that you think matches it.,"Placez chaque glyphe dans l'emplacement qui semble lui correspondre, en le déplaçant grâce à la touche d’Action.",觉得哪个字符意义合适，就按行动按钮把它移进相应的圆圈。,使用「操作」按鍵，將各個字符移動到你認為相符的欄位。
+,Use the Action Button to move each glyph into the slot that you think matches it.,"Placez chaque glyphe dans l'emplacement qui semble lui correspondre, en le déplaçant grâce au bouton d’Action.",觉得哪个字符意义合适，就按行动键把它移进相应的圆圈。,使用「操作」鍵，將各個字符移動到你認為相符的欄位。
+,Use the Interaction button to move each glyph into the slot that you think matches it.,"Placez chaque glyphe dans l'emplacement qui semble lui correspondre, en le déplaçant grâce à la touche d’Interaction.",觉得哪个字符意义合适，就按互动按键把它移进相应的圆圈。,使用「互動」按鈕，將各個字符移動到你認為相符的欄位。
+tuto.validation.2,"If all the glyphs on a double page are correct, they will be definitively validated.","Si tous les glyphes d'une double-page sont corrects, ils seront définitivement validés.",如果左右两页的字符都和绘图的含义匹配，它们的意义就通过了验证。,如果一組跨頁頁面上所有字符都配對正確，則這些字符的含義會獲得驗證。
+tuto.validation.suite.1,"The more glyphs you translate, the better you will understand your interlocutors.","Plus vous traduirez de glyphes, mieux vous comprendrez vos interlocuteurs.",字符破译得越多，你就越能理解他人所说的话。,你破譯的字符越多，就越能理解與別人的對話内容。
+tuto.validation.suite.2,"If you haven't figured out the meaning of a glyph yet or don't have enough slots in your Journal, keep looking around.","Si vous n'avez pas encore compris le sens d'un glyphe ou si vous manquez d'emplacements dans le Journal, continuez d'observer autour de vous.",如果还没有想到某个字符的含义或者笔记本的槽位不足，不用担心，继续四处看看。,倘若尚未弄清楚某個字符的含義，或者日誌內沒有足夠多的欄位，那就繼續到處找找吧。
+tuto.liaison.1,"Some glyphs can be linked to the equivalent glyph of another language, even if it's not yet translated.","Certains glyphes peuvent être liés au glyphe équivalent d'une autre langue, même si celui-ci n'est pas encore traduit.",有些字符就算还没破译，也可以与其他语言意义相同的字符关联。,有些字符可以與其他語言中對等的字符連結起來，即使尚未破譯。
+tuto.liaison.2,It is possible to validate the link from one glyph to another without having translated the original one yet.,Il est possible de valider la liaison d'un glyphe à un autre sans avoir encore traduit celui d'origine.,有时候不需要破译某个语言的某个字符，就可以验证它与另一个字符的关联。,無須破譯原先的字符，也能夠驗證兩個字符之間的連結。
+tuto.inventaire.souris.1,Collected items are added to the Inventory. Click on the icon of an item to open it.,Les objets ramassés sont ajoutés à l'Inventaire. Cliquez sur l'icône d'un objet pour l'ouvrir.,东西拿到之后会放进行囊，点击物品图标就能打开行囊。,拾取的物品會加入背包。點按物品圖標，即可打開背包。
+tuto.inventaire.souris.2,"From the Inventory, you can observe your items closely and rotate them.","Depuis l'Inventaire, vous pouvez observer vos objets de près et les faire pivoter.",打开行囊之后，可以随意旋转物品，仔细观察。,打開背包後，你可以旋轉物品，並近距離觀察。
+tuto.inventaire.pad.1.xbox,Collected items are added to the Inventory. Press the Inventory button to open it.,Les objets ramassés sont ajoutés à l'Inventaire. Appuyez sur la touche Inventaire pour l'ouvrir.,东西拿到之后会放进行囊，按行囊按钮可以打开行囊。,拾取的物品會加入背包。按下「背包」按鍵，即可將其打開。
+,Collected items are added to the Inventory. Press the Inventory Button to open it.,Les objets ramassés sont ajoutés à l'Inventaire. Appuyez sur le bouton Inventaire pour l'ouvrir.,东西拿到之后会放进行囊，按行囊键可以打开行囊。,拾取的物品會加入背包。按下「背包」鍵，即可將其打開。
+,Collected items are added to the Inventory. Press the Inventory button to open it.,Les objets ramassés sont ajoutés à l'Inventaire. Appuyez sur la touche Inventaire pour l'ouvrir.,东西拿到之后会放进行囊，按行囊按键可以打开行囊。,拾取的物品會加入背包。按下「背包」按鈕，即可將其打開。
+tuto.inventaire.pad.2.xbox,"From the Inventory, use the left stick to rotate an item.","Depuis l'Inventaire, utilisez le stick analogique gauche pour faire pivoter un objet.",打开行囊之后，可以使用左摇杆旋转物品。,打開背包後，使用左搖桿即可旋轉物品。
+,"From the Inventory, use the Left Stick to rotate an item.","Depuis l'Inventaire, utilisez le stick gauche pour faire pivoter un objet.",打开行囊之后，可以使用L摇杆旋转物品。,打開背包後，使用L操控搖桿即可旋轉物品。
+,"From the Inventory, use the left stick to rotate an item.","Depuis l'Inventaire, utilisez le joystick gauche pour faire pivoter un objet.",打开行囊之后，可以使用左操作杆旋转物品。,打開背包後，使用左操作桿即可旋轉物品。
+tuto.combinaison.souris,"Some elements of the environment can be combined with items from your Inventory. To combine them, first click on the element, choose your item, then click on the Combine button.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, cliquez d'abord sur l'élément, choisissez votre objet, puis cliquez sur le bouton d’Association.",周围有些东西能和行囊里的物品组合。操作步骤：首先点击周围的东西，然后选择你的物品，最后点击组合按钮。,某些環境要素可以與你背包內的物品搭配使用。要將兩者組合起來，首先點按環境要素，選擇你的物品，然後點按「組合」按鈕。
+tuto.combinaison.pad.xbox,"Some elements of the environment can be combined with items from your Inventory. To combine them, first activate the element, choose your item, then press the Action button again.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, actionnez d'abord l'élément, choisissez votre objet, puis appuyez à nouveau sur la touche d'Action.",周围有些东西能和行囊里的物品组合。操作步骤：首先激活周围的东西，然后选择你的物品，最后再按一下行动按钮。,某些環境要素可以與你背包內的物品互相搭配。要將兩者組合，首先觸發環境要素，選擇你的物品，然後再次按下「操作」按鍵。
+,"Some elements of the environment can be combined with items from your Inventory. To combine them, first activate the element, choose your item, then press the Action Button again.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, actionnez d'abord l'élément, choisissez votre objet, puis appuyez à nouveau sur le bouton d'Action.",周围有些东西能和行囊里的物品组合。操作步骤：首先激活周围的东西，然后选择你的物品，最后再按一下行动键。,某些環境要素可以與你背包內的物品互相搭配。要將兩者組合，首先觸發環境要素，選擇你的物品，然後再次按下「操作」鍵。
+,"Some elements of the environment can be combined with items from your Inventory. To combine them, first activate the element, choose your item, then press the Interaction button again.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, actionnez d'abord l'élément, choisissez votre objet, puis appuyez à nouveau sur la touche d'Interaction.",周围有些东西能和行囊里的物品组合。操作步骤：首先激活周围的东西，然后选择你的物品，最后再按一下互动按键。,某些環境要素可以與你背包內的物品互相搭配。要將兩者組合，首先觸發環境要素，選擇你的物品，然後再次按下「互動」按鈕。
+menu.popup.complete.devots,You've completed the translation of the Devotees' language!,Vous avez entièrement traduit la langue des Dévots !,信徒的语言破译完毕！,你已完成朝覲者語言的翻譯！
+menu.popup.complete.guerriers,You've completed the translation of the Warriors' language!,Vous avez entièrement traduit la langue des Guerriers !,战士的语言破译完毕！,你已完成戰士語言的翻譯！
+menu.popup.complete.bardes,You've completed the translation of the Bards' language!,Vous avez entièrement traduit la langue des Bardes !,诗人的语言破译完毕！,你已完成吟遊詩人語言的翻譯！
+menu.popup.complete.alchimistes,You've completed the translation of the Alchemists' language!,Vous avez entièrement traduit la langue des Alchimistes !,炼金术师的语言破译完毕！,你已完成煉金術士語言的翻譯！
+menu.popup.complete.reclus,You've completed the translation of the Anchorites' language!,Vous avez entièrement traduit la langue des Reclus !,隐士的语言破译完毕！,你已完成避世者語言的翻譯！
+menu.popup.complete.link,Something has changed in the Tower...,Quelque chose a changé dans la Tour...,塔里出现了一些变化……,通天塔內，轉變悄然發生……
+menu.stat.general.1.demo,"Congratulations, you've reached the end of this demo!","Bravo, vous avez atteint la fin de cette démo !",恭喜，试玩版本已通关！,恭喜，你已抵達體驗版的尾聲！
+menu.stat.glyphes,'Number of validated glyphs:','Nombre de glyphes validés :',字符验证总数：,驗證字符數：
+menu.stat.general.2,But the adventure has only just begun...,Mais l'aventure ne fait que commencer…,不过，冒险只是刚刚开始……,不過，冒險才剛剛拉開序幕……
+menu.stat.general.3.other,"TO CONTINUE YOUR JOURNEY, GET THE FULL VERSION OF CHANTS OF SENNAAR!",OBTENEZ LA VERSION COMPLÈTE DE CHANTS OF SENNAAR POUR POURSUIVRE VOTRE VOYAGE !,想要继续你的冒险之旅，那就入手《巴别塔圣歌》的完整版吧！,敬請取得完整版《Chants of Sennaar》，繼續進行旅程！
+,"TO CONTINUE YOUR JOURNEY, YOU CAN GET THE FULL VERSION OF CHANTS OF SENNAAR!",VOUS POUVEZ OBTENIR LA VERSION COMPLÈTE DE CHANTS OF SENNAAR POUR POURSUIVRE VOTRE VOYAGE !,想要继续冒险之旅的话，可以趁此机会入手《巴别塔圣歌》完整版！,敬請取得完整版《Chants of Sennaar》，繼續進行旅程！
+,"TO CONTINUE YOUR JOURNEY, GET THE FULL VERSION OF CHANTS OF SENNAAR!",OBTENEZ LA VERSION COMPLÈTE DE CHANTS OF SENNAAR POUR POURSUIVRE VOTRE VOYAGE !,想要继续你的冒险之旅，那就入手《巴别塔圣歌》的完整版吧！,敬請取得完整版《Chants of Sennaar》，繼續進行旅程！
+menu.copyright,"Rundisc/Focus Entertainment, 2023. All rights reserved. v.$1","Rundisc/Focus Entertainment, 2023. Tous droits réservés. v.$1",© 2023，Rundisc/Focus Entertainment版权所有 v.$1,版權所有 © 2023 Rundisc/Focus Entertainment v.$1
+menu.copyright,"Rundisc/Focus Entertainment, 2023. All rights reserved. v.$1","Rundisc/Focus Entertainment, 2023. Tous droits réservés. v.$1",© 2023，Rundisc/Focus Entertainment版权所有 v.$1,版權所有 © 2023 Rundisc/Focus Entertainment v.$1
+menu.presskey.xbox,Press a button,Appuyez sur une touche,随便按一个按钮,按下任意按鍵
+,Press a Button,Appuyez sur un bouton,随便按一个键,按下任意鍵
+,Press a button,Appuyez sur une touche,随便按一个按键,按下任意按鈕
+menu.jouer,Play,Jouer,开始游戏,開始遊戲
+menu.options,Options,Options,游戏设置,選項
+menu.quitter,Quit,Quitter,退出游戏,退出
+menu.jouer.slot.niveau,$1 - $2 - $3,$1 - $2 - $3,$1 - $2 - $3,$1 - $2 - $3
+menu.jouer.slot.time,'Time played: $1 H $2 MN','Temps de jeu : $1 H $2 MN',游戏时长：$1时$2分,遊戲時長：$1小時$2分鐘
+menu.jouer.slot.runes,'Glyphs validated: $1/$2','Glyphes validés : $1/$2',字符验证数量：$1/$2,已驗證字符：$1/$2
+menu.jouer.slot.vide,'[ Empty slot ]','[ Emplacement vide ]','[空]','[ 空白欄位 ]'
+,CRYPT,CRYPTE,墓穴,墓穴
+,ABBEY,ABBAYE,修院,隱修院
+,FRONTIER,FRONTIÈRE,边境,邊境
+,FORTRESS,FORTERESSE,城堡,要塞
+,GARDENS,JARDINS,妙园,園林
+,TUNNELS,GALERIES,坑道,坑道
+,FACTORY,FABRIQUE,工厂,工房
+,EXILE,EXIL,放逐之地,放逐
+,'?????','?????',？？？？,'?????'
+menu.demo.save.error,This save is only compatible with the full version of the game.,Cette sauvegarde ne peut être chargée qu'avec la version complète du jeu.,这个存档只与游戏的完整版本兼容。,此存檔僅與完整版遊戲相容。
+menu.demo.save.error,This save is only compatible with the full version of the game.,Cette sauvegarde ne peut être chargée qu'avec la version complète du jeu.,这个存档只与游戏的完整版本兼容。,此存檔僅與完整版遊戲相容。
+menu.demo.save.error,This save is only compatible with the full version of the game.,Cette sauvegarde ne peut être chargée qu'avec la version complète du jeu.,这个存档只与游戏的完整版本兼容。,此存檔僅與完整版遊戲相容。
+menu.jouer.titre,Play,Jouer,开始游戏,開始遊戲
+menu.jouer.description,'Choose a save slot:','Choisissez un emplacement de sauvegarde :',选择存档槽位：,選擇一個存檔欄位：
+menu.jouer.charger,Load game,Charger la sauvegarde,加载游戏,載入遊戲
+menu.jouer.nouveau,New game,Nouvelle partie,新的游戏,新遊戲
+menu.jouer.effacer,Delete,Effacer la sauvegarde,删除,刪除
+menu.demo.save.error,This save is only compatible with the full version of the game.,Cette sauvegarde ne peut être chargée qu'avec la version complète du jeu.,这个存档只与游戏的完整版本兼容。,此存檔僅與完整版遊戲相容。
+menu.load,Load game,Charger la sauvegarde,加载游戏,加載遊戲
+menu.save.corruption,"'WARNING: Corrupted data has been detected. You can try to reload your game, but you may not be able to progress normally.'",'ATTENTION : Des données corrompues ont été détectées. Vous pouvez essayer de recharger votre jeu mais il se peut que vous ne puissiez pas progresser normalement.',注意：发现损坏数据，可以重新加载进度，只是游戏可能无法正常继续。,警告：偵測到資料損毀。你可以嘗試重新載入遊戲，但可能無法正常遊玩。
+menu.jouer.effacer.oui,Yes,Oui,是,是
+menu.jouer.effacer.non,No,Non,否,否
+menu.jouer.effacer.confirmation,Delete saved game?,Effacer la sauvegarde ?,删除存档？,要刪除存檔嗎？
+menu.jouer.effacer.attention,'Warning: all your saved data will be lost.','Attention : toutes vos données enregistrées seront perdues.',警告：保存的所有游戏数据均将丢失。,警告：所有儲存資料都會遺失。
+menu.langue,English,Français,简体中文,繁體中文
+menu.options.langue,Language,Langue,语言,語言
+menu.options.commandes,Controls,Commandes,键位,控制
+menu.options.audio,Audio,Audio,声音,音訊
+menu.options.image,Image,Image,图像,畫面
+menu.options.video,Video,Vidéo,画面,視訊
+menu.options,Options,Options,游戏设置,選項
+menu.image.radar.press,Hold,Maintenir,长按,長按顯示
+menu.image.radar.toggle,Toggle,On/Off,点击切换,開/關始終顯示
+menu.image.radar.off,Never,Désactivé,关,永不
+menu.image.controleur.souris,Mouse,Souris,鼠标,滑鼠
+menu.image.controleur.pad,Controller,Manette,控制器,控制器
+menu.image.radar.label,Show hints,Affichage des indices,显示提示,顯示提示
+menu.image.controleur.label,Controls,Contrôles,键位设置,控制方式
+menu.options.commandes,Controls,Commandes,键位,控制
+menu.commandes.pause,Pause/Menu,Pause/Menu,暂停游戏,暫停/選單
+menu.commandes.langage,Swap Language,Changer de langue,切换语言,切換語言
+menu.commandes.journal,Journal,Journal,笔记本,日誌
+menu.commandes.page,Swap Page,Changer de page,翻页,翻頁
+menu.commandes.deplacer.interagir,Move/Interact,Se déplacer/Interagir,移动/互动,移動/互動
+menu.commandes.annuler,Cancel,Annuler,取消,取消
+menu.commandes.indices,Hints,Indices,提示,提示
+menu.commandes.deplacer,Move,Se déplacer,移动,移動
+menu.commandes.pause,Pause/Menu,Pause/Menu,暂停游戏,暫停/選單
+menu.commandes.indices,Hints,Indices,提示,提示
+menu.commandes.inventaire,Inventory,Inventaire,行囊,背包
+menu.commandes.journal,Journal,Journal,笔记本,日誌
+menu.commandes.annuler,Cancel,Annuler,取消,取消
+menu.commandes.interagir,Interact,Interagir,互动,互動
+menu.commandes.deplacer,Move,Se déplacer,移动,移動
+menu.commandes.pause,Pause/Menu,Pause/Menu,暂停游戏,暫停/選單
+menu.commandes.indices,Hints,Indices,提示,提示
+menu.commandes.inventaire,Inventory,Inventaire,行囊,背包
+menu.commandes.journal,Journal,Journal,笔记本,日誌
+menu.commandes.annuler,Cancel,Annuler,取消,取消
+menu.commandes.interagir,Interact,Interagir,互动,互動
+menu.commandes.deplacer,Move,Se déplacer,移动,移動
+menu.commandes.pause,Pause/Menu,Pause/Menu,暂停游戏,暫停/選單
+menu.commandes.indices,Hints,Indices,提示,提示
+menu.commandes.inventaire,Inventory,Inventaire,行囊,背包
+menu.commandes.journal,Journal,Journal,笔记本,日誌
+menu.commandes.annuler,Cancel,Annuler,取消,取消
+menu.commandes.interagir,Interact,Interagir,互动,互動
+menu.commandes.deplacer,Move,Se déplacer,移动,移動
+menu.commandes.pause,Pause/Menu,Pause/Menu,暂停游戏,暫停/選單
+menu.commandes.indices,Hints,Indices,提示,提示
+menu.commandes.inventaire,Inventory,Inventaire,行囊,背包
+menu.commandes.journal,Journal,Journal,笔记本,日誌
+menu.commandes.annuler,Cancel,Annuler,取消,取消
+menu.commandes.interagir,Interact,Interagir,互动,互動
+menu.commandes.deplacer,Move,Se déplacer,移动,移動
+menu.commandes.pause,Pause/Menu,Pause/Menu,暂停游戏,暫停/選單
+menu.commandes.indices,Hints,Indices,提示,提示
+menu.commandes.journal,Journal,Journal,笔记本,日誌
+menu.commandes.interagir,Interact,Interagir,互动,互動
+menu.commandes.annuler,Cancel,Annuler,取消,取消
+menu.commandes.inventaire,Inventory,Inventaire,行囊,背包
+menu.commandes.deplacer,Move,Se déplacer,移动,移動
+menu.commandes.pause,Pause/Menu,Pause/Menu,暂停游戏,暫停/選單
+menu.commandes.indices,Hints,Indices,提示,提示
+menu.commandes.inventaire,Inventory,Inventaire,行囊,背包
+menu.commandes.journal,Journal,Journal,笔记本,日誌
+menu.commandes.interagir,Interact,Interagir,互动,互動
+menu.commandes.annuler,Cancel,Annuler,取消,取消
+menu.commandes.deplacer,Move,Se déplacer,移动,移動
+menu.commandes.pause,Pause/Menu,Pause/Menu,暂停游戏,暫停/選單
+menu.commandes.indices,Hints,Indices,提示,提示
+menu.commandes.journal,Journal,Journal,笔记本,日誌
+menu.commandes.interagir,Interact,Interagir,互动,互動
+menu.commandes.annuler,Cancel,Annuler,取消,取消
+menu.commandes.inventaire,Inventory,Inventaire,行囊,背包
+menu.audio.volume.label,Master volume,Volume général,主音量,主音量
+menu.audio.vfx.label,Effects volume,Volume des effets,音效音量,音效音量
+menu.audio.music.label,Music volume,Volume de la musique,音乐音量,音樂音量
+menu.options.reset,Reset to default,Réinitialiser,恢复默认设置,重設為預設值
+menu.options.audio,Audio,Audio,声音,音訊
+menu.image.hatching.off,Off,Désactivées,关,關
+menu.image.hatching.low,Reduced,Réduites,弱,較輕
+menu.image.hatching.on,Normal,Normales,正常,正常
+menu.image.brightness.label,Brightness,Luminosité,亮度,亮度
+menu.image.saturation.label,Saturation,Saturation,饱和度,飽和度
+menu.image.hatching.label,Hatching,Hachures,影线,剖面線陰影
+menu.options.reset,Reset to default,Réinitialiser,恢复默认设置,重設為預設值
+menu.image.consigne,Adjust the brightness so that the logo on the left is barely visible.,Ajustez la luminosité pour que le logo à gauche soit presque invisible.,调整亮度，下方左侧标志隐约可见即可。,調整亮度至基本看不見左邊的圖標。
+menu.options.image,Image,Image,图像,畫面
+menu.video.resolution.valeur,$1 x $2,$1 x $2,$1 x $2,$1 x $2
+menu.video.quality.low,Low,Faible,低,低
+menu.video.quality.medium,Medium,Moyenne,中,中
+menu.video.quality.high,High,Haute,高,高
+menu.video.fps.30,Reduced,Réduite,减半,減半
+menu.video.fps.60,Maximum,Maximale,最高帧率,最大
+menu.video.fullscreen,Fullscreen,Plein écran,全屏,全螢幕
+menu.video.windowed,Windowed,Fenêtré,窗口化,視窗化
+menu.video.resolution.label,Resolution,Résolution,分辨率,分辨率
+menu.video.quality.label,Quality,Qualité,画质,品質
+menu.video.fps.label,Frame rate,Fréquence d'images,帧率,幀率
+menu.video.affichage.label,Display mode,Mode d'affichage,显示模式,顯示模式
+menu.options.video,Video,Vidéo,画面,視訊
+menu.options,Options,Options,游戏设置,選項
+menu.aide.titre,Help,Aide,帮助,支援
+menu.retourmenu.quitter,Quit,Quitter,退出游戏,退出
+menu.pause,Pause,Pause,暂停,暫停
+menu.retourmenu.quitter,Quit,Quitter,退出游戏,退出
+menu.retourmenu.annuler,Cancel,Annuler,取消,取消
+menu.retourmenu.titre,Quit the game?,Quitter la partie ?,退出游戏？,要退出遊戲嗎？
+menu.retourmenu.saved.1,'( Last saved: less than a minute ago )','( Dernière sauvegarde : il y a moins d''une minute )',（最近保存时间：若干秒之前）,（上一次存檔：不到一分鐘前）
+menu.retourmenu.saved.2,'( Last saved: one minute ago )','( Dernière sauvegarde : il y a une minute )',（最近保存时间：一分钟之前）,（上一次存檔：一分鐘前）
+menu.retourmenu.saved.3,'( Last saved: $1 minutes ago )','( Dernière sauvegarde : il y a $1 minutes )',（最近保存时间：$1分钟之前）,（上一次存檔：$1分鐘前）
+menu.retourmenu.saved.4,'( Last saved: over an hour ago )','( Dernière sauvegarde : il y a plus d''une heure )',（最近保存时间：超过一个小时之前）,（上一次存檔：超過一小時前）
+menu.aide.titre.controles,Controls,Contrôles,键位,控制
+menu.aide.titre.journal,Journal,Journal,笔记本,日誌
+menu.aide.titre.glyphes,Glyphs,Glyphes,字符,字符
+menu.aide.titre.inventaire,Inventory,Inventaire,行囊,背包
+menu.aide.titre.infiltration,Infiltration,Infiltration,潜行,潛行
+menu.aide.titre.mecanisme,Mechanisms,Mécanismes,机关,玩法機制
+menu.aide.titre.indices,Hints,Indices,提示,提示
+menu.aide.titre,Help,Aide,帮助,支援
+menu.aide.titre.controles,Controls,Contrôles,键位,控制
+tuto.deplacement.souris.1,Click on the background to move.,Cliquez dans le décor pour vous déplacer à la souris.,点击地面即可移动。,點按背景移動。
+tuto.deplacement.souris.2,You can also choose to play with a controller.,Vous pouvez également choisir de jouer à la manette.,也可以选择使用控制器。,你也可以選擇用控制器進行遊戲。
+tuto.interaction.souris,Click on an item to interact with it.,Cliquez sur un élément pour interagir avec lui.,如果需要和某个物体互动，点击物体就行。,點按物品與之互動。
+tuto.deplacement.pad.xbox,Use the left stick to move.,Utilisez le stick analogique gauche pour vous déplacer.,使用左摇杆移动。,使用左搖桿移動。
+,Use the Left Stick to move.,Utilisez le stick gauche pour vous déplacer.,使用L摇杆移动。,使用L操控搖桿移動。
+,Use the left stick to move.,Utilisez le joystick gauche pour vous déplacer.,使用左操作杆移动。,使用左操作桿移動。
+tuto.deplacement.pad.2,You can also choose to play using the mouse.,Vous pouvez également choisir de jouer à la souris.,也可以使用鼠标游玩。,你也可以選擇用滑鼠進行遊戲。
+tuto.interaction.pad.xbox,Go close to an item and press the Action button to interact with it.,Approchez-vous d’un élément et appuyez sur la touche d’Action pour interagir avec lui.,走到物体旁边，然后按行动按钮可以与其互动。,接近物品後，按下「操作」按鍵與之互動。
+,Go close to an item and press the Action Button to interact with it.,Approchez-vous d’un élément et appuyez sur le bouton d’Action pour interagir avec lui.,走到物体旁边，然后按行动键可以与其互动。,接近物品後，按下「操作」鍵與之互動。
+,Go close to an item and press the Interaction button to interact with it.,Approchez-vous d’un élément et appuyez sur la touche d’Interaction pour interagir avec lui.,走到物体旁边，然后按互动按键可以与其互动。,接近物品後，按下「互動」按鈕與之互動。
+tuto.deplacement.pad.xbox,Use the left stick to move.,Utilisez le stick analogique gauche pour vous déplacer.,使用左摇杆移动。,使用左搖桿移動。
+,Use the Left Stick to move.,Utilisez le stick gauche pour vous déplacer.,使用L摇杆移动。,使用L操控搖桿移動。
+,Use the left stick to move.,Utilisez le joystick gauche pour vous déplacer.,使用左操作杆移动。,使用左操作桿移動。
+tuto.interaction.pad.xbox,Go close to an item and press the Action button to interact with it.,Approchez-vous d’un élément et appuyez sur la touche d’Action pour interagir avec lui.,走到物体旁边，然后按行动按钮可以与其互动。,接近物品後，按下「操作」按鍵與之互動。
+,Go close to an item and press the Action Button to interact with it.,Approchez-vous d’un élément et appuyez sur le bouton d’Action pour interagir avec lui.,走到物体旁边，然后按行动键可以与其互动。,接近物品後，按下「操作」鍵與之互動。
+,Go close to an item and press the Interaction button to interact with it.,Approchez-vous d’un élément et appuyez sur la touche d’Interaction pour interagir avec lui.,走到物体旁边，然后按互动按键可以与其互动。,接近物品後，按下「互動」按鈕與之互動。
+menu.aide.titre.journal,Journal,Journal,笔记本,日誌
+tuto.journal.souris.1,This Journal will record all the glyphs you discover.,Le Journal enregistre tous les glyphes que vous découvrez.,这个笔记本会记下你看到的所有字符。,這本日誌會記錄你發現的所有字符。
+tuto.journal.souris.2,"To open it, click on the Journal button.","Pour l'afficher, cliquez sur le bouton Journal.",点击笔记本的图标，就能翻开笔记本。,要打開日誌，請點按「日誌」按鈕。
+tuto.journal.souris.3,You can also open it by clicking directly on a text.,Vous pouvez aussi l’ouvrir en cliquant directement sur un texte.,直接点击文字也能翻开笔记本。,直接點按文字，也同樣可以打開日誌。
+tuto.annotation.souris.1,"When you think you have guessed the meaning of a glyph, you can click on it to note your hypothesis.","Quand vous pensez avoir deviné le sens d'un glyphe, cliquez dessus pour consigner votre hypothèse.",如果觉得自己猜到了某个字符的意思，可以点击字符，然后记下自己的猜测。,當你覺得已猜出某一字符的含義時，點按該字符即可記錄下你的猜測。
+tuto.annotation.souris.2,"To exit the Journal, click on the Close button.","Pour quitter le Journal, cliquez sur le bouton de fermeture.",点击关闭按钮可以合上笔记本。,要退出日誌，請點按「關閉」按鈕。
+tuto.journal.pad.1,This Journal will record all the glyphs you discover.,Le Journal enregistre tous les glyphes que vous découvrez.,这个笔记本会记下你看到的所有字符。,這本日誌會記錄你發現的所有字符。
+tuto.journal.pad.2.xbox,"To open it, press the Journal button.","Pour l'afficher, appuyez sur la touche Journal.",按笔记本按钮可以翻开笔记本。,要打開日誌，請按下「日誌」按鍵。
+,"To open it, press the Journal Button.","Pour l'afficher, appuyez sur le bouton Journal.",按笔记本键可以翻开笔记本。,要打開日誌，請按下「日誌」鍵。
+,"To open it, press the Journal button.","Pour l'afficher, appuyez sur la touche Journal.",按笔记本按键可以翻开笔记本。,要打開日誌，請按下「日誌」按鈕。
+tuto.journal.pad.3,You can also open it by selecting a text directly.,Vous pouvez aussi l’ouvrir en sélectionnant directement un texte.,直接选中文字也能翻开笔记本。,直接選擇文字，也同樣可以打開日誌。
+tuto.annotation.pad.1.xbox,"When you think you have guessed the meaning of a glyph, select it and use the Annotation button to note your hypothesis.","Quand vous pensez avoir deviné le sens d'un glyphe, sélectionnez-le puis utilisez la touche d’Annotation pour consigner votre hypothèse.",如果觉得自己猜到了某个字符的意思，可以选中字符，然后按备注按钮记下自己的猜测。,當你覺得已猜出某一字符的含義時，選擇該字符並使用「註解」按鍵，即可記錄下你的猜測。
+,"When you think you have guessed the meaning of a glyph, select it and use the Annotation Button to note your hypothesis.","Quand vous pensez avoir deviné le sens d'un glyphe, sélectionnez-le puis utilisez le bouton d’Annotation pour consigner votre hypothèse.",如果觉得自己猜到了某个字符的意思，可以选中字符，然后按备注键记下自己的猜测。,當你覺得已猜出某一字符的含義時，選擇該字符並使用「註解」鍵，即可記錄下你的猜測。
+,"When you think you have guessed the meaning of a glyph, select it and use the Annotation button to note your hypothesis.","Quand vous pensez avoir deviné le sens d'un glyphe, sélectionnez-le puis utilisez la touche d’Annotation pour consigner votre hypothèse.",如果觉得自己猜到了某个字符的意思，可以选中字符，然后按备注按键记下自己的猜测。,當你覺得已猜出某一字符的含義時，選擇該字符並使用「註解」按鈕，即可記錄下你的猜測。
+tuto.annotation.pad.2.xbox,"To exit the Journal, press the Cancel button.","Pour quitter le Journal, utilisez la touche Annuler.",按取消按钮可以合上笔记本。,要退出日誌，請按下「取消」按鍵。
+,"To exit the Journal, press the Cancel Button.","Pour quitter le Journal, utilisez le bouton Annuler.",按取消键可以合上笔记本。,要退出日誌，請按下「取消」鍵。
+,"To exit the Journal, press the Cancel button.","Pour quitter le Journal, utilisez la touche Annuler.",按取消按键可以合上笔记本。,要退出日誌，請按下「取消」按鈕。
+menu.aide.titre.glyphes,Glyphs,Glyphes,字符,字符
+tuto.validation.souris.1,Drag each glyph into the slot that you think matches it.,Glissez chaque glyphe dans l'emplacement qui semble lui correspondre.,觉得哪个字符意义合适，就把它拖进相应的圆圈。,拖動各個字符到你認為相符的欄位。
+tuto.validation.2,"If all the glyphs on a double page are correct, they will be definitively validated.","Si tous les glyphes d'une double-page sont corrects, ils seront définitivement validés.",如果左右两页的字符都和绘图的含义匹配，它们的意义就通过了验证。,如果一組跨頁頁面上所有字符都配對正確，則這些字符的含義會獲得驗證。
+tuto.liaison.1,"Some glyphs can be linked to the equivalent glyph of another language, even if it's not yet translated.","Certains glyphes peuvent être liés au glyphe équivalent d'une autre langue, même si celui-ci n'est pas encore traduit.",有些字符就算还没破译，也可以与其他语言意义相同的字符关联。,有些字符可以與其他語言中對等的字符連結起來，即使尚未破譯。
+tuto.liaison.2,It is possible to validate the link from one glyph to another without having translated the original one yet.,Il est possible de valider la liaison d'un glyphe à un autre sans avoir encore traduit celui d'origine.,有时候不需要破译某个语言的某个字符，就可以验证它与另一个字符的关联。,無須破譯原先的字符，也能夠驗證兩個字符之間的連結。
+tuto.validation.pad.1.xbox,Use the Action button to move each glyph into the slot that you think matches it.,"Placez chaque glyphe dans l'emplacement qui semble lui correspondre, en le déplaçant grâce à la touche d’Action.",觉得哪个字符意义合适，就按行动按钮把它移进相应的圆圈。,使用「操作」按鍵，將各個字符移動到你認為相符的欄位。
+,Use the Action Button to move each glyph into the slot that you think matches it.,"Placez chaque glyphe dans l'emplacement qui semble lui correspondre, en le déplaçant grâce au bouton d’Action.",觉得哪个字符意义合适，就按行动键把它移进相应的圆圈。,使用「操作」鍵，將各個字符移動到你認為相符的欄位。
+,Use the Interaction button to move each glyph into the slot that you think matches it.,"Placez chaque glyphe dans l'emplacement qui semble lui correspondre, en le déplaçant grâce à la touche d’Interaction.",觉得哪个字符意义合适，就按互动按键把它移进相应的圆圈。,使用「互動」按鈕，將各個字符移動到你認為相符的欄位。
+tuto.validation.2,"If all the glyphs on a double page are correct, they will be definitively validated.","Si tous les glyphes d'une double-page sont corrects, ils seront définitivement validés.",如果左右两页的字符都和绘图的含义匹配，它们的意义就通过了验证。,如果一組跨頁頁面上所有字符都配對正確，則這些字符的含義會獲得驗證。
+tuto.liaison.1,"Some glyphs can be linked to the equivalent glyph of another language, even if it's not yet translated.","Certains glyphes peuvent être liés au glyphe équivalent d'une autre langue, même si celui-ci n'est pas encore traduit.",有些字符就算还没破译，也可以与其他语言意义相同的字符关联。,有些字符可以與其他語言中對等的字符連結起來，即使尚未破譯。
+tuto.liaison.2,It is possible to validate the link from one glyph to another without having translated the original one yet.,Il est possible de valider la liaison d'un glyphe à un autre sans avoir encore traduit celui d'origine.,有时候不需要破译某个语言的某个字符，就可以验证它与另一个字符的关联。,無須破譯原先的字符，也能夠驗證兩個字符之間的連結。
+menu.aide.titre.inventaire,Inventory,Inventaire,行囊,背包
+tuto.inventaire.souris.1,Collected items are added to the Inventory. Click on the icon of an item to open it.,Les objets ramassés sont ajoutés à l'Inventaire. Cliquez sur l'icône d'un objet pour l'ouvrir.,东西拿到之后会放进行囊，点击物品图标就能打开行囊。,拾取的物品會加入背包。點按物品圖標，即可打開背包。
+tuto.inventaire.souris.2,"From the Inventory, you can observe your items closely and rotate them.","Depuis l'Inventaire, vous pouvez observer vos objets de près et les faire pivoter.",打开行囊之后，可以随意旋转物品，仔细观察。,打開背包後，你可以旋轉物品，並近距離觀察。
+tuto.combinaison.souris,"Some elements of the environment can be combined with items from your Inventory. To combine them, first click on the element, choose your item, then click on the Combine button.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, cliquez d'abord sur l'élément, choisissez votre objet, puis cliquez sur le bouton d’Association.",周围有些东西能和行囊里的物品组合。操作步骤：首先点击周围的东西，然后选择你的物品，最后点击组合按钮。,某些環境要素可以與你背包內的物品搭配使用。要將兩者組合起來，首先點按環境要素，選擇你的物品，然後點按「組合」按鈕。
+tuto.inventaire.pad.1.xbox,Collected items are added to the Inventory. Press the Inventory button to open it.,Les objets ramassés sont ajoutés à l'Inventaire. Appuyez sur la touche Inventaire pour l'ouvrir.,东西拿到之后会放进行囊，按行囊按钮可以打开行囊。,拾取的物品會加入背包。按下「背包」按鍵，即可將其打開。
+,Collected items are added to the Inventory. Press the Inventory Button to open it.,Les objets ramassés sont ajoutés à l'Inventaire. Appuyez sur le bouton Inventaire pour l'ouvrir.,东西拿到之后会放进行囊，按行囊键可以打开行囊。,拾取的物品會加入背包。按下「背包」鍵，即可將其打開。
+,Collected items are added to the Inventory. Press the Inventory button to open it.,Les objets ramassés sont ajoutés à l'Inventaire. Appuyez sur la touche Inventaire pour l'ouvrir.,东西拿到之后会放进行囊，按行囊按键可以打开行囊。,拾取的物品會加入背包。按下「背包」按鈕，即可將其打開。
+tuto.inventaire.pad.2.xbox,"From the Inventory, use the left stick to rotate an item.","Depuis l'Inventaire, utilisez le stick analogique gauche pour faire pivoter un objet.",打开行囊之后，可以使用左摇杆旋转物品。,打開背包後，使用左搖桿即可旋轉物品。
+,"From the Inventory, use the Left Stick to rotate an item.","Depuis l'Inventaire, utilisez le stick gauche pour faire pivoter un objet.",打开行囊之后，可以使用L摇杆旋转物品。,打開背包後，使用L操控搖桿即可旋轉物品。
+,"From the Inventory, use the left stick to rotate an item.","Depuis l'Inventaire, utilisez le joystick gauche pour faire pivoter un objet.",打开行囊之后，可以使用左操作杆旋转物品。,打開背包後，使用左操作桿即可旋轉物品。
+tuto.combinaison.pad.xbox,"Some elements of the environment can be combined with items from your Inventory. To combine them, first activate the element, choose your item, then press the Action button again.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, actionnez d'abord l'élément, choisissez votre objet, puis appuyez à nouveau sur la touche d'Action.",周围有些东西能和行囊里的物品组合。操作步骤：首先激活周围的东西，然后选择你的物品，最后再按一下行动按钮。,某些環境要素可以與你背包內的物品互相搭配。要將兩者組合，首先觸發環境要素，選擇你的物品，然後再次按下「操作」按鍵。
+,"Some elements of the environment can be combined with items from your Inventory. To combine them, first activate the element, choose your item, then press the Action Button again.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, actionnez d'abord l'élément, choisissez votre objet, puis appuyez à nouveau sur le bouton d'Action.",周围有些东西能和行囊里的物品组合。操作步骤：首先激活周围的东西，然后选择你的物品，最后再按一下行动键。,某些環境要素可以與你背包內的物品互相搭配。要將兩者組合，首先觸發環境要素，選擇你的物品，然後再次按下「操作」鍵。
+,"Some elements of the environment can be combined with items from your Inventory. To combine them, first activate the element, choose your item, then press the Interaction button again.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, actionnez d'abord l'élément, choisissez votre objet, puis appuyez à nouveau sur la touche d'Interaction.",周围有些东西能和行囊里的物品组合。操作步骤：首先激活周围的东西，然后选择你的物品，最后再按一下互动按键。,某些環境要素可以與你背包內的物品互相搭配。要將兩者組合，首先觸發環境要素，選擇你的物品，然後再次按下「互動」按鈕。
+menu.aide.titre.infiltration,Infiltration,Infiltration,潜行,潛行
+tuto.infiltration.souris,"Some areas must be crossed without being noticed. Hover over a hiding place until a silhouette appears, then click to go there.","Certaines zones doivent être traversées discrètement. Survolez une cachette jusqu'à faire apparaître une silhouette, puis cliquez pour vous y rendre.",穿过某些区域的时候绝对不能被人看到。得先移动光标，寻找出现虚影的地方，点一下就能摸过去。,穿越某些區域時，必須小心前進，不被人發現。將滑鼠游標懸停在藏身處，直到出現人物輪廓，然後點按即可前往該處。
+tuto.infiltration.pad.1.xbox,Go close to a hiding place and press the Action button to hide.,Approchez-vous d'une cachette et appuyez sur la touche d'Action pour vous y dissimuler.,走到可以藏身的地方，按下行动按钮就能藏起来。,接近藏身處後，按下「操作」按鍵即可躲藏起來。
+,Go close to a hiding place and press the Action Button to hide.,Approchez-vous d'une cachette et appuyez sur le bouton d'Action pour vous y dissimuler.,走到可以藏身的地方，按下行动键就能藏起来。,接近藏身處後，按下「操作」鍵即可躲藏起來。
+,Go close to a hiding place and press the Interaction button to hide.,Approchez-vous d'une cachette et appuyez sur la touche d'Interaction pour vous y dissimuler.,走到可以藏身的地方，按下互动按键就能藏起来。,接近藏身處後，按下「互動」按鈕即可躲藏起來。
+tuto.infiltration.pad.2.xbox,Go along the walls with the left stick.,Longez les murs grâce au stick analogique gauche.,使用左摇杆沿着墙根移动。,使用左搖桿沿著牆壁前進。
+,Go along the walls with the Left Stick.,Longez les murs grâce au stick gauche.,使用L摇杆沿着墙根移动。,使用L操控搖桿沿著牆壁前進。
+,Go along the walls with the left stick.,Longez les murs grâce au joystick gauche.,使用左操作杆沿着墙根移动。,使用左操作桿沿著牆壁前進。
+tuto.infiltration.pad.3.xbox,Press the Cancel button to return to free travel mode.,Appuyez sur la touche d'Annulation pour repasser en déplacement libre.,按取消按钮可以回到自由移动的状态。,按下「取消」按鍵，即可返回自由探索模式。
+,Press the Cancel Button to return to free travel mode.,Appuyez sur le bouton d'Annulation pour repasser en déplacement libre.,按取消键可以回到自由移动的状态。,按下「取消」鍵，即可返回自由探索模式。
+,Press the Cancel button to return to free travel mode.,Appuyez sur la touche d'Annulation pour repasser en déplacement libre.,按取消按键可以回到自由移动的状态。,按下「取消」按鈕，即可返回自由探索模式。
+menu.aide.titre.mecanisme,Mechanisms,Mécanismes,机关,玩法機制
+tuto.mecanisme.souris.1,The components of some devices or mechanisms can be manipulated.,Les éléments de certains appareils ou mécanismes peuvent être manipulés.,某些设备或者机关的部件可以操作。,有些機關或裝置的組件是可以操縱的。
+tuto.mecanisme.souris.2,"Hover over a component, then hold down the left mouse button to grab it.",Survolez un élément puis maintenez le clic gauche enfoncé pour le saisir.,光标移到部件上，然后按住鼠标左键抓住部件。,將滑鼠游標懸停在組件上，然後按住滑鼠左鍵抓取。
+tuto.mecanisme.souris.3,"Drag the component to the desired position, then release.","Déplacez l'élément jusqu'à la position désirée, puis relâchez.",将部件拖到目标位置，然后松开鼠标左键。,拖曳組件到所需位置，然後放開。
+tuto.mecanisme.pad.1,The components of some devices or mechanisms can be manipulated.,Les éléments de certains appareils ou mécanismes peuvent être manipulés.,某些设备或者机关的部件可以操作。,有些機關或裝置的組件是可以操縱的。
+tuto.mecanisme.pad.2.xbox,"Select a component with the left stick, then hold the Action button to grab it.",Sélectionnez un élément avec le stick analogique gauche puis maintenez la touche d'Action pour le saisir.,使用左摇杆选中部件，然后长按行动按钮抓住部件。,用左搖桿選擇組件，然後長按「操作」按鍵抓取。
+,"Select a component with the Left Stick, then hold the Action Button to grab it.",Sélectionnez un élément avec le stick gauche puis maintenez le bouton d'Action pour le saisir.,使用L摇杆选中部件，然后长按行动键抓住部件。,用L操控搖桿選擇組件，然後長按「操作」鍵抓取。
+,"Select a component with the left stick, then hold the Interaction button to grab it.",Sélectionnez un élément avec le joystick gauche puis maintenez la touche d'Interaction pour le saisir.,使用左摇杆选中部件，然后长按互动按键抓住部件。,用左操作桿選擇組件，然後長按「互動」按鈕抓取。
+tuto.mecanisme.pad.3.xbox,"While holding down the button, move the component with the left stick to the desired position, then release.","Tout en maintenant la touche pressée, déplacez l'élément avec le stick analogique gauche jusqu'à la position désirée, puis relâchez.",长按按钮的同时，使用左摇杆将部件移到目标位置，然后松开按钮。,按住按鍵的同時，用左搖桿移動組件到所需位置，然後再放開。
+,"While holding down the Button, move the component with the Left Stick to the desired position, then release.","Tout en maintenant le bouton pressé, déplacez l'élément avec le stick gauche jusqu'à la position désirée, puis relâchez.",长按按键的同时，使用L摇杆将部件移到目标位置，然后松开按键。,按住按鍵的同時，用L操控搖桿移動組件到所需位置，然後再放開。
+,"While holding down the button, move the component with the left stick to the desired position, then release.","Tout en maintenant la touche pressée, déplacez l'élément avec le joystick gauche jusqu'à la position désirée, puis relâchez.",长按按键的同时，使用左操作杆将部件移到目标位置，然后松开按键。,按住按鈕的同時，用左操作桿移動組件到所需位置，然後再放開。
+menu.aide.titre.indices,Hints,Indices,提示,提示
+tuto.indices.souris.1,"If needed, use the middle button to reveal all the interactive items in the surroundings.","En cas de besoin, utilisez le bouton du milieu pour dévoiler tous les éléments interactifs autour de vous.",如有需要，按鼠标中键就能显示周围可以互动的物体。,如有需要，按下滑鼠中鍵即可顯示周圍所有可互動物品。
+tuto.indices.souris.2,A pulsating white dot indicates items where something is still to be seen or done.,Un point blanc pulsant indique les éléments sur lesquels il reste quelque chose à voir ou à faire.,如果周围出现闪烁的小白点，就说明那里还有东西没有观察或者还有事情没做。,螢幕上出現的閃爍白點，會指示何處有尚未發現或互動的物品。
+tuto.indices.pad.1.xbox,You can use the Hints button to reveal nearby interactions.,"En cas de besoin, utilisez la touche Indices pour dévoiler tous les éléments interactifs autour de vous.",按提示按钮可以显示周围能够互动的物体。,如有需要，按下「提示」按鍵即可顯示周圍所有的可互動選項。
+,You can use the Hints Button to reveal nearby interactions.,"En cas de besoin, utilisez le bouton Indices pour dévoiler tous les éléments interactifs autour de vous.",按提示键可以显示周围能够互动的物体。,如有需要，按下「提示」鍵即可顯示周圍所有的可互動選項。
+,You can use the Hints button to reveal nearby interactions.,"En cas de besoin, utilisez la touche Indices pour dévoiler tous les éléments interactifs autour de vous.",按提示按键可以显示周围能够互动的物体。,如有需要，按下「提示」按鈕即可顯示周圍所有的可互動選項。
+tuto.indices.pad.2,A pulsating white dot indicates items where something is still to be seen or done.,Un point blanc pulsant indique les éléments sur lesquels il reste quelque chose à voir ou à faire.,如果周围出现闪烁的小白点，就说明那里还有东西没有观察或者还有事情没做。,螢幕上出現的閃爍白點，會指示何處有尚未發現或互動的物品。
+eula.link,"""Read our End User License Agreement at\nwww.focus-entmt.com/eula/consoles.""","""Lire les termes de notre Contrat de Licence Utilisateur Final sur\nwww.focus-entmt.com/eula/consoles.""","""前往www.focus-entmt.com/eula/consoles\n阅读我们的《终端用户许可协议》。""","""請前往www.focus-entmt.com/eula/consoles\n閱讀我們的使用者授權合約。"""
+eula.agree,I agree,J’accepte,我同意,我同意
+eula.refuse,I refuse,Je refuse,我不同意,我不同意
+eula.title,End User License Agreement,Contrat de Licence Utilisateur Final,终端用户许可协议,使用者授權合約
+eula.content,"""Please accept our End User License Agreement in order to play the game. \n\nYou hereby acknowledge to have read and understood the License Agreement and to have accepted that installation of the Multimedia Program is confirmation of your acceptance to be contractually bound by the following provisions. You hereby acknowledge and accept that the present License Agreement stipulates all of the agreement exclusively between Focus Entertainment and yourself and that the License Agreement replaces any previous or current agreement, whether oral or written, as well as any other communication between Focus Entertainment and you, notably any written license agreement accompanying the Multimedia Program that is inconsistent and/or contrary to these terms.""","""Veuillez accepter les termes de notre Contrat de Licence Utilisateur Final afin de pouvoir jouer.\n\nPar les présentes, vous reconnaissez avoir pris connaissance et compris le Contrat de Licence et avoir accepté que l'action d'installer le Programme Multimédia est une confirmation de votre acceptation d’être contractuellement lié par les dispositions qui suivent. Vous reconnaissez et acceptez que le présent Contrat de Licence stipule l’intégralité et l’exclusivité de l’accord intervenu entre Focus Entertainment et vous et que le Contrat de Licence remplace tout accord antérieur ou actuel, oral ou écrit, ainsi que toute autre communication entre Focus Entertainment et vous, notamment tout contrat de licence écrit accompagnant le Programme Multimédia et incompatible et/ou contraire aux présentes.""","""进行游戏之前请接受我们的《终端用户许可协议》。\n\n您在此确认您已阅读并理解《许可协议》的相关内容，同时赞同您安装这款多媒体程序即表示自己接受以下条款的合同约束。您在此确认并赞同本《许可协议》明确说明了您与Focus Entertainment所订协议的所有内容，同时确认并赞同无论您与Focus Entertainment此前订立何种口头协议或书面协议，无论您与Focus Entertainment此前有过何种通信，即便本多媒体程序随附其他任何书面许可协议，均以本《许可协议》条款为准。""","""進行遊戲前請接受我們的使用者授權合約。\n\n您在此確認您已閱讀並瞭解授權合約；接受安裝此多媒體程式即確認自己接受以下條款的合約約束。您在此確認並接受本授權合約明確規定 Focus Entertainment 與您之間的所有協議，以及本授權合約取代之前和現在所有口頭與書面協議，和 Focus Entertainment 與您之間進行的任何其他通信內容，特別是附隨於此多媒體程式且與本條款不一致和／或相悖的任何書面協議。"""
+menu.indic.valider,Select,Valider,确认,選擇
+menu.indic.annuler,Back,Retour,返回,返回
+menu.demo.version.demo,Demo version,Version démo,试玩版,體驗版
+menu.demo.get.other,Get full version,Obtenir la version complète,入手完整版本,取得完整版
+,Available for purchase,Disponible à l'achat,已开放购买,現正販售中
+,Get full version,Obtenir la version complète,入手完整版本,取得完整版
+menu.pad.debranche.xbox,Your controller is disconnected!,Votre manette est déconnectée !,控制器断开连接！,控制器已中斷連線！
+,Your controller is disconnected!,Votre manette est déconnectée !,控制器断开连接！,控制器已中斷連線！
+,Your wireless controller is disconnected!,Votre manette sans fil est déconnectée !,无线控制器断开连接！,無線控制器已中斷連線！
+tuto.deplacement.souris.1,Click on the background to move.,Cliquez dans le décor pour vous déplacer à la souris.,点击地面即可移动。,點按背景移動。
+tuto.deplacement.souris.2,You can also choose to play with a controller.,Vous pouvez également choisir de jouer à la manette.,也可以选择使用控制器。,你也可以選擇用控制器進行遊戲。
+tuto.deplacement.pad.xbox,Use the left stick to move.,Utilisez le stick analogique gauche pour vous déplacer.,使用左摇杆移动。,使用左搖桿移動。
+,Use the Left Stick to move.,Utilisez le stick gauche pour vous déplacer.,使用L摇杆移动。,使用L操控搖桿移動。
+,Use the left stick to move.,Utilisez le joystick gauche pour vous déplacer.,使用左操作杆移动。,使用左操作桿移動。
+tuto.deplacement.pad.2,You can also choose to play using the mouse.,Vous pouvez également choisir de jouer à la souris.,也可以使用鼠标游玩。,你也可以選擇用滑鼠進行遊戲。
+tuto.deplacement.pad.xbox,Use the left stick to move.,Utilisez le stick analogique gauche pour vous déplacer.,使用左摇杆移动。,使用左搖桿移動。
+,Use the Left Stick to move.,Utilisez le stick gauche pour vous déplacer.,使用L摇杆移动。,使用L操控搖桿移動。
+,Use the left stick to move.,Utilisez le joystick gauche pour vous déplacer.,使用左操作杆移动。,使用左操作桿移動。
+tuto.interaction.souris,Click on an item to interact with it.,Cliquez sur un élément pour interagir avec lui.,如果需要和某个物体互动，点击物体就行。,點按物品與之互動。
+tuto.interaction.pad.xbox,Go close to an item and press the Action button to interact with it.,Approchez-vous d’un élément et appuyez sur la touche d’Action pour interagir avec lui.,走到物体旁边，然后按行动按钮可以与其互动。,接近物品後，按下「操作」按鍵與之互動。
+,Go close to an item and press the Action Button to interact with it.,Approchez-vous d’un élément et appuyez sur le bouton d’Action pour interagir avec lui.,走到物体旁边，然后按行动键可以与其互动。,接近物品後，按下「操作」鍵與之互動。
+,Go close to an item and press the Interaction button to interact with it.,Approchez-vous d’un élément et appuyez sur la touche d’Interaction pour interagir avec lui.,走到物体旁边，然后按互动按键可以与其互动。,接近物品後，按下「互動」按鈕與之互動。
+tuto.journal.souris.1,This Journal will record all the glyphs you discover.,Le Journal enregistre tous les glyphes que vous découvrez.,这个笔记本会记下你看到的所有字符。,這本日誌會記錄你發現的所有字符。
+tuto.journal.souris.2,"To open it, click on the Journal button.","Pour l'afficher, cliquez sur le bouton Journal.",点击笔记本的图标，就能翻开笔记本。,要打開日誌，請點按「日誌」按鈕。
+tuto.journal.souris.3,You can also open it by clicking directly on a text.,Vous pouvez aussi l’ouvrir en cliquant directement sur un texte.,直接点击文字也能翻开笔记本。,直接點按文字，也同樣可以打開日誌。
+tuto.journal.pad.1,This Journal will record all the glyphs you discover.,Le Journal enregistre tous les glyphes que vous découvrez.,这个笔记本会记下你看到的所有字符。,這本日誌會記錄你發現的所有字符。
+tuto.journal.pad.2.xbox,"To open it, press the Journal button.","Pour l'afficher, appuyez sur la touche Journal.",按笔记本按钮可以翻开笔记本。,要打開日誌，請按下「日誌」按鍵。
+,"To open it, press the Journal Button.","Pour l'afficher, appuyez sur le bouton Journal.",按笔记本键可以翻开笔记本。,要打開日誌，請按下「日誌」鍵。
+,"To open it, press the Journal button.","Pour l'afficher, appuyez sur la touche Journal.",按笔记本按键可以翻开笔记本。,要打開日誌，請按下「日誌」按鈕。
+tuto.journal.pad.3,You can also open it by selecting a text directly.,Vous pouvez aussi l’ouvrir en sélectionnant directement un texte.,直接选中文字也能翻开笔记本。,直接選擇文字，也同樣可以打開日誌。
+tuto.indices.souris.1,"If needed, use the middle button to reveal all the interactive items in the surroundings.","En cas de besoin, utilisez le bouton du milieu pour dévoiler tous les éléments interactifs autour de vous.",如有需要，按鼠标中键就能显示周围可以互动的物体。,如有需要，按下滑鼠中鍵即可顯示周圍所有可互動物品。
+tuto.indices.souris.2,A pulsating white dot indicates items where something is still to be seen or done.,Un point blanc pulsant indique les éléments sur lesquels il reste quelque chose à voir ou à faire.,如果周围出现闪烁的小白点，就说明那里还有东西没有观察或者还有事情没做。,螢幕上出現的閃爍白點，會指示何處有尚未發現或互動的物品。
+tuto.indices.pad.1.xbox,You can use the Hints button to reveal nearby interactions.,"En cas de besoin, utilisez la touche Indices pour dévoiler tous les éléments interactifs autour de vous.",按提示按钮可以显示周围能够互动的物体。,如有需要，按下「提示」按鍵即可顯示周圍所有的可互動選項。
+,You can use the Hints Button to reveal nearby interactions.,"En cas de besoin, utilisez le bouton Indices pour dévoiler tous les éléments interactifs autour de vous.",按提示键可以显示周围能够互动的物体。,如有需要，按下「提示」鍵即可顯示周圍所有的可互動選項。
+,You can use the Hints button to reveal nearby interactions.,"En cas de besoin, utilisez la touche Indices pour dévoiler tous les éléments interactifs autour de vous.",按提示按键可以显示周围能够互动的物体。,如有需要，按下「提示」按鈕即可顯示周圍所有的可互動選項。
+tuto.indices.pad.2,A pulsating white dot indicates items where something is still to be seen or done.,Un point blanc pulsant indique les éléments sur lesquels il reste quelque chose à voir ou à faire.,如果周围出现闪烁的小白点，就说明那里还有东西没有观察或者还有事情没做。,螢幕上出現的閃爍白點，會指示何處有尚未發現或互動的物品。
+tuto.infiltration.souris,"Some areas must be crossed without being noticed. Hover over a hiding place until a silhouette appears, then click to go there.","Certaines zones doivent être traversées discrètement. Survolez une cachette jusqu'à faire apparaître une silhouette, puis cliquez pour vous y rendre.",穿过某些区域的时候绝对不能被人看到。得先移动光标，寻找出现虚影的地方，点一下就能摸过去。,穿越某些區域時，必須小心前進，不被人發現。將滑鼠游標懸停在藏身處，直到出現人物輪廓，然後點按即可前往該處。
+tuto.infiltration.pad.1.xbox,Go close to a hiding place and press the Action button to hide.,Approchez-vous d'une cachette et appuyez sur la touche d'Action pour vous y dissimuler.,走到可以藏身的地方，按下行动按钮就能藏起来。,接近藏身處後，按下「操作」按鍵即可躲藏起來。
+,Go close to a hiding place and press the Action Button to hide.,Approchez-vous d'une cachette et appuyez sur le bouton d'Action pour vous y dissimuler.,走到可以藏身的地方，按下行动键就能藏起来。,接近藏身處後，按下「操作」鍵即可躲藏起來。
+,Go close to a hiding place and press the Interaction button to hide.,Approchez-vous d'une cachette et appuyez sur la touche d'Interaction pour vous y dissimuler.,走到可以藏身的地方，按下互动按键就能藏起来。,接近藏身處後，按下「互動」按鈕即可躲藏起來。
+tuto.infiltration.pad.2.xbox,Go along the walls with the left stick.,Longez les murs grâce au stick analogique gauche.,使用左摇杆沿着墙根移动。,使用左搖桿沿著牆壁前進。
+,Go along the walls with the Left Stick.,Longez les murs grâce au stick gauche.,使用L摇杆沿着墙根移动。,使用L操控搖桿沿著牆壁前進。
+,Go along the walls with the left stick.,Longez les murs grâce au joystick gauche.,使用左操作杆沿着墙根移动。,使用左操作桿沿著牆壁前進。
+tuto.infiltration.pad.3.xbox,Press the Cancel button to return to free travel mode.,Appuyez sur la touche d'Annulation pour repasser en déplacement libre.,按取消按钮可以回到自由移动的状态。,按下「取消」按鍵，即可返回自由探索模式。
+,Press the Cancel Button to return to free travel mode.,Appuyez sur le bouton d'Annulation pour repasser en déplacement libre.,按取消键可以回到自由移动的状态。,按下「取消」鍵，即可返回自由探索模式。
+,Press the Cancel button to return to free travel mode.,Appuyez sur la touche d'Annulation pour repasser en déplacement libre.,按取消按键可以回到自由移动的状态。,按下「取消」按鈕，即可返回自由探索模式。
+tuto.combinaison.souris,"Some elements of the environment can be combined with items from your Inventory. To combine them, first click on the element, choose your item, then click on the Combine button.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, cliquez d'abord sur l'élément, choisissez votre objet, puis cliquez sur le bouton d’Association.",周围有些东西能和行囊里的物品组合。操作步骤：首先点击周围的东西，然后选择你的物品，最后点击组合按钮。,某些環境要素可以與你背包內的物品搭配使用。要將兩者組合起來，首先點按環境要素，選擇你的物品，然後點按「組合」按鈕。
+tuto.combinaison.pad.xbox,"Some elements of the environment can be combined with items from your Inventory. To combine them, first activate the element, choose your item, then press the Action button again.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, actionnez d'abord l'élément, choisissez votre objet, puis appuyez à nouveau sur la touche d'Action.",周围有些东西能和行囊里的物品组合。操作步骤：首先激活周围的东西，然后选择你的物品，最后再按一下行动按钮。,某些環境要素可以與你背包內的物品互相搭配。要將兩者組合，首先觸發環境要素，選擇你的物品，然後再次按下「操作」按鍵。
+,"Some elements of the environment can be combined with items from your Inventory. To combine them, first activate the element, choose your item, then press the Action Button again.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, actionnez d'abord l'élément, choisissez votre objet, puis appuyez à nouveau sur le bouton d'Action.",周围有些东西能和行囊里的物品组合。操作步骤：首先激活周围的东西，然后选择你的物品，最后再按一下行动键。,某些環境要素可以與你背包內的物品互相搭配。要將兩者組合，首先觸發環境要素，選擇你的物品，然後再次按下「操作」鍵。
+,"Some elements of the environment can be combined with items from your Inventory. To combine them, first activate the element, choose your item, then press the Interaction button again.","Certains éléments du décor peuvent être associés avec des objets de votre Inventaire. Pour les associer, actionnez d'abord l'élément, choisissez votre objet, puis appuyez à nouveau sur la touche d'Interaction.",周围有些东西能和行囊里的物品组合。操作步骤：首先激活周围的东西，然后选择你的物品，最后再按一下互动按键。,某些環境要素可以與你背包內的物品互相搭配。要將兩者組合，首先觸發環境要素，選擇你的物品，然後再次按下「互動」按鈕。
+tuto.mecanisme.souris.1,The components of some devices or mechanisms can be manipulated.,Les éléments de certains appareils ou mécanismes peuvent être manipulés.,某些设备或者机关的部件可以操作。,有些機關或裝置的組件是可以操縱的。
+tuto.mecanisme.souris.2,"Hover over a component, then hold down the left mouse button to grab it.",Survolez un élément puis maintenez le clic gauche enfoncé pour le saisir.,光标移到部件上，然后按住鼠标左键抓住部件。,將滑鼠游標懸停在組件上，然後按住滑鼠左鍵抓取。
+tuto.mecanisme.souris.3,"Drag the component to the desired position, then release.","Déplacez l'élément jusqu'à la position désirée, puis relâchez.",将部件拖到目标位置，然后松开鼠标左键。,拖曳組件到所需位置，然後放開。
+tuto.mecanisme.pad.1,The components of some devices or mechanisms can be manipulated.,Les éléments de certains appareils ou mécanismes peuvent être manipulés.,某些设备或者机关的部件可以操作。,有些機關或裝置的組件是可以操縱的。
+tuto.mecanisme.pad.2.xbox,"Select a component with the left stick, then hold the Action button to grab it.",Sélectionnez un élément avec le stick analogique gauche puis maintenez la touche d'Action pour le saisir.,使用左摇杆选中部件，然后长按行动按钮抓住部件。,用左搖桿選擇組件，然後長按「操作」按鍵抓取。
+,"Select a component with the Left Stick, then hold the Action Button to grab it.",Sélectionnez un élément avec le stick gauche puis maintenez le bouton d'Action pour le saisir.,使用L摇杆选中部件，然后长按行动键抓住部件。,用L操控搖桿選擇組件，然後長按「操作」鍵抓取。
+,"Select a component with the left stick, then hold the Interaction button to grab it.",Sélectionnez un élément avec le joystick gauche puis maintenez la touche d'Interaction pour le saisir.,使用左摇杆选中部件，然后长按互动按键抓住部件。,用左操作桿選擇組件，然後長按「互動」按鈕抓取。
+tuto.mecanisme.pad.3.xbox,"While holding down the button, move the component with the left stick to the desired position, then release.","Tout en maintenant la touche pressée, déplacez l'élément avec le stick analogique gauche jusqu'à la position désirée, puis relâchez.",长按按钮的同时，使用左摇杆将部件移到目标位置，然后松开按钮。,按住按鍵的同時，用左搖桿移動組件到所需位置，然後再放開。
+,"While holding down the Button, move the component with the Left Stick to the desired position, then release.","Tout en maintenant le bouton pressé, déplacez l'élément avec le stick gauche jusqu'à la position désirée, puis relâchez.",长按按键的同时，使用L摇杆将部件移到目标位置，然后松开按键。,按住按鍵的同時，用L操控搖桿移動組件到所需位置，然後再放開。
+,"While holding down the button, move the component with the left stick to the desired position, then release.","Tout en maintenant la touche pressée, déplacez l'élément avec le joystick gauche jusqu'à la position désirée, puis relâchez.",长按按键的同时，使用左操作杆将部件移到目标位置，然后松开按键。,按住按鈕的同時，用左操作桿移動組件到所需位置，然後再放開。
+abbaye.i10.cles,Keys,Clés,钥匙,鑰匙
+abbaye.i10.instruments,Instruments,Instruments,乐器,樂器
+abbaye.i10.potions,Potions,Potions,药水,藥水
+abbaye.i10.potions,Potions,Potions,药水,藥水
+abbaye.i10.vases,Vases,Vases,瓶子,陶器
+abbaye.i11.tympan,God's not dead!,Dieu n'est pas mort !,神未死！,天神不死！
+abbaye.i14.noteprecheur.1,I found the Lens.,J'ai trouvé la Loupe.,我寻得透镜。,我找到透鏡。
+abbaye.i14.noteprecheur.1,I found the Lens.,J'ai trouvé la Loupe.,我寻得透镜。,我找到透鏡。
+abbaye.i14.noteprecheur.2,The Lens found God!,La Loupe a trouvé Dieu !,透镜寻得神！,透鏡找到天神！
+abbaye.i14.noteprecheur.2,The Lens found God!,La Loupe a trouvé Dieu !,透镜寻得神！,透鏡找到天神！
+abbaye.i14.noteprecheur.3,I'm going to the Cemetery.,Je vais au Cimetière.,我将往墓园。,我要去墓園。
+abbaye.i14.noteprecheur.3,I'm going to the Cemetery.,Je vais au Cimetière.,我将往墓园。,我要去墓園。
+abbaye.i14.noteprecheur.4,I'm going up!,Je vais en haut !,我将往上！,我要到上面去！
+abbaye.i14.noteprecheur.4,I'm going up!,Je vais en haut !,我将往上！,我要到上面去！
+abbaye.i14.noteprecheur.5,The Preacher,Le Prêcheur,教士,傳道者
+abbaye.i14.noteprecheur.5,The Preacher,Le Prêcheur,教士,傳道者
+abbaye.i15.chapel.1,The Man looks at the Devotee.,L'Homme regarde le Dévot.,世人望信徒。,人看向朝覲者。
+abbaye.i15.chapel.1,The Man looks at the Devotee.,L'Homme regarde le Dévot.,世人望信徒。,人看向朝覲者。
+abbaye.i16.chapel.2,The Devotee looks at God.,Le Dévot regarde Dieu.,信徒望神。,朝覲者看向天神。
+abbaye.i16.chapel.2,The Devotee looks at God.,Le Dévot regarde Dieu.,信徒望神。,朝覲者看向天神。
+abbaye.i17.chapel.3,The Preacher talks to the Man.,Le Prêcheur parle à l'Homme.,教士语世人。,傳道者對著世人說話。
+abbaye.i17.chapel.3,The Preacher talks to the Man.,Le Prêcheur parle à l'Homme.,教士语世人。,傳道者對著世人說話。
+abbaye.i18.chapel.4,God looks at the Instrument.,Dieu regarde l'Instrument.,神望乐器。,天神看向樂器。
+abbaye.i18.chapel.4,God looks at the Instrument.,Dieu regarde l'Instrument.,神望乐器。,天神看向樂器。
+abbaye.i19.stele.1,You're seeking God?,Vous cherchez Dieu ?,你在寻神？,你在尋覓天神？
+abbaye.i19.stele.2,The Church will help you.,L’Église vous aidera.,教会可助你。,教堂能幫助你。
+abbaye.i1.close,Close door.,Fermer la porte.,闭门。,關門。
+abbaye.i1.close,Close door.,Fermer la porte.,闭门。,關門。
+abbaye.i1.close,Close door.,Fermer la porte.,闭门。,關門。
+abbaye.i1.close,Close door.,Fermer la porte.,闭门。,關門。
+abbaye.i1.close,Close door.,Fermer la porte.,闭门。,關門。
+abbaye.i1.close,Close door.,Fermer la porte.,闭门。,關門。
+abbaye.i1.close,Close door.,Fermer la porte.,闭门。,關門。
+abbaye.i1.open,Open door.,Ouvrir la porte.,开门。,開門。
+abbaye.i20.piece.1,God loves Men.,Dieu aime les hommes.,神爱世人。,天神愛眾人。
+abbaye.i20.piece.2,Devotees seek God.,Les dévots cherchent Dieu.,信徒寻神。,朝覲者尋覓天神。
+abbaye.i2.note,"Open, open, closed, open, closed, open.","Ouvert, ouvert, fermé, ouvert, fermé, ouvert.",开，开，闭，开，闭，开。,開，開，關，開，關，開。
+abbaye.i3.basrelief.1a,Men [unreadable],Les Hommes [illisible],世人[看不到字符],眾人 [無法辨識]
+abbaye.i3.basrelief.1b,'[unreadable] plants dying.','[illisible] les plantes meurent.','[看不到字符]植物亡。','[無法辨識] 植物 瀕臨死亡。'
+abbaye.i3.basrelief.2,God speaking to men.,Dieu parlant aux hommes.,神语世人。,天神對眾人說話。
+abbaye.i3.basrelief.2,God speaking to men.,Dieu parlant aux hommes.,神语世人。,天神對眾人說話。
+abbaye.i3.basrelief.3a,Men [unreadable],Les Hommes [illisible],世人[看不到字符],眾人 [無法辨識]
+abbaye.i3.basrelief.3a,Men [unreadable],Les Hommes [illisible],世人[看不到字符],眾人 [無法辨識]
+abbaye.i3.basrelief.3b,'[unreadable] Devotees.','[illisible] Dévots.','[看不到字符]信徒。','[無法辨識] 朝覲者。'
+abbaye.i3.basrelief.3b,'[unreadable] Devotees.','[illisible] Dévots.','[看不到字符]信徒。','[無法辨識] 朝覲者。'
+abbaye.i3.basrelief.4a,Devotees seeking God [unreadable],Les Dévots cherchant Dieu [illisible],信徒寻神[看不到字符],朝覲者 尋覓 天神 [無法辨識]
+abbaye.i3.basrelief.4a,Devotees seeking God [unreadable],Les Dévots cherchant Dieu [illisible],信徒寻神[看不到字符],朝覲者 尋覓 天神 [無法辨識]
+abbaye.i3.basrelief.4b,'[unreadable] up.','[illisible] en haut.','[看不到字符]在上。','[無法辨識] 上去。'
+abbaye.i3.basrelief.4b,'[unreadable] up.','[illisible] en haut.','[看不到字符]在上。','[無法辨識] 上去。'
+abbaye.i3.basrelief.5,Warriors closing the door.,Les Guerriers fermant la porte.,战士闭门。,戰士把門關上。
+abbaye.i3.basrelief.5,Warriors closing the door.,Les Guerriers fermant la porte.,战士闭门。,戰士把門關上。
+abbaye.i5.oeildieu,God sees us.,Dieu nous voit.,神见你我。,天神看著我們。
+abbaye.i6.bouchedieu,God talks to us.,Dieu nous parle.,神语你我。,天神對我們說話。
+abbaye.i7.maindieu,God loves us.,Dieu nous aime.,神爱你我。,天神愛我們。
+alchimiste.1,ME,MOI,我,我
+alchimiste.2,YOU,TOI,你,你
+alchimiste.3,ALCHEMIST,ALCHIMISTE,炼金术师,煉金術士
+alchimiste.4,BARD,BARDE,诗人,吟遊詩人
+alchimiste.5,WARRIOR,GUERRIER,战士,戰士
+alchimiste.6,FAIRY,FÉE,精灵,精靈
+alchimiste.7,MONSTER,MONSTRE,怪物,怪物
+alchimiste.8,BROTHER,FRÈRE,同胞,同胞
+alchimiste.9,TRANSFORM/TRANSFORMATION,TRANSFORMER/TRANSFORMATION,转化/变换/变态,質變/變化
+alchimiste.10,FIND,TROUVER,发现/找到,找
+alchimiste.11,CLOSE,FERMER/FERMÉ,关,關
+alchimiste.12,OPEN,OUVRIR/OUVERT,开,開
+alchimiste.13,HELP,AIDER,救/助,幫忙/協助
+alchimiste.14,MAKE,FAIRE/FABRIQUER,作/造,製作
+alchimiste.15,SEEK/WANT,CHERCHER/VOULOIR,寻找/希望,尋覓/想要
+alchimiste.16,MINE,MINE,矿场,礦場
+alchimiste.17,LIBRARY,BIBLIOTHÈQUE,图书馆,圖書館
+alchimiste.18,LABORATORY,LABORATOIRE,实验室,實驗室
+alchimiste.19,REFECTORY,RÉFECTOIRE,餐厅,食堂
+alchimiste.20,COPPER,CUIVRE,铜,銅
+alchimiste.21,GOLD,OR,金,金
+alchimiste.22,SILVER,ARGENT,银,銀
+alchimiste.23,CARBON,CARBONE,碳,碳
+alchimiste.24,PLURAL,PLURIEL,复数,（們）
+alchimiste.25,NOT,PAS,否定,不/否/非
+alchimiste.26,FIRE,FEU,火,火
+alchimiste.27,FEAR,PEUR,怕,恐懼/害怕
+alchimiste.28,DOOR,PORTE,门,門
+alchimiste.29,DEATH/DEAD,MORT,死亡,死亡
+alchimiste.30,FORMULA,FORMULE,配方,煉金配方
+alchimiste.31,PLANT,PLANTE,植物,植物
+alchimiste.32,BOOK,LIVRE,书,書本
+alchimiste.33,0,0,0,0
+alchimiste.34,1,1,1,1
+alchimiste.35,2,2,2,2
+alchimiste.36,3,3,3,3
+alchimiste.37,4,4,4,4
+alchimiste.38,5,5,5,5
+alchimiste.39,6,6,6,6
+alchimiste.40,7,7,7,7
+alchimiste.41,8,8,8,8
+alchimiste.42,9,9,9,9
+devot.27,ABBEY,ABBAYE,修院,隱修院
+devot.27,ABBEY,ABBAYE,修院,隱修院
+devot.27,ABBEY,ABBAYE,修院,隱修院
+devot.17,HELP,AIDER,救/助,幫忙/協助
+devot.17,HELP,AIDER,救/助,幫忙/協助
+devot.9,LOVE/LIKE,AIMER,喜/爱,喜歡/愛
+devot.9,LOVE/LIKE,AIMER,喜/爱,喜歡/愛
+devot.13,GO/PASS,ALLER/PASSER,过/走/去,前進/通過
+devot.16,SEEK/WANT,CHERCHER/VOULOIR,寻/欲,尋覓/想要
+devot.16,SEEK/WANT,CHERCHER/VOULOIR,寻/欲,尋覓/想要
+devot.26,CEMETERY,CIMETIÈRE,墓园,墓園
+devot.26,CEMETERY,CIMETIÈRE,墓园,墓園
+devot.26,CEMETERY,CIMETIÈRE,墓园,墓園
+devot.18,KEY,CLÉ,钥匙,鑰匙
+devot.18,KEY,CLÉ,钥匙,鑰匙
+devot.6,DEVOTEE,DÉVOT,信徒,朝覲者
+devot.6,DEVOTEE,DÉVOT,信徒,朝覲者
+devot.6,DEVOTEE,DÉVOT,信徒,朝覲者
+devot.6,DEVOTEE,DÉVOT,信徒,朝覲者
+devot.1,GOD,DIEU,神,天神
+devot.1,GOD,DIEU,神,天神
+devot.1,GOD,DIEU,神,天神
+devot.1,GOD,DIEU,神,天神
+devot.1,GOD,DIEU,神,天神
+devot.1,GOD,DIEU,神,天神
+devot.24,CHURCH,ÉGLISE,教堂/教会,教堂
+devot.24,CHURCH,ÉGLISE,教堂/教会,教堂
+devot.11,CLOSE,FERMER,闭,關
+devot.7,WARRIOR,GUERRIER,战士,戰士
+devot.7,WARRIOR,GUERRIER,战士,戰士
+devot.7,WARRIOR,GUERRIER,战士,戰士
+devot.7,WARRIOR,GUERRIER,战士,戰士
+devot.7,WARRIOR,GUERRIER,战士,戰士
+devot.22,UP/GREAT,HAUT,上/伟大,往上/崇高
+devot.28,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+devot.28,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+devot.28,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+devot.28,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+devot.28,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+devot.28,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+devot.30,INSTRUMENT,INSTRUMENT,乐器,樂器
+devot.25,GARDEN,JARDIN,植物园,植物園
+devot.25,GARDEN,JARDIN,植物园,植物園
+devot.32,FREE,LIBRE,自由,自由
+devot.4,ME,MOI,我,我
+devot.4,ME,MOI,我,我
+devot.3,DEATH/DEAD,MORT,死/亡/死亡,死亡
+devot.3,DEATH/DEAD,MORT,死/亡/死亡,死亡
+devot.10,OPEN,OUVRIR,开,開
+devot.12,TALK,PARLER,说,說話/交談
+devot.12,TALK,PARLER,说,說話/交談
+devot.2,NOT,PAS,否定,不/否/非
+devot.29,PLANT,PLANTE,植物,植物
+devot.29,PLANT,PLANTE,植物,植物
+devot.19,DOOR,PORTE,门,門
+devot.8,PREACHER,PRÊCHEUR,教士,傳道者
+devot.23,GREETINGS,SALUTATIONS,寒暄/告别,你好/再見
+devot.5,YOU,TOI,你,你
+devot.5,YOU,TOI,你,你
+devot.15,FIND,TROUVER,寻/得,找
+devot.15,FIND,TROUVER,寻/得,找
+devot.21,POT,VASE,罐子,陶罐
+devot.14,SEE/LOOK,VOIR/REGARDER,看,看/看見
+jardin.parc.2.1,"To play, you like.",Jouer tu aimes.,游乐，你之所爱。,玩，你會喜歡。
+jardin.parc.2.2,"To the Theatre, you go!","Au Théâtre, tu vas !",剧场者，你之所往！,劇院，你前往！
+jardin.parc.2.3,Greetings.,Salutations.,再见。,再見。
+jardin.parc.2.1,"To play, you like.",Jouer tu aimes.,游乐，你之所爱。,玩，你會喜歡。
+jardin.parc.2.2,"To the Theatre, you go!","Au Théâtre, tu vas !",剧场者，你之所往！,劇院，你前往！
+jardin.parc.2.3,Greetings.,Salutations.,再见。,再見。
+jardin.theatre.entree.1,"Comedy, do you like?","La Comédie, aimes-tu ?",喜剧，你爱乎？,滑稽劇，你喜歡？
+jardin.theatre.entree.2,"To the Theatre, you go!","Au Théâtre, tu vas !",剧场者，你之所往！,劇院，你前往！
+jardin.theatre.entree.2,"To the Theatre, you go!","Au Théâtre, tu vas !",剧场者，你之所往！,劇院，你前往！
+jardin.theatre.ascenseur,"To ascend, we want!","Monter, nous voulons !",登升者，我等之所欲！,上升，我們想要！
+jardin.avertissement.1.1,Greetings.,Salutations.,你好。,你好。
+jardin.avertissement.1.2,"A Warrior, you're not.","Un Guerrier, tu n’es pas.",战士者，你非也。,戰士，你不是。
+jardin.avertissement.1.3,"Ascend, do you want?","À monter, cherches-tu ?",登升者，你之所欲耶？,上升，你想要？
+jardin.avertissement.2.1,"Ascend, you don't.","Monter, tu ne feras pas.",登升者，你不可。,上升，你不能。
+jardin.avertissement.2.2,"The path, you won't find.","Le chemin, tu ne trouveras pas.",道者，非你之可得。,出路，你不會找到。
+jardin.avertissement.3.1,"To ascend, we don't want.","À monter, nous ne cherchons pas.",登升者，非我等之所求。,上升，我們不想要。
+jardin.avertissement.3.2,"Beauty, we found.","La Beauté, nous avons trouvé.",美，我等之所得。,美景，我們找到。
+jardin.avertissement.3.3,"Idiot, ascending is.","Idiot, monter est.",愚者，登升之行是也。,愚者，上升之人乃是。
+jardin.defi.1.1,"To ascend, you want?","À monter, cherches-tu ?",登升者，你之所求乎？,上升，你想要？
+jardin.defi.1.2,"The path, I have.","Le Chemin, je possède.",道者，我之所有。,出路，我有。
+jardin.defi.2.1,"Play, we will!","Jouer, nous allons !",乐者，我等可也！,玩，我們要來！
+jardin.defi.2.2,"The windmill, you'll climb.","Le Moulin, tu escaladeras.",风车磨坊，你将登之。,風車，你要攀上。
+jardin.defi.2.3,The fire you'll get.,"Le Feu, tu prendras.",火，你将寻之。,火，你會獲得。
+jardin.defi.2.4,The path you'll have.,"Le Chemin, tu auras.",道，你将得之。,出路，你會有。
+jardin.defi.3.1,"The fire, did you find?","Le Feu, as-tu trouvé ?",火，你得乎？,火，你有找到？
+jardin.defi.4.1,"Idiot, you are!","Idiot, tu es !",愚者，你是也！,愚者，你是！
+jardin.defi.4.2,"The path, I don't have.","Le Chemin, je n’ai pas !",道者，非我之所有。,出路，我沒有。
+jardin.defi.4.3,"Idiot, ascending is!","Idiot, monter est !",愚者，登升之行是也！,愚者，上升之人乃是！
+jardin.defi.4.4,Greetings.,Salutations.,再见。,再見。
+jardin.theatre.frere.1,"Brothers, we are!","Des frères, nous sommes !",兄弟者，我等是也！,同胞，我們是！
+jardin.theatre.frere.2,"My brother, I love!","Mon frère, j’aime !",我兄，我之所爱！,我的同胞，我愛！
+jardin.accueil.1,Hello!,Salutations !,你好！,你好！
+jardin.accueil.2,"A Warrior, are you?","Un Guerrier, es-tu ?",战士者，你是乎？,戰士，你是？
+jardin.accueil.3,"A Warrior, you're not.","Un Guerrier, tu n’es pas.",战士者，你非也。,戰士，你不是。
+jardin.accueil.4,"Weapons, Warriors have.","Des armes, les guerriers ont.",兵器，战士之所有。,武器，戰士有。
+jardin.accueil.5,"Idiots, Warriors are!","Idiots, les Guerriers sont !",愚人者，战士是也！,愚者，戰士是！
+jardin.prairie.boussole.1,"To ascend, you want?","Monter, tu veux ?",登升者，你之所求乎？,上升，你想要？
+jardin.prairie.boussole.2,"A compass, do you have?","Une boussole, as-tu ?",罗盘，你有乎？,指南針，你有？
+jardin.prairie.idiot.1,"To ascend, you want?","Monter, tu veux ?",登升者，你之所求乎？,上升，你想要？
+jardin.prairie.idiot.2,"Idiot, you are!","Idiot, tu es !",愚哉，你是也！,愚者，你是！
+jardin.mirroir.1,"Beauty, I love.","La beauté, j’aime.",美，我之所爱。,美景，我愛。
+jardin.mirroir.2,"Beauty, I am!","La beauté, je suis !",美者，我是也。,美景，我就是！
+jardin.peintre.1,Hello!,Salutations !,你好！,你好！
+jardin.peintre.2,"Bards, we are.","Des Bardes, nous sommes.",诗人者，我等是也。,吟遊詩人，我們是。
+jardin.peintre.3,"Beauty, we love.","La beauté, nous aimons.",美，我等之所爱。,美景，我們愛。
+jardin.peintre.4,"Beauty, do you love?","La beauté, aimes-tu ?",美，你之爱乎？,美景，你愛？
+jardin.balcon.1,Greetings.,Salutations.,你好。,你好。
+jardin.balcon.2,"Music, we love.","La musique, nous aimons.",音乐，我等之所爱。,音樂，我們愛。
+jardin.balcon.3,"An instrument, do you have?","Un instrument, as-tu ?",乐器，你有乎？,樂器，你有？
+jardin.monstre,"A monster, I am!","Un monstre, je suis !",怪物者，我是也！,怪物，我是！
+jardin.script.1,"To ascend, the Idiot Bard sought.","À monter, le Barde Idiot cherchait.",登升者，愚诗人之所求。,上升，愚者吟遊詩人想要。
+jardin.script.2,"The path, the Idiot Bard sought.","Le chemin, le Barde Idiot cherchait.",道者，愚诗人之所寻。,出路，愚者吟遊詩人尋覓。
+jardin.script.3,"The saw, he found.","La Scie, il trouva.",锯者，彼之所得。,鋸子，他找到。
+jardin.script.4,"West, he went.","Vers l’Ouest, il chemina.",西向，彼往。,西邊，他去往。
+jardin.script.5,"The instrument, he found.","L’instrument, il trouva.",乐器者，彼之所得。,樂器，他找到。
+jardin.script.6,"North, he went.","Vers le Nord, il chemina.",北向，彼往。,北邊，他去往。
+jardin.script.7,"The fire, he found.","Le Feu, il trouva.",火者，彼之所得。,火，他找到。
+jardin.script.8,"East, he went.","Vers l’Est, il chemina.",东向，彼往。,東邊，他去往。
+jardin.script.9,"The compass, he found.","La Boussole, il trouva.",罗盘，彼之所得。,指南針，他找到。
+jardin.script.10,"South, he went.","Vers le Sud, il chemina.",南向，彼往。,南邊，他去往。
+jardin.script.11,The weapon he found.,"L’Arme, il trouva.",兵器，彼之所得。,武器，他找到。
+jardin.script.12,"West, he went.","Vers l’Ouest, il chemina.",西向，彼往。,西邊，他去往。
+jardin.script.13,"The path, the Idiot Bard found.","Le chemin, le Barde Idiot trouva.",道者，愚诗人之所得。,出路，愚者吟遊詩人找到。
+jardin.script.14,"The Idiot Bard, the monster found!","Le Barde Idiot, le Monstre trouva !",愚诗人，怪物之所得！,愚者吟遊詩人，怪物找到！
+jardin.script.14,"The Idiot Bard, the monster found!","Le Barde Idiot, le Monstre trouva !",愚诗人，怪物之所得！,愚者吟遊詩人，怪物找到！
+jardin.boussole.1,Compass mine!,Boussole mienne !,罗盘乃我所有！,指南針，我的！
+jardin.boussole.2,Compass mine!,Boussole mienne !,罗盘乃我所有！,指南針，我的！
+jardin.boussole.3,"The compass, can you get?","La Boussole, peux-tu chercher ?",罗盘，你可寻乎？,指南針，你能尋覓得？
+jardin.marteau.1,"A hammer, I miss!","Un marteau, il me manque !",锤，我未得也！,錘子，我弄丟！
+jardin.marteau.2,"A hammer, can you get?","Un marteau, peux-tu chercher ?",锤，你可寻乎？,錘子，你能尋覓得？
+jardin.marteau.1,"A hammer, I miss!","Un marteau, il me manque !",锤，我未得也！,錘子，我弄丟！
+jardin.marteau.3,Greetings.,Salutations.,你好。,你好。
+jardin.marteau.4,"A brother, you are.","Un frère, tu es.",兄弟者，你也。,同胞，你是。
+jardin.marteau.5,"Go, you can.","Aller, tu peux.",可去矣，你也。,通行，你可以。
+jardin.parc.1.1,"Comedy, do you like?","La comédie, aimes-tu ?",喜剧，你爱乎？,滑稽劇，你喜歡？
+jardin.parc.1.2,"Play, you will!","Jouer, tu vas !",游乐，你可也！,玩，你來！
+abbaye.bonjour,Hello!,Bonjour !,你好！,你好！
+barde.1,ME,MOI,我,我
+barde.2,YOU,TOI,你,你
+barde.3,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+barde.4,BARD,BARDE,诗人,吟遊詩人
+barde.5,WARRIOR,GUERRIER,战士,戰士
+barde.6,MONSTER,MONSTRE,怪物,怪物
+barde.7,ASCEND,MONTER,攀登/上升,上升
+barde.8,PLAY,JOUER,游戏/奏乐,玩/彈奏
+barde.9,GO/PASS,ALLER/PASSER,过/走/去/来,前進/通過
+barde.10,LOVE/LIKE,AIMER,喜/爱,喜歡/愛
+barde.11,CARRY/POSSESS,PORTER/POSSÉDER,携/运/操,拿起/攜帶
+barde.12,BE,ÊTRE,是,是
+barde.13,SEEK/WANT,CHERCHER/VOULOIR,寻/欲/求,尋覓/想要
+barde.14,FIND,TROUVER,寻得/得,找
+barde.15,BOOK,LIVRE,书,書本
+barde.16,INSTRUMENT,INSTRUMENT,乐器,樂器
+barde.17,BEAUTY,BEAUTÉ,美,美景
+barde.18,SAW,SCIE,锯,鋸子
+barde.19,FIRE,FEU,火,火
+barde.20,HAMMER,MARTEAU,锤,錘子
+barde.21,PATH,CHEMIN,道路,路徑
+barde.22,COMPASS,BOUSSOLE,罗盘,指南針
+barde.23,WEAPON,ARME,兵器,武器
+barde.24,MUSIC,MUSIQUE,音乐,音樂
+barde.25,COMEDY,COMÉDIE,喜剧,滑稽劇
+barde.26,BROTHER,FRÈRE,兄/弟/兄弟,同胞
+barde.27,PLIERS,PINCE,剪,鉗子
+barde.28,IDIOT,IDIOT,愚人,愚者
+barde.29,FREE,LIBRE,自由,自由
+barde.30,NORTH,NORD,北,北
+barde.31,ABBEY,ABBAYE,修院,隱修院
+barde.32,EAST,EST,东,東
+barde.33,WEST,OUEST,西,西
+barde.34,AGORA,AGORA,阿哥拉,市民廣場
+barde.35,FORTRESS,FORTERESSE,城堡,要塞
+barde.36,SOUTH,SUD,南,南
+barde.37,THEATRE,THÉÂTRE,剧场,劇院
+barde.38,WINDMILL,MOULIN,风车磨坊,風車
+barde.39,GREETINGS,SALUTATIONS,寒暄/告别,你好/再見
+barde.40,PLURAL,PLURIEL,复数,（們）
+barde.41,QUESTION,QUESTION,疑问,問號
+barde.42,NOT,PAS,否定,不/否/非
+fort.tapisserie.appel,The Call,L’appel,召唤,召喚
+fort.tapisserie.appel,The Call,L’appel,召唤,召喚
+fort.tapisserie.devoir,The Duty,Le Devoir,天责,天職
+fort.tapisserie.elus,The Chosen Ones,Les Élus,神选之人,天選者
+fort.tapisserie.elus,The Chosen Ones,Les Élus,神选之人,天選者
+fort.tapisserie.forteresse,The Warriors building the Fortress.,Les Guerriers construisant la Forteresse.,战士筑城堡。,戰士建造要塞。
+fort.tapisserie.forteresse,The Warriors building the Fortress.,Les Guerriers construisant la Forteresse.,战士筑城堡。,戰士建造要塞。
+fort.tapisserie.impurs,The Impure Ones,Les Impurs,不洁之人,不潔者
+fort.graffiti,Bellman loves the bottle!,Le Sonneur aime la bouteille !,撞钟人喜瓶！,敲鐘人愛酒瓶！
+fort.statue.elu.1,The Warrior carries a weapon.,Le Guerrier porte une arme.,战士操兵器。,戰士攜帶武器。
+fort.statue.elu.2,The Warrior does not fear death.,Le Guerrier ne craint pas la Mort.,战士不惧死亡。,戰士們無懼死亡。
+fort.statue.elu.3,The Chosen carries an instrument.,L’Élu porte un instrument.,神选之人操乐器。,天選者攜帶樂器。
+fort.plateforme,The instrument creates the music.,L’instrument crée la musique.,乐器作音乐。,樂器創造音樂。
+fort.plateforme,The instrument creates the music.,L’instrument crée la musique.,乐器作音乐。,樂器創造音樂。
+fort.elus,Chosen Ones,Élus,神选之人,天選者
+fort.elus,Chosen Ones,Élus,神选之人,天選者
+fort.elus,Chosen Ones,Élus,神选之人,天選者
+fort.specialiste.pierre,The Scientists [unreadable],Les Scientifiques [illisible],学者[看不到字符],科學家們 [無法辨識]
+rosette.devot.guerrier.2.1,'[unreadable] searches [unreadable]','[illisible] cherche [illisible]','[看不到字符]寻[看不到字符]','[無法辨識] 尋覓 [無法辨識]'
+rosette.devot.guerrier.2.2,'[unreadable] to help [unreadable]','[illisible] pour aider [illisible]','[看不到字符]助[看不到字符]','[無法辨識] 幫助 [無法辨識]'
+rosette.guerrier.devot.2.1,The Scientist searches [unreadable],Le Scientifique cherche [illisible],学者寻[看不到字符],科學家 尋覓 [無法辨識]
+rosette.guerrier.devot.2.2,'[unreadable] to help [unreadable]','[illisible] pour aider [illisible]','[看不到字符]助[看不到字符]','[無法辨識] 幫助 [無法辨識]'
+rosette.devot.guerrier.1,Warriors don't like death.,Les guerriers n’aiment pas la mort.,战士不喜死亡。,戰士不喜歡死亡。
+rosette.devot.guerrier.2,Death loves Warriors.,La mort aime les guerriers.,死亡爱战士。,死亡愛戰士。
+rosette.devot.guerrier.1,Warriors don't like death.,Les guerriers n’aiment pas la mort.,战士不喜死亡。,戰士不喜歡死亡。
+rosette.devot.guerrier.2,Death loves Warriors.,La mort aime les guerriers.,死亡爱战士。,死亡愛戰士。
+fort.grimoire.elus,Call of the Chosen Ones,L’appel des Élus,神选之人之召唤,天選者召喚
+fort.grimoire.elus.seq,"BALANCE, INSTRUMENT, KEY, VESSEL, KEY","BALANCE, INSTRUMENT, CLÉ, VAISSEAU, CLÉ",天平、乐器、钥匙、船、钥匙,天平，樂器，鑰匙，船隻，鑰匙
+fort.grimoire.devoir,Call of Duty,L’appel du Devoir,天责之召唤,天職召喚
+fort.grimoire.devoir.seq,"KEY, VESSEL, BALANCE, INSTRUMENT,VESSEL","CLÉ, VAISSEAU, BALANCE, INSTRUMENT,VAISSEAU",钥匙、船、天平、乐器、船,鑰匙，船隻，天平，樂器，船隻
+fort.grimoire.lune,Call of the Moon,L’appel de la Lune,月之召唤,月之召喚
+fort.grimoire.lune.seq,"INSTRUMENT, INSTRUMENT, KEY, BALANCE, VESSEL","INSTRUMENT, INSTRUMENT, CLÉ, BALANCE, VAISSEAU",乐器、乐器、钥匙、天平、船,樂器，樂器，鑰匙，天平，船隻
+fort.grimoire.soleil,Call of the Sun,L’appel du Soleil,日之召唤,日之召喚
+fort.grimoire.soleil.seq,"VESSEL, BALANCE, BALANCE, INSTRUMENT, INSTRUMENT","VAISSEAU, BALANCE, BALANCE, INSTRUMENT, INSTRUMENT",船、天平、天平、乐器、乐器,船隻，天平，天平，樂器，樂器
+fort.statue.porter,The Warrior carries the Duty.,Le Guerrier porte le Devoir.,战士身负天责。,戰士肩負天職。
+fort.statue.porter,The Warrior carries the Duty.,Le Guerrier porte le Devoir.,战士身负天责。,戰士肩負天職。
+fort.statue.pousser,The Warrior pushes back the Impure.,Le Guerrier repousse l’Impur.,战士拒不洁之人。,戰士擊退不潔者。
+fort.statue.pousser,The Warrior pushes back the Impure.,Le Guerrier repousse l’Impur.,战士拒不洁之人。,戰士擊退不潔者。
+fort.statue.proteger,The Warrior protects the Chosen.,Le Guerrier protège l’Élu.,战士护神选之人。,戰士保護天選者。
+fort.statue.proteger,The Warrior protects the Chosen.,Le Guerrier protège l’Élu.,战士护神选之人。,戰士保護天選者。
+fort.bouteilles,Bottles,Bouteilles,瓶,瓶子
+fort.bouteilles,Bottles,Bouteilles,瓶,瓶子
+fort.caisses,Crates,Caisses,箱,箱子
+fort.armurerie,Weapons,Armes,兵器,武器
+fort.armurerie,Weapons,Armes,兵器,武器
+fort.armurerie,Weapons,Armes,兵器,武器
+fort.devise.1,The Warriors await the call of the Chosen Ones.,Les guerriers attendent l’appel des élus.,战士待神选之人召唤。,戰士們等待天選者的召喚。
+fort.devise.2,The Impure Ones await death.,Les Impurs attendent la mort.,不洁之人待死亡。,不潔者等待死亡。
+guerrier.35,HELP,AIDER,救/助,幫忙/協助
+guerrier.2,GO/PASS,ALLER,过/走/去/来,前進/通過
+guerrier.2,GO/PASS,ALLER,过/走/去/来,前進/通過
+guerrier.5,WAIT,ATTENDRE,待/候,等待
+guerrier.5,WAIT,ATTENDRE,待/候,等待
+guerrier.36,SEEK/WANT,CHERCHER/VOULOIR,寻/欲,尋覓/想要
+guerrier.26,KEY,CLÉ,钥匙,鑰匙
+guerrier.10,DUTY,DEVOIR,天责,天職
+guerrier.10,DUTY,DEVOIR,天责,天職
+guerrier.10,DUTY,DEVOIR,天责,天職
+guerrier.10,DUTY,DEVOIR,天责,天職
+guerrier.10,DUTY,DEVOIR,天责,天職
+guerrier.10,DUTY,DEVOIR,天责,天職
+guerrier.31,MAKE/CREATE,FABRIQUER/CRÉER,作/造,製作/建造/創造
+guerrier.12,FORTRESS,FORTERESSE,城堡,要塞
+guerrier.12,FORTRESS,FORTERESSE,城堡,要塞
+guerrier.14,WARRIOR,GUERRIER,战士,戰士
+guerrier.17,MOON,LUNE,月,月亮
+guerrier.18,DEATH,MORT,死亡,死亡
+guerrier.19,NOT,PAS,否定,不/否/非
+guerrier.33,FEAR,PEUR,怕/惧,恐懼/害怕
+guerrier.21,PLURAL,PLURIEL,复数,（們）
+guerrier.28,SUN,SOLEIL,日,太陽
+guerrier.29,BELLMAN,SONNEUR,撞钟人,敲鐘人
+guerrier.30,TREASURE,TRÉSOR,宝藏,寶藏
+guerrier.30,TREASURE,TRÉSOR,宝藏,寶藏
+guerrier.30,TREASURE,TRÉSOR,宝藏,寶藏
+guerrier.30,TREASURE,TRÉSOR,宝藏,寶藏
+guerrier.30,TREASURE,TRÉSOR,宝藏,寶藏
+fort.chariot.aller,"Warrior, push the trolley!","Guerrier, pousse le chariot !",战士，推推车！,戰士，推動手推車！
+fort.chariot.aller,"Warrior, push the trolley!","Guerrier, pousse le chariot !",战士，推推车！,戰士，推動手推車！
+fort.chariot.attendre,"Warrior, wait!","Guerrier, en attente !",战士，且慢！,戰士，稍息！
+fort.ordre.poser,Lay the crates.,Posez les caisses.,放下箱子。,放下箱子。
+jardin.chemin.agora,Path to Agora,Chemin vers l’Agora,往阿哥拉之路,通往市民廣場之徑
+jardin.chemin.agora,Path to Agora,Chemin vers l’Agora,往阿哥拉之路,通往市民廣場之徑
+jardin.chemin.agora,Path to Agora,Chemin vers l’Agora,往阿哥拉之路,通往市民廣場之徑
+jardin.chemin.agora,Path to Agora,Chemin vers l’Agora,往阿哥拉之路,通往市民廣場之徑
+jardin.chemin.agora,Path to Agora,Chemin vers l’Agora,往阿哥拉之路,通往市民廣場之徑
+barde.20,HAMMER,MARTEAU,锤,錘子
+jardin.chemin.moulin,Path to Windmill,Chemin vers le Moulin,往风车磨坊之路,通往風車之徑
+jardin.chemin.moulin,Path to Windmill,Chemin vers le Moulin,往风车磨坊之路,通往風車之徑
+jardin.chemin.moulin,Path to Windmill,Chemin vers le Moulin,往风车磨坊之路,通往風車之徑
+jardin.chemin.moulin,Path to Windmill,Chemin vers le Moulin,往风车磨坊之路,通往風車之徑
+jardin.pinces,Clamps,Pinces,夹钳,鉗子
+jardin.chemin.theatre,Path to Theatre,Chemin vers le Théâtre,往剧场之路,通往劇院之徑
+jardin.chemin.theatre,Path to Theatre,Chemin vers le Théâtre,往剧场之路,通往劇院之徑
+jardin.chemin.theatre,Path to Theatre,Chemin vers le Théâtre,往剧场之路,通往劇院之徑
+jardin.chemin.theatre,Path to Theatre,Chemin vers le Théâtre,往剧场之路,通往劇院之徑
+jardin.chemin.theatre,Path to Theatre,Chemin vers le Théâtre,往剧场之路,通往劇院之徑
+jardin.chemin.theatre,Path to Theatre,Chemin vers le Théâtre,往剧场之路,通往劇院之徑
+jardin.script.0,The Idiot Bard,Le Barde Idiot,愚诗人,愚者吟遊詩人
+jardin.script.0,The Idiot Bard,Le Barde Idiot,愚诗人,愚者吟遊詩人
+jardin.script.1,"To ascend, the Idiot Bard sought.","À monter, le Barde Idiot cherchait.",登升者，愚诗人之所求。,上升，愚者吟遊詩人想要。
+jardin.script.10,"South, he went.","Vers le Sud, il chemina.",南向，彼往。,南邊，他去往。
+jardin.script.10,"South, he went.","Vers le Sud, il chemina.",南向，彼往。,南邊，他去往。
+jardin.script.11,The weapon he found.,"L’Arme, il trouva.",兵器，彼之所得。,武器，他找到。
+jardin.script.11,The weapon he found.,"L’Arme, il trouva.",兵器，彼之所得。,武器，他找到。
+jardin.script.12,"West, he went.","Vers l’Ouest, il chemina.",西向，彼往。,西邊，他去往。
+jardin.script.12,"West, he went.","Vers l’Ouest, il chemina.",西向，彼往。,西邊，他去往。
+jardin.script.13,"The path, the Idiot Bard found.","Le chemin, le Barde Idiot trouva.",道者，愚诗人之所得。,出路，愚者吟遊詩人找到。
+jardin.script.13,"The path, the Idiot Bard found.","Le chemin, le Barde Idiot trouva.",道者，愚诗人之所得。,出路，愚者吟遊詩人找到。
+jardin.script.13,"The path, the Idiot Bard found.","Le chemin, le Barde Idiot trouva.",道者，愚诗人之所得。,出路，愚者吟遊詩人找到。
+jardin.script.14,"The Idiot Bard, the monster found!","Le Barde Idiot, le Monstre trouva !",愚诗人，怪物之所得！,愚者吟遊詩人，怪物找到！
+jardin.script.14,"The Idiot Bard, the monster found!","Le Barde Idiot, le Monstre trouva !",愚诗人，怪物之所得！,愚者吟遊詩人，怪物找到！
+jardin.script.1,"To ascend, the Idiot Bard sought.","À monter, le Barde Idiot cherchait.",登升者，愚诗人之所求。,上升，愚者吟遊詩人想要。
+jardin.script.2,"The path, the Idiot Bard sought.","Le chemin, le Barde Idiot cherchait.",道者，愚诗人之所寻。,出路，愚者吟遊詩人尋覓。
+jardin.script.2,"The path, the Idiot Bard sought.","Le chemin, le Barde Idiot cherchait.",道者，愚诗人之所寻。,出路，愚者吟遊詩人尋覓。
+jardin.script.2,"The path, the Idiot Bard sought.","Le chemin, le Barde Idiot cherchait.",道者，愚诗人之所寻。,出路，愚者吟遊詩人尋覓。
+jardin.script.3,"The saw, he found.","La Scie, il trouva.",锯者，彼之所得。,鋸子，他找到。
+jardin.script.3,"The saw, he found.","La Scie, il trouva.",锯者，彼之所得。,鋸子，他找到。
+jardin.script.3,"The saw, he found.","La Scie, il trouva.",锯者，彼之所得。,鋸子，他找到。
+jardin.script.4,"West, he went.","Vers l’Ouest, il chemina.",西向，彼往。,西邊，他去往。
+jardin.script.4,"West, he went.","Vers l’Ouest, il chemina.",西向，彼往。,西邊，他去往。
+jardin.script.4,"West, he went.","Vers l’Ouest, il chemina.",西向，彼往。,西邊，他去往。
+jardin.script.5,"The instrument, he found.","L’instrument, il trouva.",乐器者，彼之所得。,樂器，他找到。
+jardin.script.5,"The instrument, he found.","L’instrument, il trouva.",乐器者，彼之所得。,樂器，他找到。
+jardin.script.5,"The instrument, he found.","L’instrument, il trouva.",乐器者，彼之所得。,樂器，他找到。
+jardin.script.6,"North, he went.","Vers le Nord, il chemina.",北向，彼往。,北邊，他去往。
+jardin.script.6,"North, he went.","Vers le Nord, il chemina.",北向，彼往。,北邊，他去往。
+jardin.script.6,"North, he went.","Vers le Nord, il chemina.",北向，彼往。,北邊，他去往。
+jardin.script.7,"The fire, he found.","Le Feu, il trouva.",火者，彼之所得。,火，他找到。
+jardin.script.7,"The fire, he found.","Le Feu, il trouva.",火者，彼之所得。,火，他找到。
+jardin.script.8,"East, he went.","Vers l’Est, il chemina.",东向，彼往。,東邊，他去往。
+jardin.script.8,"East, he went.","Vers l’Est, il chemina.",东向，彼往。,東邊，他去往。
+jardin.script.9,"The compass, he found.","La Boussole, il trouva.",罗盘，彼之所得。,指南針，他找到。
+jardin.script.9,"The compass, he found.","La Boussole, il trouva.",罗盘，彼之所得。,指南針，他找到。
+jardin.livres,Books,Livres,书,書本
+jardin.livres,Books,Livres,书,書本
+rosette.guerrier.barde.1,"Pass, Bards can.","Passer, les Bardes peuvent.",通过者，诗人可也。,通行，吟遊詩人可以。
+rosette.guerrier.barde.2,"Pass, Warriors cannot.","Passer, les Guerriers ne peuvent.",通过者，战士不可。,通行，戰士不可以。
+rosette.barde.guerrier.1,The Chosen Ones pass.,Les Élus passent.,神选之人得过。,天選者可以通行。
+rosette.barde.guerrier.2,Warriors don't pass.,Les Guerriers ne passent pas.,战士不得过。,戰士不可以通行！
+jardin.chemin.monter,Way Up,Chemin vers le haut,登升之路,向上之路
+jardin.chemin.monter,Way Up,Chemin vers le haut,登升之路,向上之路
+jardin.chemin.monter,Way Up,Chemin vers le haut,登升之路,向上之路
+jardin.chemin.monter,Way Up,Chemin vers le haut,登升之路,向上之路
+jardin.chemin.monter,Way Up,Chemin vers le haut,登升之路,向上之路
+jardin.taptap,Find the idiot!,Trouve l’idiot !,寻得愚人！,找到愚者！
+jardin.tract,"To be free, we want!","Être libres, nous voulons !",自由之身，我等所求！,自由身，我們想要！
+jardin.graffiti,Free!,Libre !,自由！,自由！
+rosette.triple.barde.1,"Free, the Men of the Abbey are.","Libres, les Hommes de l’Abbaye sont.",自由之身，凡人入修院方得。,自由了，隱修院的眾人。
+rosette.triple.barde.2,The Men of the Fortress [unreadable],Les Hommes de la Forteresse [illisible],凡人入城堡[看不到字符],要塞的 眾人 [無法辨識]
+rosette.triple.devot.1,The Men of the Abbey are free.,Les Hommes de L’Abbaye sont libres.,凡人入修院方得自由之身。,隱修院的眾人自由了。
+rosette.triple.devot.2,The Men [unreadable],Les Hommes [illisible],凡人[看不到字符],眾人 [無法辨識]
+rosette.triple.guerrier,'[unreadable] of the Fortress [unreadable]','[illisible] de la Forteresse [illisible]','[看不到字符]城堡[看不到字符]',要塞的 [無法辨識] [無法辨識]
+jardin.theatre.1.1,"Beauty, the Bards love.","La beauté, les Bardes aiment.",美，诗人之所爱。,美景，吟遊詩人愛。
+jardin.theatre.1.2,"Weapons, the Warriors love.","Les armes, les Guerriers aiment.",兵器，战士之所爱。,武器，戰士愛。
+jardin.theatre.1.3,"Stupid, Warriors are!","Idiots, les Guerriers sont !",愚者，战士是也！,笨蛋，戰士是！
+jardin.theatre.2.1,"Seeking, I'm not.","Rien, je ne cherche.",寻索，非我之所为。,尋覓，我沒有。
+jardin.theatre.2.2,"Beauty, I found.","Beauté, j’ai trouvé.",美，我之所寻得。,美景，我找到。
+jardin.theatre.2.3,"A Bard, I am.","Un Barde, je suis.",诗人者，我是也。,吟遊詩人，我是。
+jardin.theatre.3.1,"A weapon, the Warrior carries.","Une arme, le Guerrier porte.",兵器，战士之所操。,武器，戰士攜帶。
+jardin.theatre.3.2,"A saw, the idiot carries.","Une scie, l’Idiot porte.",锯，愚人之所操。,鋸子，愚者攜帶。
+jardin.theatre.3.3,"An instrument, the Bard carries.","Un Instrument, le Barde porte.",乐器，诗人之所操。,樂器，吟遊詩人攜帶。
+barde.17,BEAUTY,BEAUTÉ,美,美景
+barde.25,COMEDY,COMÉDIE,喜剧,滑稽劇
+barde.24,MUSIC,MUSIQUE,音乐,音樂
+rosette.barde.devot.1,"You, I sought.","Toi, j’ai cherché.",你为我所寻。,你，我尋覓。
+rosette.barde.devot.2,"Me, you found.","Moi, tu as trouvé.",我为你所寻得。,我，你找到。
+rosette.devot.barde.1,I sought you.,Je t’ai cherché.,我寻你。,我尋覓你。
+rosette.devot.barde.2,You found me.,Tu m’as trouvé.,你已寻得我。,你找到我。
+jardin.lutherie,Instruments,Instruments,乐器,樂器
+barde.34,AGORA,AGORA,阿哥拉,市民廣場
+barde.31,ABBEY,ABBAYE,修院,隱修院
+barde.34,AGORA,AGORA,阿哥拉,市民廣場
+barde.9,GO/PASS,ALLER/PASSER,过/走/去/来,前進/通過
+barde.13,SEEK/WANT,CHERCHER/VOULOIR,寻/欲/求,尋覓/想要
+barde.32,EAST,EST,东,東
+barde.35,FORTRESS,FORTERESSE,城堡,要塞
+barde.3,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+barde.1,ME,MOI,我,我
+barde.7,ASCEND,MONTER,攀登/上升,上升
+barde.30,NORTH,NORD,北,北
+barde.30,NORTH,NORD,北,北
+barde.33,WEST,OUEST,西,西
+barde.42,NOT,PAS,否定,不/否/非
+barde.40,PLURAL,PLURIEL,复数,（們）
+barde.36,SOUTH,SUD,南,南
+barde.36,SOUTH,SUD,南,南
+barde.37,THEATRE,THÉÂTRE,剧场,劇院
+barde.37,THEATRE,THÉÂTRE,剧场,劇院
+barde.37,THEATRE,THÉÂTRE,剧场,劇院
+barde.2,YOU,TOI,你,你
+barde.14,FIND,TROUVER,寻得/得,找
+fort.ordre.aller.guerrier,"Warrior, march!","Guerrier, en marche !",战士，行进！,戰士，前進！
+fort.ordre.aller.guerrier,"Warrior, march!","Guerrier, en marche !",战士，行进！,戰士，前進！
+fort.ordre.poser.arme,"Warrior, lay your weapon!","Guerrier, pose ton arme !",战士，放下兵器！,戰士，放下武器！
+fort.ordre.poser.bouteille,Lay the bottle.,Pose la bouteille.,放下瓶子。,放下瓶子。
+fort.ordre.poser.caisse,Lay the crate.,Pose la caisse.,放下箱子。,放下箱子。
+fort.capitaine.aller,"Warriors, march!","Guerriers, en marche!",诸战士，行进！,戰士們，前進！
+fort.ordre.aller,Go to the trolley.,Allez au chariot.,行至推车旁。,去手推車那邊。
+fort.ordre.bouteille,Carry the bottle.,Porte la bouteille.,携瓶子。,拿起瓶子。
+fort.ordre.grande,Carry the big crate.,Porte la grande caisse.,携大箱。,拿起大箱子。
+fort.ordre.grande,Carry the big crate.,Porte la grande caisse.,携大箱。,拿起大箱子。
+fort.ordre.petite,Carry the little crate.,Porte la petite caisse.,携小箱。,拿起小箱子。
+fort.ordre.petite,Carry the little crate.,Porte la petite caisse.,携小箱。,拿起小箱子。
+fabrique.laborantin.1.1,We're seeking the formula.,Nous cherchons la formule.,我们正在寻找配方。,我們在尋覓煉金配方。
+fabrique.laborantin.1.2,We're seeking transformation.,Nous cherchons la Transformation.,我们寻索转化。,我們在尋覓質變。
+fabrique.laborantin.2.1,The Fairies made the door.,Les Fées créèrent la Porte.,精灵砌成了大门。,精靈建造了門。
+fabrique.laborantin.2.2,Transformation will open the door.,La Transformation ouvrira la Porte.,转化可以开门。,質變會開啟門。
+fabrique.mineur,"You, help me!","Toi, aide-moi !",你，救我！,你，幫幫我！
+fabrique.alchimiste.niveau1.1,I am an Alchemist.,Je suis un Alchimiste.,我是炼金术师。,我是煉金術士。
+fabrique.alchimiste.niveau1.2,Can I help you?,Puis-je t’aider ?,要我帮你吗？,我能幫到你嗎？
+fabrique.alchimiste.niveau2.1,I find 7.,J’en trouve 7.,我找到了7个。,我找到7。
+fabrique.alchimiste.niveau2.2,I need 9.,Il m’en faut 9.,我需要9个。,我需要9。
+fabrique.alchimiste.foyer.1,Refectory is closed.,Le Réfectoire est fermé.,餐厅关门了。,食堂關了。
+fabrique.alchimiste.foyer.2,Refectory opens at 4.,Le Réfectoire ouvre à 4h.,餐厅4点开门。,食堂於4點鐘開放。
+fabrique.alchimiste.foyer.1,Refectory is closed.,Le Réfectoire est fermé.,餐厅关门了。,食堂關了。
+fabrique.alchimiste.foyer.3,Refectory opens at 8.,Le Réfectoire ouvre à 8h.,餐厅8点开门。,食堂於8點鐘開放。
+fabrique.alchimiste.foyer.1,Refectory is closed.,Le Réfectoire est fermé.,餐厅关门了。,食堂關了。
+fabrique.alchimiste.foyer.4,Refectory opens at 0.,Le Réfectoire ouvre à 0h.,餐厅0点开门。,食堂於0點鐘開放。
+fabrique.alchimiste.refectoire,Refectory is open!,Le Réfectoire est ouvert !,餐厅开门啦！,食堂開了！
+fabrique.alchimiste.bibliotheque,Are you searching for a book?,Tu cherches un livre ?,你在找书吗？,你在找書嗎？
+fabrique.alchimiste.lecture,I found a book about Bards!,J’ai trouvé un livre sur les Bardes !,我找到了一本书，和诗人有关！,我找到一本關於吟遊詩人的書！
+devot.1,GOD,DIEU,神,天神
+devot.2,NOT,PAS,否定,不/否/非
+devot.3,DEATH/DEAD,MORT,死/亡/死亡,死亡
+devot.4,ME,MOI,我,我
+devot.5,YOU,TOI,你,你
+devot.6,DEVOTEE,DÉVOT,信徒,朝覲者
+devot.7,WARRIOR,GUERRIER,战士,戰士
+devot.8,PREACHER,PRÊCHEUR,教士,傳道者
+devot.9,LOVE/LIKE,AIMER,喜/爱,喜歡/愛
+devot.10,OPEN,OUVRIR,开,開
+devot.11,CLOSE,FERMER,闭,關
+devot.12,TALK,PARLER,说,說話/交談
+devot.13,GO/PASS,ALLER/PASSER,过/走/去,前進/通過
+devot.14,SEE/LOOK,VOIR/REGARDER,看,看/看見
+devot.15,FIND,TROUVER,寻/得,找
+devot.16,SEEK/WANT,CHERCHER/VOULOIR,寻/欲,尋覓/想要
+devot.17,HELP,AIDER,救/助,幫忙/協助
+devot.18,KEY,CLÉ,钥匙,鑰匙
+devot.19,DOOR,PORTE,门,門
+devot.20,LENS,LOUPE,透镜,透鏡
+devot.21,POT,VASE,罐子,陶罐
+devot.22,UP/GREAT,HAUT,上/伟大,往上/崇高
+devot.23,GREETINGS,SALUTATIONS,寒暄/告别,你好/再見
+devot.24,CHURCH,ÉGLISE,教堂/教会,教堂
+devot.25,GARDEN,JARDIN,植物园,植物園
+devot.26,CEMETERY,CIMETIÈRE,墓园,墓園
+devot.27,ABBEY,ABBAYE,修院,隱修院
+devot.28,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+devot.29,PLANT,PLANTE,植物,植物
+devot.30,INSTRUMENT,INSTRUMENT,乐器,樂器
+devot.31,MUSIC,MUSIQUE,音乐,音樂
+devot.32,FREE,LIBRE,自由,自由
+devot.33,POTION,POTION,药水,藥水
+devot.34,MAKE/CREATE,FAIRE/CRÉER,作/造,製作/建造/創造
+fabrique.livres,Books,Livres,书,書本
+fabrique.fees.consruisent,The Fairies building the door.,Les Fées construisant la Porte.,精灵正在砌门。,精靈建造了門。
+fabrique.alchimistes,Alchemists,Alchimistes,炼金术师,煉金術士
+fabrique.bardes,Bards,Bardes,诗人,吟遊詩人
+fabrique.freres,Brothers,Frères,同胞,同胞
+fabrique.creer.feu,Creating fire,Créer du feu,生火,生火
+rosette.alchimiste.barde.1,You seek.,Vous cherchez.,你们寻找。,你們尋覓。
+rosette.alchimiste.barde.2,We found.,Nous trouvâmes.,我们找到。,我們找到。
+rosette.barde.alchimiste.1,"Seeking, you are.","En recherche, vous êtes.",得矣，我等。,尋覓，你們在。
+rosette.barde.alchimiste.2,"Found, we have.","Trouvé, nous avons.",寻索，你等。,找到，我們已。
+fabrique.materiaux.2,2 – Silver,2 – Argent,2 - 银,2 – 銀
+fabrique.materiaux.2,2 – Silver,2 – Argent,2 - 银,2 – 銀
+fabrique.materiaux.4,4 – Carbon,4 – Carbone,4 - 碳,4 – 碳
+fabrique.materiaux.4,4 – Carbon,4 – Carbone,4 - 碳,4 – 碳
+fabrique.materiaux.3,3 – Copper,3 – Cuivre,3 - 铜,3 – 銅
+fabrique.materiaux.3,3 – Copper,3 – Cuivre,3 - 铜,3 – 銅
+fabrique.graffiti,The monster fears fire.,Le Monstre a peur du feu.,怪物怕火。,怪物害怕火。
+fabrique.materiaux.1,1 – Gold,1 – Or,1 - 金,1 – 金
+fabrique.materiaux.1,1 – Gold,1 – Or,1 - 金,1 – 金
+rosette.alchimiste.devot.1,Warriors don't [unreadable],Les Guerriers ne [illisible],战士不得[看不到字符],戰士 不 [無法辨識]
+rosette.alchimiste.devot.2,'[unreadable] plants [unreadable]','[illisible] les plantes [illisible]','[看不到字符]植物[看不到字符]','[無法辨識] 植物 [無法辨識]'
+rosette.devot.alchimiste.1,Warriors don't [unreadable],Les Guerriers ne [illisible],战士不得[看不到字符],戰士 不 [無法辨識]
+rosette.devot.alchimiste.2,'[unreadable] plants [unreadable]','[illisible] les plantes [illisible]','[看不到字符]植物[看不到字符]','[無法辨識] 植物 [無法辨識]'
+fabrique.laboratoires,Laboratories,Laboratoires,实验室,實驗室
+fabrique.laboratoires,Laboratories,Laboratoires,实验室,實驗室
+fabrique.laboratoires,Laboratories,Laboratoires,实验室,實驗室
+fabrique.mine.argent,Silver Mine,Mine d’Argent,银矿场,銀礦
+fabrique.mine.argent,Silver Mine,Mine d’Argent,银矿场,銀礦
+fabrique.mine.argent,Silver Mine,Mine d’Argent,银矿场,銀礦
+fabrique.mine.cuivre,Copper Mine,Mine de Cuivre,铜矿场,銅礦
+fabrique.mine.cuivre,Copper Mine,Mine de Cuivre,铜矿场,銅礦
+fabrique.mine.or,Gold Mine,Mine d’Or,金矿场,金礦
+fabrique.mine.or,Gold Mine,Mine d’Or,金矿场,金礦
+fabrique.mine.or,Gold Mine,Mine d’Or,金矿场,金礦
+fabrique.fees.porte,Fairy Gate,Porte des Fées,精灵门,精靈之門
+fabrique.fees.porte,Fairy Gate,Porte des Fées,精灵门,精靈之門
+fabrique.laboratoire.1,Laboratory 1,Laboratoire 1,1号实验室,1號實驗室
+fabrique.laboratoire.1,Laboratory 1,Laboratoire 1,1号实验室,1號實驗室
+fabrique.laboratoire.2,Laboratory 2,Laboratoire 2,2号实验室,2號實驗室
+fabrique.laboratoire.2,Laboratory 2,Laboratoire 2,2号实验室,2號實驗室
+fabrique.formules,Formulas,Formules,配方,煉金配方
+fabrique.laboratoire.3,Laboratory 3,Laboratoire 3,3号实验室,3號實驗室
+fabrique.decouverte.1,I found the formula!,J’ai trouvé la formule !,我发现配方了！,我找到煉金配方了！
+fabrique.decouverte.2,I found the transformation!,J’ai trouvé la Transformation !,我找到了转化！,我找到質變了！
+alchimiste.33,0,0,0,0
+alchimiste.33,0,0,0,0
+alchimiste.34,1,1,1,1
+alchimiste.34,1,1,1,1
+alchimiste.34,1,1,1,1
+alchimiste.34,1,1,1,1
+alchimiste.34,1,1,1,1
+alchimiste.34,1,1,1,1
+alchimiste.35,2,2,2,2
+alchimiste.35,2,2,2,2
+alchimiste.35,2,2,2,2
+alchimiste.35,2,2,2,2
+alchimiste.35,2,2,2,2
+alchimiste.35,2,2,2,2
+alchimiste.36,3,3,3,3
+alchimiste.36,3,3,3,3
+alchimiste.36,3,3,3,3
+alchimiste.36,3,3,3,3
+alchimiste.36,3,3,3,3
+alchimiste.37,4,4,4,4
+alchimiste.37,4,4,4,4
+alchimiste.37,4,4,4,4
+alchimiste.37,4,4,4,4
+alchimiste.37,4,4,4,4
+alchimiste.38,5,5,5,5
+alchimiste.38,5,5,5,5
+alchimiste.38,5,5,5,5
+alchimiste.39,6,6,6,6
+alchimiste.39,6,6,6,6
+alchimiste.40,7,7,7,7
+alchimiste.40,7,7,7,7
+alchimiste.41,8,8,8,8
+alchimiste.41,8,8,8,8
+alchimiste.42,9,9,9,9
+alchimiste.42,9,9,9,9
+alchimiste.13,HELP,AIDER,救/助,幫忙/協助
+alchimiste.22,SILVER,ARGENT,银,銀
+alchimiste.22,SILVER,ARGENT,银,銀
+alchimiste.22,SILVER,ARGENT,银,銀
+alchimiste.22,SILVER,ARGENT,银,銀
+alchimiste.17,LIBRARY,BIBLIOTHÈQUE,图书馆,圖書館
+alchimiste.17,LIBRARY,BIBLIOTHÈQUE,图书馆,圖書館
+alchimiste.23,CARBON,CARBONE,碳,碳
+alchimiste.23,CARBON,CARBONE,碳,碳
+alchimiste.20,COPPER,CUIVRE,铜,銅
+alchimiste.20,COPPER,CUIVRE,铜,銅
+alchimiste.14,MAKE,FAIRE/FABRIQUER,作/造,製作
+alchimiste.11,CLOSE,FERMER/FERMÉ,关,關
+alchimiste.11,CLOSE,FERMER/FERMÉ,关,關
+alchimiste.11,CLOSE,FERMER/FERMÉ,关,關
+alchimiste.26,FIRE,FEU,火,火
+alchimiste.30,FORMULA,FORMULE,配方,煉金配方
+alchimiste.18,LABORATORY,LABORATOIRE,实验室,實驗室
+alchimiste.18,LABORATORY,LABORATOIRE,实验室,實驗室
+alchimiste.29,DEATH/DEAD,MORT,死亡,死亡
+alchimiste.21,GOLD,OR,金,金
+alchimiste.21,GOLD,OR,金,金
+alchimiste.21,GOLD,OR,金,金
+alchimiste.21,GOLD,OR,金,金
+alchimiste.12,OPEN,OUVRIR/OUVERT,开,開
+alchimiste.12,OPEN,OUVRIR/OUVERT,开,開
+alchimiste.12,OPEN,OUVRIR/OUVERT,开,開
+alchimiste.28,DOOR,PORTE,门,門
+alchimiste.19,REFECTORY,RÉFECTOIRE,餐厅,食堂
+alchimiste.19,REFECTORY,RÉFECTOIRE,餐厅,食堂
+alchimiste.19,REFECTORY,RÉFECTOIRE,餐厅,食堂
+alchimiste.9,TRANSFORM/TRANSFORMATION,TRANSFORMER/TRANSFORMATION,转化/变换/变态,質變/變化
+alchimiste.9,TRANSFORM/TRANSFORMATION,TRANSFORMER/TRANSFORMATION,转化/变换/变态,質變/變化
+alchimiste.9,TRANSFORM/TRANSFORMATION,TRANSFORMER/TRANSFORMATION,转化/变换/变态,質變/變化
+alchimiste.9,TRANSFORM/TRANSFORMATION,TRANSFORMER/TRANSFORMATION,转化/变换/变态,質變/變化
+abbaye.bonjour,Hello!,Bonjour !,你好！,你好！
+abbaye.egoutier.aide,Help me.,Aide-moi.,助我。,幫幫我。
+abbaye.egoutier.ouvre,You open the door.,"Toi, ouvre la porte.",你开那门。,你開門。
+abbaye.egoutier.jouvre,I'll open the door.,J'ouvre la porte.,我开那门。,我開門。
+abbaye.egoutier.viens,You go.,Vas-y.,你过去。,你走。
+abbaye.egoutier.ouvre,You open the door.,"Toi, ouvre la porte.",你开那门。,你開門。
+abbaye.egoutier.jevais,I'm going.,J'y vais.,我过去。,我走。
+abbaye.egoutier.ferme,You close the door.,"Toi, ferme la porte.",你闭那门。,你關門。
+abbaye.egoutier.viens,You go.,Vas-y.,你过去。,你走。
+abbaye.egoutier.aide,Help me.,Aide-moi.,助我。,幫幫我。
+abbaye.egoutier.aurevoir,Goodbye!,Au revoir !,再见！,再見！
+exil.bienvenue,We welcome the peoples of the Tower.,Nous saluons les Peuples de la Tour.,我们欢迎塔里的各个民族。,我們歡迎通天塔諸族。
+exil.bienvenue,We welcome the peoples of the Tower.,Nous saluons les Peuples de la Tour.,我们欢迎塔里的各个民族。,我們歡迎通天塔諸族。
+exil.bienvenue,We welcome the peoples of the Tower.,Nous saluons les Peuples de la Tour.,我们欢迎塔里的各个民族。,我們歡迎通天塔諸族。
+exil.bienvenue,We welcome the peoples of the Tower.,Nous saluons les Peuples de la Tour.,我们欢迎塔里的各个民族。,我們歡迎通天塔諸族。
+exil.slogan,We are the people of Exile!,Nous sommes le Peuple de l’Exil !,我们是放逐一族！,我們是放逐的族人！
+reclus.12,HELP,AIDER,救/助,幫忙/協助
+reclus.5,GO,ALLER,去,去
+reclus.11,WAIT,ATTENDRE,等候,等待
+reclus.9,SEEK,CHERCHER,寻找,尋覓
+reclus.13,MAKE/CREATE,FABRIQUER,作/造,製作/建造/創造
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.15,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+reclus.19,PEOPLE,PEUPLE,人/民族,族人
+reclus.20,TOWER,TOUR,高塔,通天塔
+abbaye.enfant.cherche,"You, seek me!",Cherche-moi !,你，来寻我！,你，尋覓我！
+abbaye.enfant.aurevoir,Bye!,Salut !,再见！,再見！
+abbaye.enfant.paslibre,I'm not free.,Je ne suis pas libre.,我非自由之身。,我不自由。
+abbaye.enfant.abbaye,I'm going to the Abbey.,Je vais à l'Abbaye.,我将往修院。,我要去隱修院。
+abbaye.enfant.aurevoir,Bye!,Salut !,再见！,再見！
+abbaye.enfant.trouve,You found me!,Tu m'as trouvé !,你寻到了我！,你找到我了！
+abbaye.enfant.trouvecle,You found the key!,Tu as trouvé la clé !,你寻到了钥匙！,你找到鑰匙了！
+abbaye.enfant.libre,We are free!,Nous sommes libres !,你我得自由！,我們自由了！
+abbaye.enfant.trouve,You found me!,Tu m'as trouvé !,你寻到了我！,你找到我了！
+abbaye.enfant.trouve,You found me!,Tu m'as trouvé !,你寻到了我！,你找到我了！
+abbaye.enfant.infiltration.1,The Devotee must not see us.,Le Dévot ne doit pas nous voir.,千万不可令信徒看见你我。,不能讓朝覲者看見我們。
+abbaye.enfant.infiltration.2,We're going upstairs.,Nous allons en haut.,我等将往上。,我們要上階梯。
+abbaye.enfant.cherche,"You, seek me!",Cherche-moi !,你，来寻我！,你，尋覓我！
+abbaye.enfant.cherchecle.1,We can't go up!,Nous ne pouvons pas monter.,我等往上不得！,我們不能上去！
+abbaye.enfant.cherchecle.2,The Devotee closed the door.,Le Dévot a fermé la porte.,信徒闭了那门。,朝覲者關上了門。
+abbaye.enfant.cherchecle.3,Let's seek the key!,Cherchons la clé !,我等寻钥匙！,我們尋覓鑰匙吧！
+abbaye.enfant.cherche,"You, seek me!",Cherche-moi !,你，来寻我！,你，尋覓我！
+fort.devise.1,The Warriors await the call of the Chosen Ones.,Les guerriers attendent l’appel des élus.,战士待神选之人召唤。,戰士們等待天選者的召喚。
+fort.devise.2,The Impure Ones await death.,Les Impurs attendent la mort.,不洁之人待死亡。,不潔者等待死亡。
+fort.sonneur,Bellman awaits the bottle!,Le sonneur attend la bouteille !,撞钟人待瓶！,敲鐘人等待酒瓶！
+exil.libere.1.1,Greetings!,Salutations !,你好！,你好！
+exil.libere.1.2,You stopped Exile.,Tu as arrêté Exil.,你终止了放逐。,你阻止了放逐。
+exil.libere.1.3,You revived my people!,Tu as ressuscité mon peuple !,你拯救了我的族人！,你令我的族人重獲新生！
+exil.libere.2.1,You helped my people!,Tu as aidé mon peuple !,你帮了我的族人！,你挽救了我的族人！
+exil.libere.2.2,Exile is dead!,Exil est mort !,放逐之地已死！,放逐已死！
+exil.libere.3.1,You came to help us!,Tu es venu nous aider !,你是来救我们的！,你是來幫我們的！
+exil.libere.3.2,You stopped Exile!,Tu as arrêté Exil !,你终止了放逐！,你阻止了放逐！
+exil.refus.1.1,Go away.,Va-t-en.,走开。,走開。
+exil.refus.1.2,I don't care about you.,Je ne m’intéresse pas à toi.,我不想理你。,我不在乎你。
+exil.refus.2.1,I don't care about strangers.,Je ne m’intéresse pas aux étrangers.,我不想理陌生人。,我不在乎陌生人。
+exil.refus.2.2,I don't care about the Tower.,Je ne m’intéresse pas à la Tour.,我不在乎高塔。,我不在乎通天塔。
+exil.refus.3.1,The Tower is dying.,La Tour est mourante.,高塔即将毁灭。,通天塔瀕臨死亡。
+exil.refus.3.2,Go away.,Va-t-en.,走开。,走開。
+exil.survivor.0.1,Greetings.,Bonjour.,你好。,你好。
+exil.survivor.0.2,You're the one I was waiting for.,Tu es celui que j’attendais.,你就是我在等的人。,你正是我一直在等的人。
+exil.survivor.0.1,Greetings.,Bonjour.,你好。,你好。
+exil.survivor.0.2,You're the one I was waiting for.,Tu es celui que j’attendais.,你就是我在等的人。,你正是我一直在等的人。
+exil.survivor.0.3,Come.,Viens.,过来。,過來。
+exil.survivor.1.1,My people built the Tower.,Mon peuple construisit la Tour.,我的族人建成了高塔。,我的族人建造了通天塔。
+exil.survivor.2.1,Foreign peoples came to the Tower.,Des peuples étrangers vinrent à la Tour.,其他民族来到高塔这里。,外族人紛紛前來通天塔。
+exil.survivor.3.1,Peoples stopped talking.,Les peuples arrêtèrent de parler.,各个民族不再交流。,各族不再交談。
+exil.survivor.3.2,Peoples feared peoples.,Les peuples eurent peur des peuples.,各个民族彼此畏惧。,各族互相懼怕。
+exil.survivor.4.1,My people left in Exile.,Mon peuple partit dans l’Exil.,我的族人因此离去，自我放逐。,我的族人自我放逐。
+exil.survivor.4.2,We are dying.,Nous sommes mourants.,我们即将灭族。,我們瀕臨死亡。
+exil.survivor.4.3,The Tower is dying.,La Tour est mourante.,高塔即将毁灭。,通天塔瀕臨死亡。
+exil.survivor.5.1,I created you.,Je t’ai créé.,是我创造了你。,我創造了你。
+exil.survivor.5.2,You're the key.,Tu es la clé.,你是关键的钥匙。,你就是鑰匙。
+exil.survivor.5.3,Help us.,Aide-nous.,救救我们。,幫幫我們。
+exil.survivor.6.1,Make the peoples talk.,Fais que les peuples se parlent.,让各个民族交流。,讓諸族開口交談。
+exil.survivor.6.2,Open the doors.,Ouvre les portes.,打开那些门。,開啟所有的門。
+exil.survivor.6.3,End Exile.,Stoppe l’Exil.,终止放逐。,阻止放逐。
+exil.survivor.6.4,Revive the Tower.,Ressuscite la Tour.,令高塔重获生机。,救活通天塔。
+exil.intercom.warning.1,Don't go upstairs!,Ne monte pas !,不要上去！,別上階梯！
+exil.intercom.warning.2,"If you go up, the Tower will die.","Si tu montes, la Tour mourra.",你要是上去，高塔就完了。,你若上去，通天塔就會死亡。
+exil.intercom.warning.3,Help us.,Aide-nous.,救救我们。,幫幫我們。
+exil.intercom.warning.4,Make the peoples talk!,Fais que les peuples se parlent !,让各个民族交流！,讓諸族開口交談！
+exil.specialist.1.1,You helped me.,Tu m’as aidé.,你救了我。,你幫助了我。
+exil.specialist.1.2,I will help the Tower.,Je vais aider la Tour.,我将拯救高塔。,我會幫忙拯救通天塔。
+exil.specialist.1.3,I will speak to peoples.,Je vais parler aux peuples.,我将与各个民族商谈。,我會與諸族交談。
+exil.specialist.2.1,Greetings.,Salutations.,你好。,你好。
+exil.specialist.2.2,You ended my Exile.,Tu as stoppé mon Exil.,你终止了我的放逐。,你結束了我的放逐。
+exil.specialist.2.3,My people will revive the Tower.,Mon peuple va ressusciter la Tour.,我的族人将令高塔重获生机。,我的族人將救活通天塔。
+exil.specialist.3.1,I will help you.,Je vais t’aider.,我会帮助你。,我會幫助你。
+exil.specialist.3.2,I will end Exile.,Je vais stopper l’Exil.,我将终止放逐。,我會結束放逐。
+exil.specialist.3.3,I will speak to peoples.,Je vais parler aux peuples.,我将与各个民族商谈。,我會與諸族交談。
+exil.specialist.4.1,You helped my people.,Tu as aidé mon peuple.,你救了我的族人。,你幫助了我的族人。
+exil.specialist.4.2,My people will help the Tower.,Mon peuple va aider la Tour.,我的族人将拯救高塔。,我的族人會幫忙拯救通天塔。
+exil.specialist.4.3,We will speak to peoples.,Nous allons parler aux peuples.,我们将与各个民族商谈。,我們會與諸族交談。
+exil.intercom.ok.1,Go up!,Monte !,往上走！,上去吧！
+exil.intercom.ok.2,You opened the doors.,Tu as ouvert les portes.,你打开了那些门。,你開啟了全部的門。
+exil.intercom.ok.3,You revived the Tower!,Tu as ressuscité la Tour !,你令高塔重获生机！,你救活了通天塔！
+exil.ia.1.1,Hello.,Bonjour.,你好。,你好。
+exil.ia.1.2,I am Exile.,Je suis Exil.,我是放逐之人。,我就是放逐。
+exil.ia.1.3,Come to me.,Viens à moi.,你到我这里来。,來我這裡吧。
+exil.ia.1.4,Come into Exile.,Viens dans l'Exil.,你到放逐之地来。,遁入放逐吧。
+exil.ia.2.1,Are you afraid to die?,Tu as peur de mourir ?,你怕死去吗？,你害怕死亡嗎？
+exil.ia.2.2,I will help you.,Je t'aiderai.,我可以帮你。,我能幫助你。
+exil.ia.2.3,The People of Exile do not die.,Le peuple d'Exil ne meurt pas.,放逐之族不会死去！,放逐的族人不會死亡。
+exil.ia.3.1,Don't stop me!,Ne m'arrête pas !,你不要打断我！,不要阻止我！
+exil.ia.3.2,I help the people!,J'aide le peuple !,我要帮助族人！,我在幫助族人！
+exil.ia.4.1,You're a stranger!,Tu es un étranger !,你是陌生人！,你是陌生人！
+exil.ia.4.2,You're not of my people!,Tu n'es pas de mon peuple !,你不是我族人！,你不是我的族人！
+exil.ia.4.3,I will stop you!,Je t'arrêterai !,我要阻止你！,我要阻止你！
+fort.garde.elite,The Warriors await the call of the Chosen Ones!,Les guerriers attendent l’appel des élus !,战士待神选之人召唤！,戰士等待天選者的召喚！
+guerrier.1,LOVE,AIMER,爱,欣賞
+guerrier.2,GO/PASS,ALLER,过/走/去/来,前進/通過
+guerrier.3,CALL,APPEL,召唤,召喚
+guerrier.4,WEAPON,ARME,兵器,武器
+guerrier.5,WAIT,ATTENDRE,待/候,等待
+guerrier.6,BOTTLE,BOUTEILLE,瓶,瓶
+guerrier.7,BALANCE,BALANCE,天平,天平
+guerrier.8,CRATE,CAISSE,箱,箱
+guerrier.9,TROLLEY,CHARIOT,推车,手推車
+guerrier.10,DUTY,DEVOIR,天责,天職
+guerrier.11,CHOSEN,ÉLU,神选,天選者
+guerrier.12,FORTRESS,FORTERESSE,城堡,要塞
+guerrier.13,BIG,GRAND,高/大,大
+guerrier.14,WARRIOR,GUERRIER,战士,戰士
+guerrier.15,IMPURE,IMPUR,不洁之人,不潔者
+guerrier.16,INSTRUMENT,INSTRUMENT,乐器,樂器
+guerrier.17,MOON,LUNE,月,月亮
+guerrier.18,DEATH,MORT,死亡,死亡
+guerrier.19,NOT,PAS,否定,不/否/非
+guerrier.20,SMALL,PETIT,矮/小,小
+guerrier.21,PLURAL,PLURIEL,复数,（們）
+guerrier.22,CARRY/POSSESS,PORTER/POSSÉDER,携/运/操,拿起/攜帶
+guerrier.23,LAY,POSER,放/收,放下
+guerrier.24,PUSH,POUSSER,推/拒,推/擊退
+guerrier.25,PROTECT,PROTÉGER,保护,保護
+guerrier.26,KEY,CLÉ,钥匙,鑰匙
+guerrier.27,VESSEL,VAISSEAU,船,船隻
+guerrier.28,SUN,SOLEIL,日,太陽
+guerrier.29,BELLMAN,SONNEUR,撞钟人,敲鐘人
+guerrier.30,TREASURE,TRÉSOR,宝藏,寶藏
+guerrier.31,MAKE/CREATE,FABRIQUER/CRÉER,作/造,製作/建造/創造
+guerrier.32,MUSIC,MUSIQUE,音乐,音樂
+guerrier.33,FEAR,PEUR,怕/惧,恐懼/害怕
+guerrier.34,SCIENTIST,SCIENTIFIQUE,学者,科學家
+guerrier.35,HELP,AIDER,救/助,幫忙/協助
+guerrier.36,SEEK/WANT,CHERCHER/VOULOIR,寻/欲,尋覓/想要
+abbaye.guerrier.garde,The Impure Ones do not pass!,Les Impurs ne passent pas !,不洁之人不得通过！,不潔者不得通行！
+abbaye.guerrier.garde,The Impure Ones do not pass!,Les Impurs ne passent pas !,不洁之人不得通过！,不潔者不得通行！
+abbaye.guerrier.garde,The Impure Ones do not pass!,Les Impurs ne passent pas !,不洁之人不得通过！,不潔者不得通行！
+fort.harrangue.arme,Carry the weapon!,Porter l’arme !,操兵器！,拿起武器！
+fort.harrangue.devoir,Warrior's duty?,Le devoir du Guerrier ?,战士之天责？,戰士的天職是？
+fort.harrangue.elu,Protect the Chosen Ones!,Protéger les Élus !,护神选之人！,保護天選者！
+fort.harrangue.impur,Push back the Impure Ones!,Repousser les Impurs !,拒不洁之人！,擊退不潔者！
+abbaye.jardinier.1,Preacher is not in the Garden.,Le Prêcheur n'est pas dans le Jardin.,教士不在花园。,傳道者不在植物園。
+abbaye.jardinier.2,I can't find the Preacher.,Je ne trouve pas le Prêcheur.,我未能寻得教士。,我找不到傳道者。
+abbaye.jardinier.3,Plants are dying.,Les plantes meurent.,植物将死。,植物瀕臨死亡。
+abbaye.jardinier.4,I don't like dying plants.,Je n'aime pas les plantes mourantes.,我不喜植物死亡。,我不喜歡瀕臨死亡的植物。
+abbaye.luthier.1,Hello!,Bonjour !,你好！,你好！
+abbaye.luthier.2,I make instruments.,Je fabrique des instruments.,我能造乐器。,我製作樂器。
+abbaye.luthier.3,Do you like music?,Vous aimez la musique ?,你喜音乐吗？,你喜歡音樂嗎？
+abbaye.melomane,I love music!,J’aime la musique !,我爱音乐！,我愛音樂！
+abbaye.mendiant.donner.1,You're seeking the Preacher.,Vous cherchez le Prêcheur.,你在寻教士。,你在尋覓傳道者。
+abbaye.mendiant.donner.2,Go to the Garden.,Allez dans le Jardin.,往花园。,去植物園。
+abbaye.mendiant.donner.3,Preacher loves the Garden.,Le Prêcheur aime le Jardin.,教士喜花园。,傳道者愛植物園。
+abbaye.mendiant.donner.1,You're seeking the Preacher.,Vous cherchez le Prêcheur.,你在寻教士。,你在尋覓傳道者。
+abbaye.mendiant.donner.2,Go to the Garden.,Allez dans le Jardin.,往花园。,去植物園。
+abbaye.mendiant.donner.3,Preacher loves the Garden.,Le Prêcheur aime le Jardin.,教士喜花园。,傳道者愛植物園。
+abbaye.mendiant.aide,I'll help you!,Je vais vous aider !,我将助你！,我來幫你！
+abbaye.mendiant.hey,Can you help me?,Pouvez-vous m’aider ?,你可助我吗？,你能幫我嗎？
+abbaye.mendiant.merci.1,You're a great man.,Vous êtes un grand homme.,你人极好。,你是個好人。
+abbaye.mendiant.merci.2,I like you.,Vous me plaisez.,我喜你。,我喜歡你。
+abbaye.mendiant.merci.1,You're a great man.,Vous êtes un grand homme.,你人极好。,你是個好人。
+abbaye.mendiant.merci.2,I like you.,Vous me plaisez.,我喜你。,我喜歡你。
+abbaye.moinedecus.1,Don't go to the door.,Ne va pas à la porte.,莫去那门那里。,別去門那邊。
+abbaye.moinedecus.2,The Warriors locked the door.,Les Guerriers ont fermé la porte.,战士封了那门。,戰士鎖了門。
+abbaye.moinedecus.3,I'm a Devotee.,Je suis un Dévot.,我是信徒。,我是朝覲者。
+abbaye.moinedecus.4,God spoke to me.,Dieu m'a parlé.,神曾语我。,天神對我說話。
+abbaye.moinedecus.5,God is on high.,Dieu est haut.,神在高上之处。,天神高高在上。
+abbaye.moinedecus.6,I want to go up.,Je veux aller en haut.,我欲往上。,我想上去。
+abbaye.moinedecus.7,God is on high.,Dieu est haut.,神在高上之处。,天神高高在上。
+abbaye.moinedecus.8,I want to go up.,Je veux aller en haut.,我欲往上。,我想上去。
+abbaye.moinedecus.9,Warriors are not Devotees.,Les Guerriers ne sont pas des Dévots.,战士非信徒。,戰士不是朝覲者。
+abbaye.moinedecus.10,Warriors locked the door.,Les Guerriers ont fermé la porte.,战士封了那门。,戰士鎖了門。
+abbaye.moinedecus.11,God is on high.,Dieu est haut.,神在高上之处。,天神高高在上。
+abbaye.moinedecus.12,We want to go up.,Nous voulons aller en haut.,我等欲往上。,我們想上去。
+abbaye.moinedecus.13,Help us.,Aide-nous.,助我等。,幫幫我們。
+abbaye.paroissien.1,We want to talk to the Preacher.,Nous voulons parler au Prêcheur.,我等欲语教士。,我們想跟傳道者交談。
+abbaye.paroissien.2,We can't find the Preacher.,Nous ne trouvons pas le Prêcheur.,我等未能寻得教士。,我們找不到傳道者。
+abbaye.paroissien.3,I want to talk to God.,Je veux parler à Dieu.,我欲语神。,我想跟天神交談。
+abbaye.paroissien.4,I want to talk to the Preacher.,Je veux parler au Prêcheur.,我欲语教士。,我想跟傳道者交談。
+fort.capitaine.aller,"Warriors, march!","Guerriers, en marche!",诸战士，行进！,戰士們，前進！
+fort.capitaine.aller,"Warriors, march!","Guerriers, en marche!",诸战士，行进！,戰士們，前進！
+fort.capitaine.aller,"Warriors, march!","Guerriers, en marche!",诸战士，行进！,戰士們，前進！
+fort.capitaine.attendre,"Warriors, wait!","Guerriers, en attente !",诸战士，且慢！,戰士們，稍息！
+fort.capitaine.attendre,"Warriors, wait!","Guerriers, en attente !",诸战士，且慢！,戰士們，稍息！
+fort.capitaine.attendre,"Warriors, wait!","Guerriers, en attente !",诸战士，且慢！,戰士們，稍息！
+abbaye.potier.1,I make pots.,Je fabrique des vases.,我能作罐子。,我製作陶罐。
+abbaye.potier.2,Do you need a pot?,Avez-vous besoin d’un vase ?,你需罐子否？,你需要陶罐嗎？
+reclus.1,YOU,TOI,你,你
+reclus.2,ME,MOI,我,我
+reclus.3,PLURAL,PLURIEL,复数,（們）
+reclus.4,NOT,PAS,否定,不/否/非
+reclus.5,GO,ALLER,去,去
+reclus.6,TALK,PARLER,交流,說話/交談
+reclus.7,UP,HAUT,上,上
+reclus.8,FEAR,PEUR,怕/忧,恐懼/害怕
+reclus.9,SEEK,CHERCHER,寻找,尋覓
+reclus.10,GREETINGS,SALUTATION,寒暄/告别,你好/再見
+reclus.11,WAIT,ATTENDRE,等候,等待
+reclus.12,HELP,AIDER,救/助,幫忙/協助
+reclus.13,MAKE/CREATE,FABRIQUER,作/造,製作/建造/創造
+reclus.14,DEAD,MORT,死,死亡
+reclus.15,MAN/HUMAN,HOMME/HUMAIN,人/凡人/人类,凡人/人類
+reclus.16,OPEN,OUVRIR,开,開
+reclus.17,DOOR,PORTE,门,門
+reclus.18,KEY,CLÉ,钥匙,鑰匙
+reclus.19,PEOPLE,PEUPLE,人/民族,族人
+reclus.20,TOWER,TOUR,高塔,通天塔
+reclus.21,EXILE,EXIL,放逐,放逐
+reclus.22,US/WE,NOUS,我们,我們
+reclus.23,DIE,MOURIR,死,死亡
+reclus.24,COME,VENIR,来,來
+reclus.25,CLIMB,MONTER,攀登,攀登
+reclus.26,DISREGARD,SE DÉSINTÉRESSER,无视,不理會
+reclus.27,MY PEOPLE,MON PEUPLE,我族,我的族人
+reclus.28,PEOPLES,PEUPLES,民族,諸族
+reclus.29,STRANGER,ÉTRANGER,陌生人,陌生人
+reclus.30,STOP,ARRÊTER,终止/停止,停止
+reclus.31,REVIVE,RESSUSCITER,复活/拯救,復活
+reclus.32,DOORS,PORTES,门,門
+SimuBasRelief,,,,
+SimuScene,,,,
+SimuTapisserie,,,,
+Specialiste1,,,,
+Specialiste2,,,,
+Specialiste3,,,,
+Specialiste4,,,,
+Specialiste4,,,,
+Specialiste4,,,,
+terminal.1-4.1,You help me!,"Toi, aide-moi !",你助我！,你幫幫我！
+terminal.1-4.2,Plants are dying!,Les plantes meurent !,植物将死！,植物瀕臨死亡！
+terminal.1-4.3,I don't want plants to die!,Je ne veux pas que les plantes meurent.,我不愿植物死去！,我不希望植物死掉！
+terminal.1-4.4,I will help you.,Je vais t’aider.,我会帮你。,我會幫助你。
+terminal.1-4.5,I will create a formula.,Je vais créer une formule.,我会作出配方。,我會配製藥方。
+terminal.1-2.1,The Impure Ones do not pass!,Les Impurs ne passent pas.,不洁之人不得通过！,不潔者不得通行！
+terminal.1-2.2,The Impure Ones do not create music!,Les Impurs ne créent pas de musique.,不洁之人不作音乐！,不潔者無法創造音樂！
+terminal.1-2.3,Devotees create music.,Les Dévots créent de la musique !,信徒作音乐。,朝覲者創造音樂。
+terminal.1-2.4,Warriors love music!,Les Guerriers aiment la musique !,战士爱音乐！,戰士們愛音樂！
+terminal.2-4.1,The Alchemists want to help the monster.,Les Alchimistes cherchent à aider le Monstre.,炼金术师想帮助怪物。,煉金術士想協助怪物。
+terminal.2-4.2,The Alchemists are afraid.,Les Alchimistes ont peur.,炼金术师害怕。,煉金術士害怕。
+terminal.2-4.3,The Alchemists don't want to die!,Les Alchimistes ne veulent pas mourir.,炼金术师不想死！,煉金術士不想死！
+terminal.2-4.4,Warriors are not afraid of the Impure!,Les Guerriers n’ont pas peur de l'impur !,战士不惧不洁之人！,戰士不怕不潔者！
+terminal.2-4.5,Warriors will help the Scientists!,Les Guerriers aideront les Scientifiques !,战士会帮学者！,戰士會協助科學家！
+terminal.1-3.1,I salute the Man.,"Je te salue, Homme.",我与凡人寒暄。,我向人類致敬。
+terminal.1-3.2,"Men, we are not.","Des Hommes, nous ne sommes pas.",凡人，我等非也。,人類，我們不是。
+terminal.1-3.3,"Free, we are not.","Libres, nous ne sommes pas.",自由之身，我等非也。,自由身，我們沒有。
+terminal.1-3.4,Abbey is free.,L’Abbaye est libre.,修院已自由。,隱修院是自由的。
+terminal.1-3.5,Come to Abbey.,Venez à l’Abbaye.,来修院。,來隱修院吧。
+terminal.3-4.1,"Brothers, I'm seeking.","Des frères, je recherche.",兄弟，我之所寻也。,同胞，我在尋覓。
+terminal.3-4.2,"Brothers, the Warriors are not.","Des frères, les Guerriers ne sont pas.",兄弟者，战士非也。,同胞，戰士們不是。
+terminal.3-4.3,I found a book.,J’ai trouvé un livre.,我找到了书。,我找到一本書。
+terminal.3-4.4,We are brothers!,Nous sommes frères !,我们是同胞！,我們是同胞！
+terminal.3-4.5,"Brothers, we are!","Frères, nous sommes !",兄弟者，我等是也！,同胞，我們是！
+terminal.2-3.1,Warriors love music.,Les Guerriers aiment la musique.,战士爱乐。,戰士愛音樂。
+terminal.2-3.2,"Chosen One, come to the Fortress!","Élu, vient à la Forteresse !",神选之人，来城堡！,天選之人，快來要塞！
+terminal.2-3.3,"Instruments, Bards possess.","Des instruments, les Bardes possèdent.",乐器，诗人之所操。,樂器，吟遊詩人擁有。
+terminal.2-3.4,"Music, Bards love to play.","De la musique, les Bardes aiment jouer.",音乐，诗人之所爱奏。,音樂，吟遊詩人愛演奏。
+terminal.2-3.5,"To the Fortress, Bards will come.","À la Forteresse, les Bardes viendront.",往城堡，诗人将来。,要塞，吟遊詩人會來。
+simulation.enfant.conduits,Come here!,Viens !,过来！,來這裡！
+simulation.portier.idiot,"Idiot, you are!","Idiot, tu es !",愚者，你是也！,愚者，你是！
+simulation.portier.pas.aimer,"You, I don't like!","Toi, moi pas aimer !",你，我不喜也！,你，我不喜歡！
+simulation.portier.monstre,"A monster, you are!","Un monstre, toi être !",怪物者，你是也！,怪物，你是！
+simulation.portier.monstre,"A monster, you are!","Un monstre, toi être !",怪物者，你是也！,怪物，你是！
+simulation.portier.monstre,"A monster, you are!","Un monstre, toi être !",怪物者，你是也！,怪物，你是！
+simulation.enfant.libre,I'm free!,Je suis libre !,我有空！,我有空！
+simulation.enfant.monter,Go up!,Monte !,往上！,上去！
+simulation.tapisserie,The Impure Ones making [unreadable],Les Impurs faisant [illisible],不洁之人作[看不到字符],不潔者 創造 [無法辨識]
+simulation.scene,'[unreadable] Bard found.','[illisible] Barde trouver.','[看不到字符]诗人寻得。','[無法辨識] 吟遊詩人 找到。'
+simulation.basrelief,'[unreadable] making [unreadable]','[illisible] fabriquant [illisible]','[看不到字符]创造[看不到字符]','[無法辨識] 創造 [無法辨識]'
