@@ -39,15 +39,19 @@
           summary-mode="codes"
           show-option-values
         />
+
+        <label class="pagination-toggle">
+          <input v-model="usePagination" type="checkbox" />
+          <span>使用分页</span>
+        </label>
       </div>
     </header>
 
     <main class="app-main">
       <TablePagination
-        v-if="!loading"
+        v-if="!loading && usePagination"
         v-model:current-page="currentPage"
         :total-items="filtered.length"
-        :total-count="entries.length"
         :items-per-page="itemsPerPage"
         show-info
         position="top"
@@ -62,10 +66,9 @@
       />
 
       <TablePagination
-        v-if="!loading"
+        v-if="!loading && usePagination"
         v-model:current-page="currentPage"
         :total-items="filtered.length"
-        :total-count="entries.length"
         :items-per-page="itemsPerPage"
         position="bottom"
       />
@@ -90,6 +93,7 @@ const selectedProjects = ref([])
 const selectedLanguages = ref([])
 const isDark = ref(true)
 const useSans = ref(false)
+const usePagination = ref(true)
 const currentPage = ref(1)
 const isCompactLayout = ref(false)
 
@@ -145,9 +149,10 @@ onMounted(async () => {
   entries.value = data.entries
   projects.value = data.projects
   languageRegistry.value = data.languages
-  selectedProjects.value = data.projects.map((project) => project.id)
+  const defaultProjects = data.projects.filter((project) => project.id !== "chants")
+  selectedProjects.value = defaultProjects.map((project) => project.id)
   selectedLanguages.value = [
-    ...new Set(data.projects.flatMap((project) => project.languages)),
+    ...new Set(defaultProjects.flatMap((project) => project.languages)),
   ]
   loading.value = false
 })
@@ -198,12 +203,13 @@ const filtered = computed(() => {
 const itemsPerPage = computed(() => (isCompactLayout.value ? 10 : 50))
 
 const displayEntries = computed(() => {
+  if (!usePagination.value) return filtered.value
   const start = (currentPage.value - 1) * itemsPerPage.value
   return filtered.value.slice(start, start + itemsPerPage.value)
 })
 
 watch(
-  [filtered, itemsPerPage],
+  [filtered, usePagination, itemsPerPage],
   () => {
     currentPage.value = 1
   },

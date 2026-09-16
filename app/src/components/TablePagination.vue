@@ -4,12 +4,7 @@
     :class="`pagination-controls--${position}`"
     :aria-label="navigationLabel"
   >
-    <p v-if="showInfo" class="pagination__info">
-      <template v-if="totalCount !== null">
-        {{ totalItems }} / {{ totalCount }} 条
-      </template>
-      <template v-else>{{ totalItems }} 条</template>
-    </p>
+    <p v-if="showInfo" class="pagination__info">字符串总数：{{ totalItems }}</p>
 
     <p class="sr-only">
       当前第 {{ currentPage || 1 }} 页，共 {{ totalPages || 1 }} 页
@@ -80,7 +75,6 @@ import { computed, ref } from "vue"
 const props = defineProps({
   currentPage: { type: Number, default: 1 },
   totalItems: { type: Number, default: 0 },
-  totalCount: { type: Number, default: null },
   itemsPerPage: { type: Number, default: 50 },
   showInfo: { type: Boolean, default: false },
   position: {
