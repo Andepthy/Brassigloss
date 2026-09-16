@@ -141,7 +141,7 @@ const catLabelMap = {
 const catOptions = ref([])
 
 onMounted(async () => {
-  const res = await fetch("/data/translations.json")
+  const res = await fetch(`${import.meta.env.BASE_URL}data/translations.json`)
   const data = await res.json()
   entries.value = data.entries
   projects.value = data.projects
