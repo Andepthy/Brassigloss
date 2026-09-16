@@ -25,46 +25,67 @@
         <MultiSelect
           v-model="selectedProjects"
           label="项目"
-          placeholder="项目筛选"
+          placeholder="选择项目"
           :options="projectOptions"
         />
 
         <MultiSelect
           v-model="selectedLanguages"
-          label="语言"
-          placeholder="语言列"
+          label="显示语言"
+          placeholder="选择语言"
           :options="languageOptions"
+          summary-mode="codes"
+          show-option-values
         />
 
-        <MultiSelect
-          v-model="selectedCategories"
-          label="分类"
-          placeholder="分类筛选"
-          :options="catOptions"
-        />
+        <label class="pagination-toggle">
+          <input v-model="usePagination" type="checkbox" />
+          <span>使用分页</span>
+        </label>
       </div>
     </header>
 
     <main class="app-main">
-      <div class="toolbar__stats-row">
+      <TablePagination
+        v-if="!loading && usePagination"
+        v-model:current-page="currentPage"
+        :total-items="filtered.length"
+        :total-count="entries.length"
+        :items-per-page="itemsPerPage"
+        show-info
+        position="top"
+      />
+
+      <div v-else-if="!loading" class="toolbar__stats-row">
         <span>{{ filtered.length }} / {{ entries.length }} 条</span>
       </div>
+
       <TranslationTable
-        :entries="filtered"
+        :entries="displayEntries"
         :loading="loading"
         :languages="displayLanguages"
         :language-names="languageNames"
         :html-lang-map="htmlLangMap"
+      />
+
+      <TablePagination
+        v-if="!loading && usePagination"
+        v-model:current-page="currentPage"
+        :total-items="filtered.length"
+        :total-count="entries.length"
+        :items-per-page="itemsPerPage"
+        position="bottom"
       />
     </main>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch } from "vue"
+import { ref, computed, onMounted, onBeforeUnmount, watch } from "vue"
 import AppHeader from "./components/AppHeader.vue"
 import TranslationTable from "./components/TranslationTable.vue"
 import MultiSelect from "./components/MultiSelect.vue"
+import TablePagination from "./components/TablePagination.vue"
 
 const entries = ref([])
 const projects = ref([])
@@ -74,19 +95,27 @@ const loading = ref(true)
 const searchQuery = ref("")
 const selectedProjects = ref([])
 const selectedLanguages = ref([])
-const selectedCategories = ref([])
 const isDark = ref(true)
 const useSans = ref(false)
+const usePagination = ref(true)
+const currentPage = ref(1)
+const isCompactLayout = ref(false)
+
+let compactLayoutQuery
 
 const projectOptions = computed(() =>
   projects.value.map((p) => ({ value: p.id, label: p.name })),
 )
 
 const languageOptions = computed(() =>
-  availableLanguages.value.map((code) => ({
-    value: code,
-    label: languageRegistry.value.find((l) => l.code === code)?.name || code,
-  })),
+  availableLanguages.value.map((code) => {
+    const language = languageRegistry.value.find((l) => l.code === code)
+    return {
+      value: code,
+      label: language?.name || code,
+      htmlLang: language?.htmlLang || "",
+    }
+  }),
 )
 
 const languageNames = computed(() =>
@@ -117,44 +146,26 @@ const displayLanguages = computed(() => {
   return availableLanguages.value
 })
 
-const catLabelMap = {
-  advancement: "进度",
-  block: "方块",
-  item: "物品",
-  entity: "实体",
-  effect: "效果",
-  enchantment: "附魔",
-  tag: "标签",
-  fluid: "流体",
-  death: "死亡",
-  subtitle: "字幕",
-  chat: "聊天",
-  command: "命令",
-  menu: "菜单",
-  itemGroup: "物品组",
-  jukebox_song: "唱片",
-  generator: "生成器",
-  other: "其他",
-}
-
-const catOptions = ref([])
-
 onMounted(async () => {
+  compactLayoutQuery = window.matchMedia("(max-width: 800px)")
+  syncCompactLayout(compactLayoutQuery)
+  compactLayoutQuery.addEventListener("change", syncCompactLayout)
+
   const res = await fetch(`${import.meta.env.BASE_URL}data/translations.json`)
   const data = await res.json()
   entries.value = data.entries
   projects.value = data.projects
   languageRegistry.value = data.languages
-
-  const catSet = new Set()
-  for (const e of data.entries) {
-    catSet.add(e.category)
-  }
-  for (const c of [...catSet].sort()) {
-    catOptions.value.push({ value: c, label: catLabelMap[c] || c })
-  }
   loading.value = false
 })
+
+onBeforeUnmount(() => {
+  compactLayoutQuery?.removeEventListener("change", syncCompactLayout)
+})
+
+function syncCompactLayout(event) {
+  isCompactLayout.value = event.matches
+}
 
 function toggleTheme() {
   isDark.value = !isDark.value
@@ -172,9 +183,6 @@ const filtered = computed(() => {
   if (selectedProjects.value.length) {
     result = result.filter((e) => selectedProjects.value.includes(e.project))
   }
-  if (selectedCategories.value.length) {
-    result = result.filter((e) => selectedCategories.value.includes(e.category))
-  }
   const q = searchQuery.value.trim().toLowerCase()
   if (q) {
     result = result.filter((e) => {
@@ -186,4 +194,20 @@ const filtered = computed(() => {
   }
   return result
 })
+
+const itemsPerPage = computed(() => (isCompactLayout.value ? 10 : 50))
+
+const displayEntries = computed(() => {
+  if (!usePagination.value) return filtered.value
+  const start = (currentPage.value - 1) * itemsPerPage.value
+  return filtered.value.slice(start, start + itemsPerPage.value)
+})
+
+watch(
+  [filtered, usePagination, itemsPerPage],
+  () => {
+    currentPage.value = 1
+  },
+  { immediate: true },
+)
 </script>
