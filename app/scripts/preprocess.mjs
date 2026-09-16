@@ -8,10 +8,10 @@ const outputDir = join(__dirname, "../public/data")
 const outputFile = join(outputDir, "translations.json")
 
 const languageRegistry = {
-  en_us: { code: "en_us", name: "English", htmlLang: "en-US" },
-  fr_fr: { code: "fr_fr", name: "Français", htmlLang: "fr-FR" },
-  zh_cn: { code: "zh_cn", name: "简体中文", htmlLang: "zh-Hans-CN" },
-  zh_tw: { code: "zh_tw", name: "繁體中文", htmlLang: "zh-Hant-TW" },
+  en_us: { code: "en_us", name: "English (United States)", htmlLang: "en-US" },
+  fr_fr: { code: "fr_fr", name: "Français (France)", htmlLang: "fr-FR" },
+  zh_cn: { code: "zh_cn", name: "简体中文 (中国大陆)", htmlLang: "zh-Hans-CN" },
+  zh_tw: { code: "zh_tw", name: "繁體中文 (台灣)", htmlLang: "zh-Hant-TW" },
 }
 
 function findLangPairs(root) {

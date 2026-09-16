@@ -9,7 +9,7 @@
 
     <header class="table-header">
       <div class="table-header__title">
-        <h1>翻译对照</h1>
+        <h1>标准译名表</h1>
       </div>
       <div class="table-toolbar" aria-label="筛选工具">
         <label class="search-field">
@@ -20,7 +20,7 @@
           <input
             v-model="searchQuery"
             type="search"
-            placeholder="搜索翻译键或任意语言文本..."
+            placeholder="搜索内容..."
           />
         </label>
 
