@@ -23,7 +23,9 @@
         aria-label="上一页"
         @click="goTo(currentPage - 1)"
       >
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="m7.825 13l5.6 5.6L12 20l-8-8l8-8l1.425 1.4l-5.6 5.6H20v2z"/>
+        </svg>
         <span>上一页</span>
       </button>
 
@@ -64,7 +66,9 @@
         @click="goTo(currentPage + 1)"
       >
         <span>下一页</span>
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M16.175 13H4v-2h12.175l-5.6-5.6L12 4l8 8l-8 8l-1.425-1.4z"/>
+        </svg>
       </button>
     </div>
   </nav>
@@ -197,11 +201,6 @@ function jump() {
 .pagination__button svg {
   width: 1.1rem;
   height: 1.1rem;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
 }
 
 .pagination__ellipsis {

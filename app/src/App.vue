@@ -14,7 +14,9 @@
       <div class="table-toolbar" aria-label="筛选工具">
         <label class="search-field">
           <span class="sr-only">搜索翻译</span>
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14"/>
+          </svg>
           <input
             v-model="searchQuery"
             type="search"
@@ -37,17 +39,12 @@
           summary-mode="codes"
           show-option-values
         />
-
-        <label class="pagination-toggle">
-          <input v-model="usePagination" type="checkbox" />
-          <span>使用分页</span>
-        </label>
       </div>
     </header>
 
     <main class="app-main">
       <TablePagination
-        v-if="!loading && usePagination"
+        v-if="!loading"
         v-model:current-page="currentPage"
         :total-items="filtered.length"
         :total-count="entries.length"
@@ -55,10 +52,6 @@
         show-info
         position="top"
       />
-
-      <div v-else-if="!loading" class="toolbar__stats-row">
-        <span>{{ filtered.length }} / {{ entries.length }} 条</span>
-      </div>
 
       <TranslationTable
         :entries="displayEntries"
@@ -69,7 +62,7 @@
       />
 
       <TablePagination
-        v-if="!loading && usePagination"
+        v-if="!loading"
         v-model:current-page="currentPage"
         :total-items="filtered.length"
         :total-count="entries.length"
@@ -97,7 +90,6 @@ const selectedProjects = ref([])
 const selectedLanguages = ref([])
 const isDark = ref(true)
 const useSans = ref(false)
-const usePagination = ref(true)
 const currentPage = ref(1)
 const isCompactLayout = ref(false)
 
@@ -140,10 +132,7 @@ const availableLanguages = computed(() => {
 })
 
 const displayLanguages = computed(() => {
-  if (selectedLanguages.value.length) {
-    return availableLanguages.value.filter((l) => selectedLanguages.value.includes(l))
-  }
-  return availableLanguages.value
+  return availableLanguages.value.filter((l) => selectedLanguages.value.includes(l))
 })
 
 onMounted(async () => {
@@ -156,6 +145,10 @@ onMounted(async () => {
   entries.value = data.entries
   projects.value = data.projects
   languageRegistry.value = data.languages
+  selectedProjects.value = data.projects.map((project) => project.id)
+  selectedLanguages.value = [
+    ...new Set(data.projects.flatMap((project) => project.languages)),
+  ]
   loading.value = false
 })
 
@@ -179,16 +172,23 @@ watch(isDark, (val) => { document.body.classList.toggle("theme-light", !val) }, 
 watch(useSans, (val) => { document.body.classList.toggle("font-sans", val) }, { immediate: true })
 
 const filtered = computed(() => {
-  let result = entries.value
-  if (selectedProjects.value.length) {
-    result = result.filter((e) => selectedProjects.value.includes(e.project))
+  if (
+    !selectedProjects.value.length ||
+    !selectedLanguages.value.length ||
+    !displayLanguages.value.length
+  ) {
+    return []
   }
+
+  let result = entries.value
+  result = result.filter((e) => selectedProjects.value.includes(e.project))
+
   const q = searchQuery.value.trim().toLowerCase()
   if (q) {
     result = result.filter((e) => {
       if (e.key.toLowerCase().includes(q)) return true
-      return Object.values(e.translations || {}).some((text) =>
-        String(text).toLowerCase().includes(q),
+      return displayLanguages.value.some((language) =>
+        String(e.translations?.[language] || "").toLowerCase().includes(q),
       )
     })
   }
@@ -198,13 +198,12 @@ const filtered = computed(() => {
 const itemsPerPage = computed(() => (isCompactLayout.value ? 10 : 50))
 
 const displayEntries = computed(() => {
-  if (!usePagination.value) return filtered.value
   const start = (currentPage.value - 1) * itemsPerPage.value
   return filtered.value.slice(start, start + itemsPerPage.value)
 })
 
 watch(
-  [filtered, usePagination, itemsPerPage],
+  [filtered, itemsPerPage],
   () => {
     currentPage.value = 1
   },

@@ -36,14 +36,9 @@
         width="18"
         height="18"
         viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
         aria-hidden="true"
       >
-        <polyline points="6 9 12 15 18 9" />
+        <path fill="currentColor" d="m12 15.375l-6-6l1.4-1.4l4.6 4.6l4.6-4.6l1.4 1.4z"/>
       </svg>
     </button>
 
