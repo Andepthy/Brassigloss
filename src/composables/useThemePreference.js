@@ -3,7 +3,7 @@ import { computed, onBeforeUnmount, ref, watch } from "vue"
 export const THEME_MODES = Object.freeze(["system", "dark", "light"])
 
 const defaultThemeMode = "system"
-const storageKey = "gloss-atlas:theme-mode"
+const storageKey = "brassigloss:theme-mode"
 const themeModes = new Set(THEME_MODES)
 
 export function getNextThemeMode(mode) {

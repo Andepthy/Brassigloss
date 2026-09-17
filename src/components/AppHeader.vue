@@ -1,6 +1,6 @@
 <template>
   <header class="app-bar">
-    <span class="brand">GlossAtlas</span>
+    <span class="brand">Brassigloss</span>
 
     <nav class="primary-nav" aria-label="主导航">
       <button
@@ -18,7 +18,7 @@
     <div class="app-utilities">
       <a
         class="icon-button"
-        href="https://github.com/Andepthy/GlossAtlas"
+        href="https://github.com/Andepthy/Brassigloss"
         target="_blank"
         rel="noopener noreferrer"
         :aria-label="'GitHub'"

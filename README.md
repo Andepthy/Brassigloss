@@ -1,6 +1,6 @@
-# GlossAtlas
+# Brassigloss
 
-GlossAtlas 是一个用于浏览、搜索和对照游戏及模组翻译文本的 Vue 3 单页应用。
+Brassigloss 是一个用于浏览、搜索和对照游戏及模组翻译文本的 Vue 3 单页应用。
 
 项目当前包含 Create、Create Aeronautics、Simulated、Offroad 和《Chants of Sennaar》的翻译数据，可按项目、语言和文本分类筛选，并在表格中并排查看原文与译文。
 
@@ -119,6 +119,6 @@ Verdigloss 是本项目设计与功能上的重要参考：
 
 除明确标注为第三方内容的部分外，本项目自主编写的软件代码采用 [Apache License 2.0](LICENSE) 授权。
 
-Copyright (c) 2026 GlossAtlas contributors
+Copyright (c) 2026 Brassigloss contributors
 
 第三方软件依赖仍受其各自许可证约束；完整依赖关系记录在 `pnpm-lock.yaml` 中。第三方声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
