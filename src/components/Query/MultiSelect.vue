@@ -23,6 +23,13 @@
             :key="option.value"
             class="multi-select__chip"
             :lang="summaryMode === 'labels' ? option.htmlLang : undefined"
+            :class="[
+              summaryMode === 'labels' ? `lang-${option.value.replace(/_/g, '-')}` : undefined,
+              {
+                'multi-select__chip--code': summaryMode === 'codes',
+                sans: summaryMode === 'labels',
+              },
+            ]"
           >
             {{ optionSummary(option) }}
           </span>
@@ -76,6 +83,11 @@
             <span
               class="multi-select__option-label"
               :lang="option.htmlLang || undefined"
+              :class="
+                showOptionValues
+                  ? [`lang-${option.value.replace(/_/g, '-')}`, 'sans']
+                  : undefined
+              "
             >
               {{ option.label }}
             </span>
@@ -199,6 +211,10 @@ onUnmounted(() => document.removeEventListener("pointerdown", handleClickOutside
   padding: 0.25rem 0.375rem;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.multi-select__chip--code {
+  font-family: var(--monospace-font);
 }
 
 .multi-select__placeholder {
