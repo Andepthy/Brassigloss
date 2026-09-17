@@ -95,6 +95,7 @@ import {
   createProjectOptions,
   getAvailableLanguages,
   getDefaultProjectIds,
+  orderEntriesByProject,
 } from "@/features/translations/catalog"
 import { filterTranslationEntries } from "@/features/translations/filtering"
 import { paginateItems } from "@/features/table/pagination"
@@ -133,7 +134,7 @@ const displayLanguages = computed(() => {
 
 onMounted(async () => {
   const data = await loadTranslationData(import.meta.env.BASE_URL)
-  entries.value = data.entries
+  entries.value = orderEntriesByProject(data.entries, data.projects)
   projects.value = data.projects
   languages.value = data.languages?.length ? data.languages : LANGUAGES
   selectedProjects.value = getDefaultProjectIds(data.projects)

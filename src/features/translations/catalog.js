@@ -35,6 +35,18 @@ export function getDefaultProjectIds(projects) {
     )
 }
 
+export function orderEntriesByProject(entries, projects) {
+  const projectOrder = createProjectOptions(projects).map(
+    (project) => project.value,
+  )
+
+  return sortValuesByPriority(
+    entries,
+    (entry) => entry.project,
+    projectOrder,
+  )
+}
+
 export function getAvailableLanguages(projects, selectedProjectIds) {
   const activeProjects = selectedProjectIds.length
     ? projects.filter((project) => selectedProjectIds.includes(project.id))

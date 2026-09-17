@@ -5,6 +5,7 @@ import {
   createProjectOptions,
   getAvailableLanguages,
   getDefaultProjectIds,
+  orderEntriesByProject,
 } from "./catalog.js"
 
 const projects = [
@@ -62,6 +63,27 @@ test("getDefaultProjectIds excludes chants-of-sennaar", () => {
     "aeronautics",
     "new-namespace",
   ])
+})
+
+test("orderEntriesByProject follows the namespace priority order", () => {
+  const entries = [
+    { project: "aeronautics", key: "aeronautics.first" },
+    { project: "create", key: "create.first" },
+    { project: "create", key: "create.second" },
+    { project: "new-namespace", key: "new.first" },
+    { project: "simulated", key: "simulated.first" },
+  ]
+
+  assert.deepEqual(
+    orderEntriesByProject(entries, projects).map((entry) => entry.key),
+    [
+      "create.first",
+      "create.second",
+      "simulated.first",
+      "aeronautics.first",
+      "new.first",
+    ],
+  )
 })
 
 test("language options use the requested order and append new codes", () => {
