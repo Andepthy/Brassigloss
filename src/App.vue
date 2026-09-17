@@ -34,6 +34,7 @@
 
         <MultiSelect
           v-model="selectedLanguages"
+          class="language-select"
           label="显示语言"
           placeholder="选择语言"
           :options="languageOptions"

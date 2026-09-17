@@ -2,6 +2,7 @@ import { computed, onBeforeUnmount, ref, watch } from "vue"
 
 export const THEME_MODES = Object.freeze(["system", "dark", "light"])
 
+const defaultThemeMode = "system"
 const storageKey = "gloss-atlas:theme-mode"
 const themeModes = new Set(THEME_MODES)
 
@@ -18,9 +19,9 @@ export function resolveIsDark(mode, systemPrefersDark) {
 function readStoredThemeMode() {
   try {
     const storedMode = localStorage.getItem(storageKey)
-    return themeModes.has(storedMode) ? storedMode : "system"
+    return themeModes.has(storedMode) ? storedMode : defaultThemeMode
   } catch {
-    return "system"
+    return defaultThemeMode
   }
 }
 
