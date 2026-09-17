@@ -12,7 +12,7 @@
 
 Brassigloss 是一个用于浏览、搜索和对照游戏及 Mod 翻译文本的 Vue 3 单页应用。
 
-项目当前包含 *Create*、*Create Aeronautics* 和 *Chants of Sennaar* 的翻译文件，可按项目和语言筛选，并在表格中并排查看原文与译文。
+项目当前包含 Create、Create Aeronautics 和 Chants of Sennaar 的翻译文件，可按项目和语言筛选，并在表格中并排查看原文与译文。
 
 > 本项目的 Apache-2.0 许可证仅适用于自主编写的软件代码。游戏、Mod、发行商及其本地化贡献者提供的名称、原文、译文和其他第三方内容不适用该许可证。详细信息请参阅 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
@@ -53,9 +53,9 @@ Brassigloss 通过 GitHub Pages 发布：
 ```text
 .
 |-- data/
-|   |-- create/                         # Create 翻译数据
-|   |-- create-aeronautics/             # Create Aeronautics、Simulated 和 Offroad 数据
-|   `-- ChantsOfSennaar/                # Chants of Sennaar CSV 数据
+|   |-- aeronautics/                    # Create Aeronautics 翻译数据
+|   |-- chants-of-sennaar/              # Chants of Sennaar CSV 数据
+|   `-- create/                         # Create 翻译数据
 |-- public/data/translations.json       # 应用运行时读取的生成文件
 |-- scripts/                            # 数据预处理与便捷脚本
 |-- src/                                # Vue 应用源码
@@ -106,7 +106,12 @@ pnpm preview      # 本地预览生产构建
 
 ## 翻译数据
 
-预处理脚本会递归发现 `data/` 中包含 `en_us.json` 和 `zh_cn.json` 的目录，并将它们作为一组语言对处理。*Create* 及其附属使用类似 Minecraft 的翻译键；*Chants of Sennaar* 的数据来自个人整理的 CSV，目前仅包含英语、法语、简体中文和繁体中文。
+预处理脚本会把 `data/` 下的每个直接子目录识别为一个数据源，并直接使用文件夹名称作为“项目筛选”中的显示名称。同一个 Mod 可以按命名空间拆分为多个目录；这些目录会分别显示，但不代表它们是彼此独立的 Mod。
+
+- JSON 项目：每个 `<语言代码>.json` 文件代表一种语言，例如 `en_us.json`、`zh_cn.json` 或 `lzh.json`。脚本会自动合并同一项目中的语言文件和翻译键，不需要在代码中登记项目或语言。
+- CSV 项目：文件必须包含 `key` 列；语言列可使用 `English`、`French`、`SimplifiedChinese`、`TraditionalChinese` 等兼容表头，也可直接使用 `en_us`、`pt_br` 形式的语言代码。
+
+在 `data/` 下新增符合上述模式的文件夹或文件后，只需运行 `pnpm preprocess`，应用即可自动显示新项目和语言，无需修改代码。
 
 所有数据最终统一写入 `public/data/translations.json`。该文件由脚本生成，不应手动修改。
 
@@ -118,9 +123,10 @@ pnpm preview      # 本地预览生产构建
 
 以下内容属于各自的游戏、Mod、发行商、开发者、译者或本地化贡献者，不属于本项目代码许可证的授权范围：
 
+- `data/aeronautics/**`
+- `data/chants-of-sennaar/**`
 - `data/create/**`
-- `data/create-aeronautics/**`
-- `data/ChantsOfSennaar/**`
+- `data/` 下与上述同一 Mod 相关的其他命名空间数据
 - `public/data/translations.json` 中由上述数据生成的内容
 
 本仓库为翻译研究、对照和非商业参考用途收录这些文本。项目维护者不主张拥有第三方游戏名称、原文、译文、商标或其他知识产权的所有权。若相关权利方希望更正署名或移除内容，请通过仓库 Issue 联系维护者。

@@ -101,6 +101,7 @@ import { loadTranslationData } from "@/services/translation-data"
 
 const entries = ref([])
 const projects = ref([])
+const languages = ref(LANGUAGES)
 const loading = ref(true)
 
 const searchQuery = ref("")
@@ -119,11 +120,11 @@ const availableLanguages = computed(() =>
 )
 
 const languageOptions = computed(() =>
-  createLanguageOptions(LANGUAGES, availableLanguages.value),
+  createLanguageOptions(languages.value, availableLanguages.value),
 )
 
-const languageNames = computed(() => createLanguageNameMap(LANGUAGES))
-const htmlLangMap = computed(() => createHtmlLangMap(LANGUAGES))
+const languageNames = computed(() => createLanguageNameMap(languages.value))
+const htmlLangMap = computed(() => createHtmlLangMap(languages.value))
 
 const displayLanguages = computed(() => {
   return availableLanguages.value.filter((l) => selectedLanguages.value.includes(l))
@@ -133,11 +134,12 @@ onMounted(async () => {
   const data = await loadTranslationData(import.meta.env.BASE_URL)
   entries.value = data.entries
   projects.value = data.projects
-  const defaultProjects = data.projects.filter((project) => project.id !== "chants")
-  selectedProjects.value = defaultProjects.map((project) => project.id)
-  selectedLanguages.value = [
-    ...new Set(defaultProjects.flatMap((project) => project.languages)),
-  ]
+  languages.value = data.languages?.length ? data.languages : LANGUAGES
+  selectedProjects.value = data.projects.map((project) => project.id)
+  selectedLanguages.value = getAvailableLanguages(
+    data.projects,
+    selectedProjects.value,
+  )
   loading.value = false
 })
 

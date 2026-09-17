@@ -22,3 +22,24 @@ export const LANGUAGE_REGISTRY = Object.freeze({
 })
 
 export const LANGUAGES = Object.freeze(Object.values(LANGUAGE_REGISTRY))
+
+export function createLanguageCatalog(languageCodes) {
+  const normalizedCodes = languageCodes
+    .filter(Boolean)
+    .map((code) => code.toLowerCase().replace(/-/g, "_"))
+
+  return [...new Set(normalizedCodes)].map((normalizedCode) => {
+    return (
+      LANGUAGE_REGISTRY[normalizedCode] || {
+        code: normalizedCode,
+        name: normalizedCode,
+        htmlLang: normalizedCode
+          .split("_")
+          .map((part, index) =>
+            index === 0 ? part : part.toUpperCase(),
+          )
+          .join("-"),
+      }
+    )
+  })
+}

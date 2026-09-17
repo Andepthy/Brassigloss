@@ -1,11 +1,12 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs"
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
 import { join } from "node:path"
 import { fileURLToPath } from "node:url"
-import { LANGUAGE_REGISTRY } from "../src/data/languages.js"
+import { createLanguageCatalog } from "../src/data/languages.js"
 import { parseCsv } from "./lib/csv.mjs"
 import {
   categorizeMinecraftKey,
-  findLanguagePairs,
+  findDataProjects,
+  resolveCsvLanguageCode,
 } from "./lib/translation-sources.mjs"
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url))
@@ -16,76 +17,33 @@ const outputFile = join(outputDir, "translations.json")
 const projects = []
 const entries = []
 
-// Minecraft-style JSON sources (Create and its sub-mods).
-const pairs = findLanguagePairs(dataDir)
-for (const pair of pairs) {
-  const en = JSON.parse(readFileSync(pair.enFile, "utf-8"))
-  const zh = JSON.parse(readFileSync(pair.zhFile, "utf-8"))
-  const projectId = pair.name
-  if (!projects.some((p) => p.id === projectId)) {
-    projects.push({
-      id: projectId,
-      name: projectId === "create" ? "Create" : capitalize(projectId),
-      languages: ["en_us", "zh_cn"],
-    })
-  }
-  for (const [key, enVal] of Object.entries(en)) {
-    entries.push({
-      key,
-      project: projectId,
-      category: categorizeMinecraftKey(key),
-      translations: {
-        en_us: enVal,
-        zh_cn: zh[key] || "",
-      },
-    })
-  }
-}
+for (const source of findDataProjects(dataDir)) {
+  const projectEntries = deduplicateEntries([
+    ...readJsonEntries(source),
+    ...readCsvEntries(source),
+  ])
 
-// Chants of Sennaar CSV source.
-const csvPath = join(dataDir, "ChantsOfSennaar", "ChantsOfSennaar_Text.csv")
-if (existsSync(csvPath)) {
-  const csvRows = parseCsv(readFileSync(csvPath, "utf-8"))
-  const header = csvRows[0]
-  const columnToLang = {
-    English: "en_us",
-    French: "fr_fr",
-    SimplifiedChinese: "zh_cn",
-    TraditionalChinese: "zh_tw",
+  if (!projectEntries.length) {
+    continue
   }
-  const langIndex = header.map((h) => columnToLang[h] || null)
+
   projects.push({
-    id: "chants",
-    name: "Chants of Sennaar",
-    languages: ["en_us", "fr_fr", "zh_cn", "zh_tw"],
+    id: source.id,
+    name: source.name,
+    languages: [
+      ...new Set(
+        projectEntries.flatMap((entry) => Object.keys(entry.translations)),
+      ),
+    ],
   })
-  const seenChantsKeys = new Set()
-  for (const row of csvRows.slice(1)) {
-    const key = row[0]
-    if (!key) continue
-    if (seenChantsKeys.has(key)) continue
-    seenChantsKeys.add(key)
-    const translations = {}
-    for (let i = 1; i < row.length; i++) {
-      const lang = langIndex[i]
-      if (lang) translations[lang] = row[i] || ""
-    }
-    entries.push({
-      key,
-      project: "chants",
-      category: key.split(".")[0],
-      translations,
-    })
-  }
-}
-
-function capitalize(value) {
-  return value.charAt(0).toUpperCase() + value.slice(1)
+  entries.push(...projectEntries)
 }
 
 const allData = {
   projects,
-  languages: Object.values(LANGUAGE_REGISTRY),
+  languages: createLanguageCatalog(
+    projects.flatMap((project) => project.languages),
+  ),
   entries,
 }
 
@@ -95,4 +53,126 @@ console.log(`Generated ${entries.length} entries across ${projects.length} proje
 for (const project of projects) {
   const count = entries.filter((e) => e.project === project.id).length
   console.log(`  ${project.id}: ${count} keys (${project.languages.join(", ")})`)
+}
+
+function readJsonEntries(source) {
+  const datasets = new Map()
+
+  for (const languageFile of source.languageFiles) {
+    const data = JSON.parse(readFileSync(languageFile.path, "utf-8"))
+    if (!isTranslationMap(data)) {
+      throw new TypeError(
+        `Expected ${languageFile.path} to contain a JSON object of translations`,
+      )
+    }
+    datasets.set(languageFile.code, data)
+  }
+
+  if (!datasets.size) {
+    return []
+  }
+
+  return collectKeys(datasets).map((key) => ({
+    key,
+    project: source.id,
+    category: categorizeMinecraftKey(key),
+    translations: Object.fromEntries(
+      [...datasets.entries()].map(([language, translations]) => [
+        language,
+        translations[key] || "",
+      ]),
+    ),
+  }))
+}
+
+function readCsvEntries(source) {
+  const entries = []
+
+  for (const csvFile of source.csvFiles) {
+    const rows = parseCsv(readFileSync(csvFile, "utf-8"))
+    if (!rows.length) {
+      continue
+    }
+
+    const header = rows[0]
+    const keyIndex = header.findIndex(
+      (column) => column.trim().toLowerCase() === "key",
+    )
+    if (keyIndex === -1) {
+      throw new TypeError(`Expected ${csvFile} to contain a key column`)
+    }
+
+    const languageColumns = header.flatMap((column, index) => {
+      if (index === keyIndex) {
+        return []
+      }
+
+      const language = resolveCsvLanguageCode(column)
+      return language ? [{ language, index }] : []
+    })
+    const seenKeys = new Set()
+
+    for (const row of rows.slice(1)) {
+      const key = row[keyIndex] || ""
+      if (!key || seenKeys.has(key)) {
+        continue
+      }
+
+      seenKeys.add(key)
+      entries.push({
+        key,
+        project: source.id,
+        category: key.split(".")[0] || "other",
+        translations: Object.fromEntries(
+          languageColumns.map(({ language, index }) => [
+            language,
+            row[index] || "",
+          ]),
+        ),
+      })
+    }
+  }
+
+  return entries
+}
+
+function collectKeys(datasets) {
+  const keys = []
+  const seenKeys = new Set()
+  const languageOrder = datasets.has("en_us")
+    ? ["en_us", ...[...datasets.keys()].filter((language) => language !== "en_us")]
+    : [...datasets.keys()]
+
+  for (const language of languageOrder) {
+    for (const key of Object.keys(datasets.get(language))) {
+      if (!seenKeys.has(key)) {
+        seenKeys.add(key)
+        keys.push(key)
+      }
+    }
+  }
+
+  return keys
+}
+
+function deduplicateEntries(entries) {
+  const entriesByKey = new Map()
+
+  for (const entry of entries) {
+    const existing = entriesByKey.get(entry.key)
+    if (existing) {
+      Object.assign(existing.translations, entry.translations)
+    } else {
+      entriesByKey.set(entry.key, {
+        ...entry,
+        translations: { ...entry.translations },
+      })
+    }
+  }
+
+  return [...entriesByKey.values()]
+}
+
+function isTranslationMap(value) {
+  return value !== null && typeof value === "object" && !Array.isArray(value)
 }

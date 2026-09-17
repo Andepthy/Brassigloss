@@ -16,9 +16,11 @@
 
 本仓库包含或生成以下第三方游戏与模组相关的翻译键、原文、译文、名称和其他文本：
 
+- `data/aeronautics/**`
+- `data/chants-of-sennaar/**`
 - `data/create/**`
-- `data/create-aeronautics/**`
-- `data/ChantsOfSennaar/**`
+- `data/offroad/**`
+- `data/simulated/**`
 - 从上述文件生成的 `public/data/translations.json`
 
 其中涉及但不限于：

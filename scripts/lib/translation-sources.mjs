@@ -1,5 +1,5 @@
-import { existsSync, readdirSync } from "node:fs"
-import { join } from "node:path"
+import { readdirSync } from "node:fs"
+import { extname, join, parse } from "node:path"
 
 const CATEGORY_BY_PREFIX = Object.freeze({
   advancement: "advancement",
@@ -35,31 +35,53 @@ export function categorizeMinecraftKey(key) {
   return CATEGORY_BY_PREFIX[prefix] || "other"
 }
 
-export function findLanguagePairs(rootDirectory) {
-  const results = []
-  const directoryEntries = readdirSync(rootDirectory, {
-    withFileTypes: true,
-  }).sort((left, right) => left.name.localeCompare(right.name))
+const CSV_LANGUAGE_BY_HEADER = Object.freeze({
+  english: "en_us",
+  french: "fr_fr",
+  simplifiedchinese: "zh_cn",
+  traditionalchinese: "zh_tw",
+})
 
-  for (const entry of directoryEntries) {
-    if (!entry.isDirectory()) {
-      continue
-    }
-
-    const sourceDirectory = join(rootDirectory, entry.name)
-    const englishFile = join(sourceDirectory, "en_us.json")
-    const chineseFile = join(sourceDirectory, "zh_cn.json")
-
-    if (existsSync(englishFile) && existsSync(chineseFile)) {
-      results.push({
-        name: entry.name,
-        enFile: englishFile,
-        zhFile: chineseFile,
-      })
-    }
-
-    results.push(...findLanguagePairs(sourceDirectory))
+export function resolveCsvLanguageCode(header) {
+  const value = String(header || "").trim()
+  if (!value) {
+    return null
   }
 
-  return results
+  const compactHeader = value.toLowerCase().replace(/[\s_-]+/g, "")
+  if (CSV_LANGUAGE_BY_HEADER[compactHeader]) {
+    return CSV_LANGUAGE_BY_HEADER[compactHeader]
+  }
+
+  const normalizedCode = value.toLowerCase().replace(/-/g, "_")
+  return /^[a-z]{2,3}(?:_[a-z0-9]{2,8})*$/.test(normalizedCode)
+    ? normalizedCode
+    : null
+}
+
+export function findDataProjects(rootDirectory) {
+  return readdirSync(rootDirectory, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && !entry.name.startsWith("."))
+    .sort((left, right) => left.name.localeCompare(right.name))
+    .map((entry) => {
+      const directory = join(rootDirectory, entry.name)
+      const files = readdirSync(directory, { withFileTypes: true })
+        .filter((file) => file.isFile())
+        .sort((left, right) => left.name.localeCompare(right.name))
+
+      return {
+        id: entry.name,
+        name: entry.name,
+        directory,
+        languageFiles: files
+          .filter((file) => extname(file.name).toLowerCase() === ".json")
+          .map((file) => ({
+            code: parse(file.name).name.toLowerCase().replace(/-/g, "_"),
+            path: join(directory, file.name),
+          })),
+        csvFiles: files
+          .filter((file) => extname(file.name).toLowerCase() === ".csv")
+          .map((file) => join(directory, file.name)),
+      }
+    })
 }
