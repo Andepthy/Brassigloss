@@ -412,6 +412,73 @@ body.font-sans .lang-lzh { font-family: var(--lzh-sans-font); }
   background: var(--accent-soft);
 }
 
+.mobile-table-list {
+  display: grid;
+  gap: var(--space-3);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobile-table-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.mobile-table-card h2 {
+  margin: 0;
+  padding: var(--space-3);
+  border-bottom: 2px solid var(--accent);
+  background: var(--surface-subtle);
+  color: var(--text);
+  font: 700 0.78rem/1.45 var(--monospace-font);
+  overflow-wrap: anywhere;
+}
+
+.mobile-table-card dl {
+  margin: 0;
+}
+
+.mobile-translation + .mobile-translation {
+  border-top: 1px solid var(--border);
+}
+
+.mobile-translation dt {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3) 0;
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.mobile-translation dt span {
+  min-width: 0;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+.mobile-translation dt code {
+  flex: none;
+  color: var(--muted);
+  font: 0.72rem var(--monospace-font);
+}
+
+.mobile-translation dd {
+  margin: 0;
+  padding: var(--space-1) var(--space-3) var(--space-3);
+  color: var(--text);
+  font-size: 1.05rem;
+  overflow-wrap: anywhere;
+}
+
 .empty-state {
   display: grid;
   place-content: center;

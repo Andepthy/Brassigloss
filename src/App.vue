@@ -65,6 +65,7 @@
         :languages="displayLanguages"
         :language-names="languageNames"
         :html-lang-map="htmlLangMap"
+        :compact="isCompactLayout"
       />
 
       <TablePagination
