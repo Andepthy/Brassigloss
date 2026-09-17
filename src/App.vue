@@ -11,6 +11,7 @@
     <header class="table-header">
       <div class="table-header__title">
         <h1>标准译名表</h1>
+        <p class="table-header__credit">由 Andepthy 整理</p>
       </div>
       <div class="table-toolbar" aria-label="表格控件">
         <label class="search-field">

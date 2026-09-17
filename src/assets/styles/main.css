@@ -266,6 +266,12 @@ body.font-sans .lang-lzh { font-family: var(--lzh-sans-font); }
   letter-spacing: -0.025em;
 }
 
+.table-header__credit {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .table-toolbar {
   display: grid;
   grid-template-columns:
@@ -487,6 +493,10 @@ body.font-sans .lang-lzh { font-family: var(--lzh-sans-font); }
 
   .table-header__title {
     display: block;
+  }
+
+  .table-header__credit {
+    margin-top: 0.35rem;
   }
 
   .table-toolbar {
