@@ -2,23 +2,26 @@
   <div class="table-container">
     <div v-if="loading" class="loading-container">
       <div class="loading-spinner"></div>
-      <p>加载中...</p>
+      <p>加载中…</p>
     </div>
     <div v-else-if="!entries.length" class="empty-state">
-      <p>没有匹配的翻译条目</p>
+      <p>没有本地化键名符合当前筛选条件。</p>
     </div>
     <div v-else class="table-wrapper" ref="wrapper">
       <table>
         <thead>
           <tr>
-            <th scope="col" class="key-column">Key</th>
+            <th scope="col" class="key-column">键名</th>
             <th
               v-for="lang in languages"
               :key="lang"
               scope="col"
               :class="langClass(lang)"
             >
-              {{ languageNames[lang] || lang }}
+              <code>{{ lang }}</code>
+              <span class="sr-only" :lang="htmlLang(lang)">
+                {{ languageNames[lang] || lang }}
+              </span>
             </th>
           </tr>
         </thead>

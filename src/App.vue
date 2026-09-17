@@ -2,8 +2,9 @@
   <div class="app-shell">
     <AppHeader
       :is-dark="isDark"
+      :theme-mode="themeMode"
       :use-sans="useSans"
-      @toggle-theme="toggleTheme"
+      @cycle-theme="cycleTheme"
       @toggle-font="toggleFont"
     />
 
@@ -11,7 +12,7 @@
       <div class="table-header__title">
         <h1>标准译名表</h1>
       </div>
-      <div class="table-toolbar" aria-label="筛选工具">
+      <div class="table-toolbar" aria-label="表格控件">
         <label class="search-field">
           <span class="sr-only">搜索翻译</span>
           <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
@@ -20,7 +21,7 @@
           <input
             v-model="searchQuery"
             type="search"
-            placeholder="搜索内容..."
+            placeholder="搜索内容…"
           />
         </label>
 
@@ -107,7 +108,7 @@ const selectedLanguages = ref([])
 const usePagination = ref(true)
 const currentPage = ref(1)
 const { isCompactLayout } = useCompactLayout()
-const { isDark, toggleTheme } = useThemePreference()
+const { mode: themeMode, isDark, cycleTheme } = useThemePreference()
 const { useSans, toggleFont } = useFontPreference()
 
 const projectOptions = computed(() => createProjectOptions(projects.value))
