@@ -131,7 +131,7 @@ pnpm preview      # 本地预览生产构建
 
 本仓库为翻译研究、对照和非商业参考用途收录这些文本。项目维护者不主张拥有第三方游戏名称、原文、译文、商标或其他知识产权的所有权。若相关权利方希望更正署名或移除内容，请通过仓库 Issue 联系维护者。
 
-本项目借鉴自 Verdigloss：
+本项目受 Verdigloss 启发：
 
 - 项目：<https://github.com/SkyEye-FAST/verdigloss>
 - 作者：SkyEye_FAST
