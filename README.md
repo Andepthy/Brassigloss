@@ -10,18 +10,18 @@
 [![GitHub issues](https://img.shields.io/github/issues/Andepthy/Brassigloss)](https://github.com/Andepthy/Brassigloss/issues)
 </div>
 
-Brassigloss 是一个用于浏览、搜索和对照游戏及模组翻译文本的 Vue 3 单页应用。
+Brassigloss 是一个用于浏览、搜索和对照游戏及 Mod 翻译文本的 Vue 3 单页应用。
 
-项目当前包含 Create、Create Aeronautics、Simulated、Offroad 和《Chants of Sennaar》的翻译数据，可按项目、语言和文本分类筛选，并在表格中并排查看原文与译文。
+项目当前包含 *Create*、*Create Aeronautics* 和 *Chants of Sennaar* 的翻译文件，可按项目和语言筛选，并在表格中并排查看原文与译文。
 
-> 本项目的 Apache-2.0 许可证仅适用于自主编写的软件代码。游戏、模组、发行商及其本地化贡献者提供的名称、原文、译文和其他第三方内容不适用该许可证。详细信息请参阅 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+> 本项目的 Apache-2.0 许可证仅适用于自主编写的软件代码。游戏、Mod、发行商及其本地化贡献者提供的名称、原文、译文和其他第三方内容不适用该许可证。详细信息请参阅 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 ## 来源与 AI 披露
 
-- 本项目借鉴自 [Verdigloss](https://github.com/SkyEye-FAST/verdigloss)，并在其应用架构、产品设计、交互方式和功能范围的基础上针对当前翻译数据进行了调整。本项目不是 Verdigloss 的官方分支、续作或认可版本。
+- 本项目深受 [Verdigloss](https://github.com/SkyEye-FAST/verdigloss) 启发，并在其基础上针对当前翻译数据进行了调整。本项目不是 Verdigloss 的官方分支、续作或认可版本。
 - 本项目在开发过程中借助 AI 编码工具辅助编写、重构和整理代码、文档及测试相关内容。AI 生成或修改的内容由项目维护者审阅、调整并负责。
 
-## 在线演示
+## 演示
 
 Brassigloss 通过 GitHub Pages 发布：
 
@@ -36,12 +36,6 @@ Brassigloss 通过 GitHub Pages 发布：
 - [x] 深色与浅色主题切换
 - [x] 衬线字体与无衬线字体切换
 - [x] 响应式翻译对照表
-
-## 技术栈
-
-- Vue 3
-- Vite 6
-- pnpm
 
 ## 架构
 
@@ -112,7 +106,7 @@ pnpm preview      # 本地预览生产构建
 
 ## 翻译数据
 
-预处理脚本会递归发现 `data/` 中包含 `en_us.json` 和 `zh_cn.json` 的目录，并将它们作为一组语言对处理。Create 及其附属项目使用 Minecraft 风格的翻译键；《Chants of Sennaar》的数据来自 CSV，目前包含英语、法语、简体中文和繁体中文。
+预处理脚本会递归发现 `data/` 中包含 `en_us.json` 和 `zh_cn.json` 的目录，并将它们作为一组语言对处理。*Create* 及其附属使用类似 Minecraft 的翻译键；*Chants of Sennaar* 的数据来自个人整理的 CSV，目前仅包含英语、法语、简体中文和繁体中文。
 
 所有数据最终统一写入 `public/data/translations.json`。该文件由脚本生成，不应手动修改。
 
@@ -122,7 +116,7 @@ pnpm preview      # 本地预览生产构建
 
 ## 第三方内容
 
-以下内容属于各自的游戏、模组、发行商、开发者或本地化贡献者，不属于本项目代码许可证的授权范围：
+以下内容属于各自的游戏、Mod、发行商、开发者、译者或本地化贡献者，不属于本项目代码许可证的授权范围：
 
 - `data/create/**`
 - `data/create-aeronautics/**`
@@ -137,11 +131,11 @@ pnpm preview      # 本地预览生产构建
 - 作者：SkyEye_FAST
 - 许可证：Apache License 2.0
 
-本项目与 Mojang Studios、Microsoft、Create 模组团队、相关附属模组作者及《Chants of Sennaar》的权利方不存在隶属、赞助或官方认可关系。所有产品名称和商标归其各自权利人所有。
+本项目与 Mojang Studios、Microsoft、Create Mod 团队、相关附属 Mod 作者及 Chants of Sennaar 的权利方不存在隶属、赞助或官方认可关系。所有产品名称和商标归其各自权利人所有。
 
 ## 许可证
 
-除明确标注为第三方内容的部分外，本项目自主编写的软件代码采用 [Apache License 2.0](LICENSE) 授权。
+除明确标注为第三方内容的部分外，本项目自主编写的代码采用 [Apache License 2.0](LICENSE) 授权。
 
 ```text
     Brassigloss
@@ -158,4 +152,4 @@ pnpm preview      # 本地预览生产构建
 
 ## 反馈
 
-如遇到问题或有功能建议，欢迎提交 Issue。也欢迎提交 Pull Request。
+如遇到问题或有功能建议，欢迎提交 Issue 或 Pull Request。
