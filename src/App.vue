@@ -94,6 +94,7 @@ import {
   createLanguageOptions,
   createProjectOptions,
   getAvailableLanguages,
+  getDefaultProjectIds,
 } from "@/features/translations/catalog"
 import { filterTranslationEntries } from "@/features/translations/filtering"
 import { paginateItems } from "@/features/table/pagination"
@@ -135,7 +136,7 @@ onMounted(async () => {
   entries.value = data.entries
   projects.value = data.projects
   languages.value = data.languages?.length ? data.languages : LANGUAGES
-  selectedProjects.value = data.projects.map((project) => project.id)
+  selectedProjects.value = getDefaultProjectIds(data.projects)
   selectedLanguages.value = getAvailableLanguages(
     data.projects,
     selectedProjects.value,
