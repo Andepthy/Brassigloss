@@ -1,8 +1,7 @@
 @echo off
-cd /d "%~dp0"
-set PATH=C:\Users\Andepthy\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;%PATH%
+cd /d "%~dp0..\.."
 echo Rebuilding translations.json...
-node scripts\preprocess.mjs
+call pnpm preprocess
 if %errorlevel% neq 0 (
   echo.
   echo [ERROR] Build failed. Check the error above.

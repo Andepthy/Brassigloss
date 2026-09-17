@@ -19,7 +19,7 @@
 - `data/create/**`
 - `data/create-aeronautics/**`
 - `data/ChantsOfSennaar/**`
-- 从上述文件生成的 `app/public/data/translations.json`
+- 从上述文件生成的 `public/data/translations.json`
 
 其中涉及但不限于：
 
@@ -38,7 +38,7 @@
 
 本项目使用 Vue、Vite、`@vitejs/plugin-vue` 及其传递依赖。这些软件由各自作者和贡献者开发，并依照其随包提供的许可证授权，通常包括 MIT License 或其他兼容的开源许可证。
 
-准确的依赖版本和来源记录在 `app/pnpm-lock.yaml` 中。重新分发生产构建、源代码包或安装包时，应根据实际打包内容保留相应依赖的版权和许可证声明。各依赖的具体条款以其发布包中的 `LICENSE`、`COPYING`、`NOTICE` 或其他许可证文件为准。
+准确的依赖版本和来源记录在 `pnpm-lock.yaml` 中。重新分发生产构建、源代码包或安装包时，应根据实际打包内容保留相应依赖的版权和许可证声明。各依赖的具体条款以其发布包中的 `LICENSE`、`COPYING`、`NOTICE` 或其他许可证文件为准。
 
 ## 商标和隶属关系
 

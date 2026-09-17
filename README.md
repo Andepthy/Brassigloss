@@ -25,22 +25,35 @@ GlossAtlas 是一个用于浏览、搜索和对照游戏及模组翻译文本的
 
 ```text
 .
-|-- app/
-|   |-- public/data/translations.json   # 应用运行时读取的生成文件
-|   |-- scripts/preprocess.mjs          # 翻译数据预处理脚本
-|   |-- src/                            # Vue 应用源码
-|   |-- package.json
-|   `-- vite.config.js
 |-- data/
 |   |-- create/                         # Create 翻译数据
 |   |-- create-aeronautics/             # Create Aeronautics 相关数据
 |   `-- ChantsOfSennaar/                # Chants of Sennaar CSV 数据
+|-- public/data/translations.json       # 应用运行时读取的生成文件
+|-- scripts/
+|   |-- lib/                            # CSV、数据源发现等预处理模块
+|   |-- windows/                        # Windows 便捷启动和维护脚本
+|   `-- preprocess.mjs                  # 翻译数据预处理入口
+|-- src/
+|   |-- app/                            # 应用启动与挂载
+|   |-- assets/styles/                  # 全局样式
+|   |-- components/                     # 通用、查询和表格组件
+|   |-- composables/                    # 页面状态组合式函数
+|   |-- data/                           # 静态语言目录
+|   |-- features/                       # 筛选、分页等领域功能
+|   |-- services/                       # 外部数据访问
+|   |-- App.vue                         # 页面编排
+|   `-- main.js                         # 浏览器入口
+|-- index.html
+|-- package.json
+|-- pnpm-lock.yaml
+|-- vite.config.js
 |-- LICENSE
 |-- README.md
 `-- THIRD_PARTY_NOTICES.md
 ```
 
-`app/public/data/translations.json` 由 `app/scripts/preprocess.mjs` 从根目录的 `data/` 生成。构建和运行应用前，应确保该文件已生成或更新。
+`public/data/translations.json` 由 `scripts/preprocess.mjs` 从根目录的 `data/` 生成。构建和运行应用前，应确保该文件已生成或更新。
 
 ## 本地开发
 
@@ -49,7 +62,6 @@ GlossAtlas 是一个用于浏览、搜索和对照游戏及模组翻译文本的
 在仓库根目录执行：
 
 ```shell
-cd app
 pnpm install
 pnpm preprocess
 pnpm dev
@@ -61,26 +73,26 @@ pnpm dev
 http://localhost:5173
 ```
 
-`pnpm preprocess` 会重新读取 `../data/` 下的 JSON 和 CSV 文件，并覆盖生成 `app/public/data/translations.json`。更新数据后需要重新执行该命令。
+`pnpm preprocess` 会重新读取 `data/` 下的 JSON 和 CSV 文件，并覆盖生成 `public/data/translations.json`。更新数据后需要重新执行该命令。
 
 ## 构建与预览
 
 ```shell
-cd app
 pnpm build
 pnpm preview
 ```
 
-生产构建输出到 `app/dist/`。
+生产构建输出到 `dist/`。
 
 ## 可用命令
 
-在 `app/` 目录中执行：
+在仓库根目录执行：
 
 | 命令 | 说明 |
 | --- | --- |
 | `pnpm dev` | 启动 Vite 开发服务器 |
 | `pnpm preprocess` | 根据 `data/` 重新生成 `public/data/translations.json` |
+| `pnpm test` | 运行数据处理和前端逻辑的单元测试 |
 | `pnpm build` | 创建生产构建 |
 | `pnpm preview` | 本地预览生产构建 |
 
@@ -91,7 +103,7 @@ pnpm preview
 - `data/create/**`
 - `data/create-aeronautics/**`
 - `data/ChantsOfSennaar/**`
-- `app/public/data/translations.json` 中由上述数据生成的内容
+- `public/data/translations.json` 中由上述数据生成的内容
 
 本仓库为翻译研究、对照和非商业参考用途收录这些文本。项目维护者不主张拥有第三方游戏名称、原文、译文、商标或其他知识产权的所有权。若相关权利方希望更正署名或移除内容，请通过仓库 Issue 联系维护者。
 
@@ -109,4 +121,4 @@ Verdigloss 是本项目设计与功能上的重要参考：
 
 Copyright (c) 2026 GlossAtlas contributors
 
-第三方软件依赖仍受其各自许可证约束；完整依赖关系记录在 `app/pnpm-lock.yaml` 中。第三方声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+第三方软件依赖仍受其各自许可证约束；完整依赖关系记录在 `pnpm-lock.yaml` 中。第三方声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

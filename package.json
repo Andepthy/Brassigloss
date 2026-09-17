@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "preprocess": "node scripts/preprocess.mjs"
+    "preprocess": "node scripts/preprocess.mjs",
+    "test": "node --test \"scripts/**/*.test.mjs\" \"src/**/*.test.js\""
   },
   "dependencies": {
     "vue": "^3.5.13"

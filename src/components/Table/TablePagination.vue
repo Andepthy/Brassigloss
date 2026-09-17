@@ -71,6 +71,10 @@
 
 <script setup>
 import { computed, ref } from "vue"
+import {
+  getPageWindow,
+  getTotalPages,
+} from "@/features/table/pagination"
 
 const props = defineProps({
   currentPage: { type: Number, default: 1 },
@@ -88,7 +92,7 @@ const emit = defineEmits(["update:currentPage"])
 const jumpPage = ref("")
 
 const totalPages = computed(() =>
-  props.totalItems ? Math.ceil(props.totalItems / props.itemsPerPage) : 0,
+  getTotalPages(props.totalItems, props.itemsPerPage),
 )
 
 const navigationLabel = computed(() =>
@@ -96,18 +100,6 @@ const navigationLabel = computed(() =>
 )
 
 const displayedPages = computed(() => getPageWindow(totalPages.value, props.currentPage))
-
-function getPageWindow(total, current) {
-  if (total <= 0) return []
-  if (total <= 6) return Array.from({ length: total }, (_, index) => index + 1)
-
-  const page = Math.min(Math.max(current, 1), total)
-  if (page <= 3) return [1, 2, 3, 4, "ellipsis", total]
-  if (page >= total - 2) {
-    return [1, "ellipsis", total - 3, total - 2, total - 1, total]
-  }
-  return [1, "ellipsis", page - 1, page, page + 1, "ellipsis", total]
-}
 
 function goTo(page) {
   if (!Number.isInteger(page) || page < 1 || page > totalPages.value) return
