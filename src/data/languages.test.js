@@ -11,7 +11,7 @@ test("createLanguageCatalog keeps known metadata and adds unknown codes", () => 
     },
     {
       code: "lzh",
-      name: "lzh",
+      name: "文言 (華夏)",
       htmlLang: "lzh",
     },
     {

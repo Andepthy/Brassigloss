@@ -28,7 +28,7 @@
         <MultiSelect
           v-model="selectedProjects"
           label="项目"
-          placeholder="选择项目"
+          placeholder="选择命名空间"
           :options="projectOptions"
         />
 

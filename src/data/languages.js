@@ -9,6 +9,11 @@ export const LANGUAGE_REGISTRY = Object.freeze({
     name: "Français (France)",
     htmlLang: "fr-FR",
   },
+  lzh: {
+    code: "lzh",
+    name: "文言 (華夏)",
+    htmlLang: "lzh",
+  },
   zh_cn: {
     code: "zh_cn",
     name: "简体中文 (中国大陆)",
