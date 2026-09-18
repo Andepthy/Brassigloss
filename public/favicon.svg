@@ -1,13 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="7 8 51 51" role="img" aria-label="Brassigloss">
-  <g fill="#f4efe1" stroke="#2a2114" stroke-width="3" stroke-linejoin="round">
-    <rect x="9" y="10" width="29" height="23" rx="7"/>
-    <path d="M16 31h8v8z"/>
-  </g>
-  <path d="M17 18h14M17 24h9" fill="none" stroke="#9a6b2f" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Upper speech bubble -->
+  <path
+    d="M16 10
+       H31
+       Q38 10 38 17
+       V26
+       Q38 33 31 33
+       H24
+       L24 39
+       L16 33
+       H16
+       Q9 33 9 26
+       V17
+       Q9 10 16 10
+       Z"
+    fill="#f4efe1"
+    stroke="#2a2114"
+    stroke-width="3"
+    stroke-linejoin="round"/>
 
-  <g fill="#c9963f" stroke="#2a2114" stroke-width="3" stroke-linejoin="round">
-    <rect x="27.5" y="28.5" width="28" height="22" rx="7"/>
-    <path d="M48 49h7v8z"/>
-  </g>
-  <path d="M35 36h14M35 42h9" fill="none" stroke="#2a2114" stroke-width="2.5" stroke-linecap="round"/>
+  <path
+    d="M17 18h14M17 24h9"
+    fill="none"
+    stroke="#9a6b2f"
+    stroke-width="2.5"
+    stroke-linecap="round"/>
+
+  <!-- Lower speech bubble -->
+  <path
+    d="M34.5 28.5
+       H48.5
+       Q55.5 28.5 55.5 35.5
+       V43.5
+       Q55.5 50.5 48.5 50.5
+       H48
+       V57
+       L41 50.5
+       H34.5
+       Q27.5 50.5 27.5 43.5
+       V35.5
+       Q27.5 28.5 34.5 28.5
+       Z"
+    fill="#c9963f"
+    stroke="#2a2114"
+    stroke-width="3"
+    stroke-linejoin="round"/>
+
+  <path
+    d="M35 36h14M35 42h9"
+    fill="none"
+    stroke="#2a2114"
+    stroke-width="2.5"
+    stroke-linecap="round"/>
 </svg>
