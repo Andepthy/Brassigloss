@@ -331,6 +331,7 @@ body.font-sans .lang-lzh { font-family: var(--lzh-sans-font); }
 
 /* Table */
 .table-container {
+  --app-bar-offset: var(--app-bar-height);
   width: min(100% - 2rem, var(--content-max));
   max-width: 100%;
   margin: 0 auto;
@@ -338,25 +339,33 @@ body.font-sans .lang-lzh { font-family: var(--lzh-sans-font); }
 }
 
 .table-wrapper {
-  max-height: calc(100dvh - var(--app-bar-height) - 180px);
+  max-height: calc(100dvh - var(--app-bar-offset) - var(--space-4));
   overflow: auto;
   overscroll-behavior: contain;
   border-block: 1px solid var(--border);
   background: var(--surface);
   scrollbar-gutter: stable;
+  scroll-margin-top: var(--app-bar-offset);
 }
 
 .table-wrapper table {
-  width: 100%;
+  min-width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  table-layout: auto;
+  table-layout: fixed;
   font-size: 0.88rem;
+}
+
+.table-wrapper .key-column-track {
+  width: 16rem;
+}
+
+.table-wrapper .language-column-track {
+  width: 14rem;
 }
 
 .table-wrapper th,
 .table-wrapper td {
-  min-width: clamp(10rem, 14vw, 14rem);
   padding: 0.6rem 0.75rem;
   border-right: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -389,9 +398,6 @@ body.font-sans .lang-lzh { font-family: var(--lzh-sans-font); }
   position: sticky;
   z-index: 2;
   left: 0;
-  inline-size: clamp(11rem, 18vw, 18rem);
-  min-inline-size: 11rem;
-  max-inline-size: 18rem;
   border-right: 1px solid var(--border-strong);
   box-shadow: 5px 0 8px color-mix(in srgb, var(--text) 9%, transparent);
   background: var(--surface);
@@ -535,20 +541,9 @@ body.font-sans .lang-lzh { font-family: var(--lzh-sans-font); }
     margin-top: var(--space-3);
   }
 
-  .table-container { width: min(100% - 1rem, var(--content-max)); }
-
-  .table-wrapper { max-height: calc(100dvh - 56px - 220px); }
-
-  .key-column {
-    inline-size: clamp(8rem, 28vw, 12rem);
-    min-inline-size: 8rem;
-    max-inline-size: 12rem;
-    font-size: 0.7rem;
-  }
-
-  .table-wrapper th, .table-wrapper td {
-    min-width: 9rem;
-    padding: 0.55rem 0.65rem;
+  .table-container {
+    --app-bar-offset: 56px;
+    width: min(100% - 1rem, var(--content-max));
   }
 }
 

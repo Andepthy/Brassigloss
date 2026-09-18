@@ -16,7 +16,15 @@
         tabindex="0"
         aria-label="标准译名表"
       >
-        <table>
+        <table :style="{ width: `${16 + languages.length * 14}rem` }">
+          <colgroup>
+            <col class="key-column-track" />
+            <col
+              v-for="lang in languages"
+              :key="lang"
+              class="language-column-track"
+            />
+          </colgroup>
           <thead>
             <tr>
               <th scope="col" class="key-column">键名</th>
