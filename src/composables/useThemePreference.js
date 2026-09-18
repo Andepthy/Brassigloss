@@ -61,7 +61,7 @@ export function useThemePreference() {
 
   watch(
     isDark,
-    (value) => document.body.classList.toggle("theme-light", !value),
+    (value) => document.documentElement.classList.toggle("theme-light", !value),
     { immediate: true },
   )
 

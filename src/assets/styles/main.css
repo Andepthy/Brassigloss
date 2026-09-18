@@ -61,7 +61,7 @@
   --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-body.theme-light {
+:root.theme-light {
   color-scheme: light;
 
   --page: #fbf8f0;
