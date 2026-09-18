@@ -1,6 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Brassigloss">
-  <g stroke="#2a2114" stroke-width="4" stroke-linejoin="round">
-    <path fill="#f4efe1" d="M8 12a8 8 0 0 1 8-8h20a8 8 0 0 1 8 8v14a8 8 0 0 1-8 8H21l-9 9v-9h-4a8 8 0 0 1-8-8Z"/>
-    <path fill="#c9963f" d="M28 24a8 8 0 0 1 8-8h12a8 8 0 0 1 8 8v13a8 8 0 0 1-8 8h-1v9l-9-9H28a8 8 0 0 1-8-8Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="7 8 51 51" role="img" aria-label="Brassigloss">
+  <g fill="#f4efe1" stroke="#2a2114" stroke-width="3" stroke-linejoin="round">
+    <rect x="9" y="10" width="29" height="23" rx="7"/>
+    <path d="M16 31h8v8z"/>
   </g>
+  <path d="M17 18h14M17 24h9" fill="none" stroke="#9a6b2f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <g fill="#c9963f" stroke="#2a2114" stroke-width="3" stroke-linejoin="round">
+    <rect x="27.5" y="28.5" width="28" height="22" rx="7"/>
+    <path d="M48 49h7v8z"/>
+  </g>
+  <path d="M35 36h14M35 42h9" fill="none" stroke="#2a2114" stroke-width="2.5" stroke-linecap="round"/>
 </svg>
