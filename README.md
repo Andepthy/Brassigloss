@@ -70,7 +70,7 @@ Brassigloss 通过 GitHub Pages 发布：
 
 ## 开发
 
-Brassigloss 需要 Node.js 20 或更高版本，并使用 pnpm 管理依赖。
+Brassigloss 需要 Node.js ^20.19.0 或 >=22.12.0，并使用 pnpm 管理依赖。
 
 1. 安装依赖：
 
